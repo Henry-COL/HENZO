@@ -3,30 +3,34 @@
   "WorkspaceRootPath": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Corte_1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Corte_1\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E7A8553C-8DAE-4C8C-BDD1-0957FC896E60}|Corte_1.csproj|c:\\users\\henry quintero\\documents\\programcopia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7A8553C-8DAE-4C8C-BDD1-0957FC896E60}|Corte_1.csproj|c:\\users\\henry quintero\\documents\\github\\henzo\\corte_1\\ejercicios_basicos\\ej_tema1\\control_aforo\\controlaforo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E7A8553C-8DAE-4C8C-BDD1-0957FC896E60}|Corte_1.csproj|C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Corte_1\\ejercicios_basicos\\ej_tema1\\control_aforo\\controlaforo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E7A8553C-8DAE-4C8C-BDD1-0957FC896E60}|Corte_1.csproj|solutionrelative:ejercicios_basicos\\ej_tema1\\control_aforo\\controlaforo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7A8553C-8DAE-4C8C-BDD1-0957FC896E60}|Corte_1.csproj|c:\\users\\henry quintero\\documents\\github\\henzo\\corte_1\\ejercicios_basicos\\ej_tema1\\simulador_semaforo\\semaforo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E7A8553C-8DAE-4C8C-BDD1-0957FC896E60}|Corte_1.csproj|C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Corte_1\\ejercicios_basicos\\ej_tema1\\simulador_semaforo\\semaforo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E7A8553C-8DAE-4C8C-BDD1-0957FC896E60}|Corte_1.csproj|solutionrelative:ejercicios_basicos\\ej_tema1\\simulador_semaforo\\semaforo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7A8553C-8DAE-4C8C-BDD1-0957FC896E60}|Corte_1.csproj|c:\\users\\henry quintero\\documents\\github\\henzo\\corte_1\\ejercicios_basicos\\ej_tema1\\generador_correo\\generadorcorreo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E7A8553C-8DAE-4C8C-BDD1-0957FC896E60}|Corte_1.csproj|C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Corte_1\\ejercicios_basicos\\ej_tema1\\generador_correo\\generadorcorreo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E7A8553C-8DAE-4C8C-BDD1-0957FC896E60}|Corte_1.csproj|solutionrelative:ejercicios_basicos\\ej_tema1\\generador_correo\\generadorcorreo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7A8553C-8DAE-4C8C-BDD1-0957FC896E60}|Corte_1.csproj|c:\\users\\henry quintero\\documents\\github\\henzo\\corte_1\\ejercicios_basicos\\ej_tema1\\cl_propina\\calculadorapropina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E7A8553C-8DAE-4C8C-BDD1-0957FC896E60}|Corte_1.csproj|C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Corte_1\\ejercicios_basicos\\ej_tema1\\cl_propina\\calculadorapropina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E7A8553C-8DAE-4C8C-BDD1-0957FC896E60}|Corte_1.csproj|solutionrelative:ejercicios_basicos\\ej_tema1\\cl_propina\\calculadorapropina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7A8553C-8DAE-4C8C-BDD1-0957FC896E60}|Corte_1.csproj|c:\\users\\henry quintero\\documents\\github\\henzo\\corte_1\\ejercicios_basicos\\ej_tema2\\vehiculos_electricos\\vehiculoelectrico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E7A8553C-8DAE-4C8C-BDD1-0957FC896E60}|Corte_1.csproj|C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Corte_1\\ejercicios_basicos\\ej_tema2\\vehiculos_electricos\\vehiculoelectrico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E7A8553C-8DAE-4C8C-BDD1-0957FC896E60}|Corte_1.csproj|solutionrelative:ejercicios_basicos\\ej_tema2\\vehiculos_electricos\\vehiculoelectrico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7A8553C-8DAE-4C8C-BDD1-0957FC896E60}|Corte_1.csproj|c:\\users\\henry quintero\\documents\\github\\henzo\\corte_1\\ejercicios_basicos\\ej_tema1\\pefil_gamer\\perfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E7A8553C-8DAE-4C8C-BDD1-0957FC896E60}|Corte_1.csproj|C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Corte_1\\ejercicios_basicos\\ej_tema1\\pefil_gamer\\perfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E7A8553C-8DAE-4C8C-BDD1-0957FC896E60}|Corte_1.csproj|solutionrelative:ejercicios_basicos\\ej_tema1\\pefil_gamer\\perfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -34,35 +38,35 @@
       "RelativeMoniker": "D:0:0:{E7A8553C-8DAE-4C8C-BDD1-0957FC896E60}|Corte_1.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7A8553C-8DAE-4C8C-BDD1-0957FC896E60}|Corte_1.csproj|c:\\users\\henry quintero\\documents\\github\\henzo\\corte_1\\ejercicios_basicos\\ej_tema2\\sitema_biblioteca\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E7A8553C-8DAE-4C8C-BDD1-0957FC896E60}|Corte_1.csproj|C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Corte_1\\ejercicios_basicos\\ej_tema2\\sitema_biblioteca\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E7A8553C-8DAE-4C8C-BDD1-0957FC896E60}|Corte_1.csproj|solutionrelative:ejercicios_basicos\\ej_tema2\\sitema_biblioteca\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7A8553C-8DAE-4C8C-BDD1-0957FC896E60}|Corte_1.csproj|c:\\users\\henry quintero\\documents\\github\\henzo\\corte_1\\ejercicios_basicos\\ej_tema2\\sistema_mascotas\\mascota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E7A8553C-8DAE-4C8C-BDD1-0957FC896E60}|Corte_1.csproj|C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Corte_1\\ejercicios_basicos\\ej_tema2\\sistema_mascotas\\mascota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E7A8553C-8DAE-4C8C-BDD1-0957FC896E60}|Corte_1.csproj|solutionrelative:ejercicios_basicos\\ej_tema2\\sistema_mascotas\\mascota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7A8553C-8DAE-4C8C-BDD1-0957FC896E60}|Corte_1.csproj|c:\\users\\henry quintero\\documents\\github\\henzo\\corte_1\\ejercicios_basicos\\ej_tema2\\sistema_mascotas\\gato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E7A8553C-8DAE-4C8C-BDD1-0957FC896E60}|Corte_1.csproj|C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Corte_1\\ejercicios_basicos\\ej_tema2\\sistema_mascotas\\gato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E7A8553C-8DAE-4C8C-BDD1-0957FC896E60}|Corte_1.csproj|solutionrelative:ejercicios_basicos\\ej_tema2\\sistema_mascotas\\gato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7A8553C-8DAE-4C8C-BDD1-0957FC896E60}|Corte_1.csproj|c:\\users\\henry quintero\\documents\\github\\henzo\\corte_1\\ejercicios_basicos\\ej_tema2\\sistema_mascotas\\loro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E7A8553C-8DAE-4C8C-BDD1-0957FC896E60}|Corte_1.csproj|C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Corte_1\\ejercicios_basicos\\ej_tema2\\sistema_mascotas\\loro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E7A8553C-8DAE-4C8C-BDD1-0957FC896E60}|Corte_1.csproj|solutionrelative:ejercicios_basicos\\ej_tema2\\sistema_mascotas\\loro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7A8553C-8DAE-4C8C-BDD1-0957FC896E60}|Corte_1.csproj|c:\\users\\henry quintero\\documents\\github\\henzo\\corte_1\\ejercicios_basicos\\ej_tema2\\app_musica\\interface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E7A8553C-8DAE-4C8C-BDD1-0957FC896E60}|Corte_1.csproj|C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Corte_1\\ejercicios_basicos\\ej_tema2\\app_musica\\interface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E7A8553C-8DAE-4C8C-BDD1-0957FC896E60}|Corte_1.csproj|solutionrelative:ejercicios_basicos\\ej_tema2\\app_musica\\interface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7A8553C-8DAE-4C8C-BDD1-0957FC896E60}|Corte_1.csproj|c:\\users\\henry quintero\\documents\\github\\henzo\\corte_1\\ejercicios_basicos\\ej_tema2\\app_musica\\podcast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E7A8553C-8DAE-4C8C-BDD1-0957FC896E60}|Corte_1.csproj|C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Corte_1\\ejercicios_basicos\\ej_tema2\\app_musica\\podcast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E7A8553C-8DAE-4C8C-BDD1-0957FC896E60}|Corte_1.csproj|solutionrelative:ejercicios_basicos\\ej_tema2\\app_musica\\podcast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7A8553C-8DAE-4C8C-BDD1-0957FC896E60}|Corte_1.csproj|c:\\users\\henry quintero\\documents\\github\\henzo\\corte_1\\ejercicios_basicos\\ej_tema2\\app_musica\\cancion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E7A8553C-8DAE-4C8C-BDD1-0957FC896E60}|Corte_1.csproj|C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Corte_1\\ejercicios_basicos\\ej_tema2\\app_musica\\cancion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E7A8553C-8DAE-4C8C-BDD1-0957FC896E60}|Corte_1.csproj|solutionrelative:ejercicios_basicos\\ej_tema2\\app_musica\\cancion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7A8553C-8DAE-4C8C-BDD1-0957FC896E60}|Corte_1.csproj|c:\\users\\henry quintero\\documents\\github\\henzo\\corte_1\\ejercicios_basicos\\ej_tema2\\inventario_tienda\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E7A8553C-8DAE-4C8C-BDD1-0957FC896E60}|Corte_1.csproj|C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Corte_1\\ejercicios_basicos\\ej_tema2\\inventario_tienda\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E7A8553C-8DAE-4C8C-BDD1-0957FC896E60}|Corte_1.csproj|solutionrelative:ejercicios_basicos\\ej_tema2\\inventario_tienda\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -73,24 +77,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Semaforo.cs",
-              "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Corte_1\\Ejercicios_Basicos\\EJ_Tema1\\Simulador_Semaforo\\Semaforo.cs",
-              "RelativeDocumentMoniker": "Ejercicios_Basicos\\EJ_Tema1\\Simulador_Semaforo\\Semaforo.cs",
-              "ToolTip": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Corte_1\\Ejercicios_Basicos\\EJ_Tema1\\Simulador_Semaforo\\Semaforo.cs",
-              "RelativeToolTip": "Ejercicios_Basicos\\EJ_Tema1\\Simulador_Semaforo\\Semaforo.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Corte_1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Corte_1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T16:48:41.166Z",
+              "WhenOpened": "2026-02-27T16:58:30.816Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "GeneradorCorreo.cs",
               "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Corte_1\\Ejercicios_Basicos\\EJ_Tema1\\Generador_Correo\\GeneradorCorreo.cs",
               "RelativeDocumentMoniker": "Ejercicios_Basicos\\EJ_Tema1\\Generador_Correo\\GeneradorCorreo.cs",
@@ -98,12 +102,11 @@
               "RelativeToolTip": "Ejercicios_Basicos\\EJ_Tema1\\Generador_Correo\\GeneradorCorreo.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAkwBsAAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T16:37:14.627Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-27T16:37:14.627Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ControlAforo.cs",
               "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Corte_1\\Ejercicios_Basicos\\EJ_Tema1\\Control_Aforo\\ControlAforo.cs",
               "RelativeDocumentMoniker": "Ejercicios_Basicos\\EJ_Tema1\\Control_Aforo\\ControlAforo.cs",
@@ -111,12 +114,11 @@
               "RelativeToolTip": "Ejercicios_Basicos\\EJ_Tema1\\Control_Aforo\\ControlAforo.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAqwBYAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T16:34:59.966Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-27T16:34:59.966Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "CalculadoraPropina.cs",
               "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Corte_1\\Ejercicios_Basicos\\EJ_Tema1\\CL_Propina\\CalculadoraPropina.cs",
               "RelativeDocumentMoniker": "Ejercicios_Basicos\\EJ_Tema1\\CL_Propina\\CalculadoraPropina.cs",
@@ -124,12 +126,11 @@
               "RelativeToolTip": "Ejercicios_Basicos\\EJ_Tema1\\CL_Propina\\CalculadoraPropina.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T16:28:19.324Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-27T16:28:19.324Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "VehiculoElectrico.cs",
               "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Corte_1\\Ejercicios_Basicos\\EJ_Tema2\\Vehiculos_Electricos\\VehiculoElectrico.cs",
               "RelativeDocumentMoniker": "Ejercicios_Basicos\\EJ_Tema2\\Vehiculos_Electricos\\VehiculoElectrico.cs",
@@ -137,25 +138,36 @@
               "RelativeToolTip": "Ejercicios_Basicos\\EJ_Tema2\\Vehiculos_Electricos\\VehiculoElectrico.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAYwAYAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T05:50:19.481Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-27T05:50:19.481Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ProgramCopia.cs",
               "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\ProgramCopia.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\ProgramCopia.cs",
               "ToolTip": "C:\\Users\\Henry Quintero\\Documents\\ProgramCopia.cs",
               "RelativeToolTip": "..\\..\\..\\ProgramCopia.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAUwFoAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-27T02:02:10.209Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
+              "Title": "Semaforo.cs",
+              "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Corte_1\\Ejercicios_Basicos\\EJ_Tema1\\Simulador_Semaforo\\Semaforo.cs",
+              "RelativeDocumentMoniker": "Ejercicios_Basicos\\EJ_Tema1\\Simulador_Semaforo\\Semaforo.cs",
+              "ToolTip": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Corte_1\\Ejercicios_Basicos\\EJ_Tema1\\Simulador_Semaforo\\Semaforo.cs",
+              "RelativeToolTip": "Ejercicios_Basicos\\EJ_Tema1\\Simulador_Semaforo\\Semaforo.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T16:48:41.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Libro.cs",
               "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Corte_1\\Ejercicios_Basicos\\EJ_Tema2\\Sitema_Biblioteca\\Libro.cs",
               "RelativeDocumentMoniker": "Ejercicios_Basicos\\EJ_Tema2\\Sitema_Biblioteca\\Libro.cs",
@@ -163,12 +175,11 @@
               "RelativeToolTip": "Ejercicios_Basicos\\EJ_Tema2\\Sitema_Biblioteca\\Libro.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAkwB4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T05:45:28.704Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-27T05:45:28.704Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Interface.cs",
               "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Corte_1\\Ejercicios_Basicos\\EJ_Tema2\\App_Musica\\Interface.cs",
               "RelativeDocumentMoniker": "Ejercicios_Basicos\\EJ_Tema2\\App_Musica\\Interface.cs",
@@ -176,12 +187,11 @@
               "RelativeToolTip": "Ejercicios_Basicos\\EJ_Tema2\\App_Musica\\Interface.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T04:15:40.701Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-27T04:15:40.701Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "App.config",
               "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Corte_1\\App.config",
               "RelativeDocumentMoniker": "App.config",
@@ -189,12 +199,11 @@
               "RelativeToolTip": "App.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2026-02-27T02:55:02.885Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-27T02:55:02.885Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Perfil.cs",
               "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Corte_1\\Ejercicios_Basicos\\EJ_Tema1\\Pefil_Gamer\\Perfil.cs",
               "RelativeDocumentMoniker": "Ejercicios_Basicos\\EJ_Tema1\\Pefil_Gamer\\Perfil.cs",
@@ -202,12 +211,11 @@
               "RelativeToolTip": "Ejercicios_Basicos\\EJ_Tema1\\Pefil_Gamer\\Perfil.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T15:51:49.017Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-27T15:51:49.017Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Loro.cs",
               "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Corte_1\\Ejercicios_Basicos\\EJ_Tema2\\Sistema_Mascotas\\Loro.cs",
               "RelativeDocumentMoniker": "Ejercicios_Basicos\\EJ_Tema2\\Sistema_Mascotas\\Loro.cs",
@@ -215,12 +223,11 @@
               "RelativeToolTip": "Ejercicios_Basicos\\EJ_Tema2\\Sistema_Mascotas\\Loro.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T03:34:23.694Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-27T03:34:23.694Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Gato.cs",
               "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Corte_1\\Ejercicios_Basicos\\EJ_Tema2\\Sistema_Mascotas\\Gato.cs",
               "RelativeDocumentMoniker": "Ejercicios_Basicos\\EJ_Tema2\\Sistema_Mascotas\\Gato.cs",
@@ -228,12 +235,11 @@
               "RelativeToolTip": "Ejercicios_Basicos\\EJ_Tema2\\Sistema_Mascotas\\Gato.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T03:27:39.656Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-27T03:27:39.656Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Mascota.cs",
               "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Corte_1\\Ejercicios_Basicos\\EJ_Tema2\\Sistema_Mascotas\\Mascota.cs",
               "RelativeDocumentMoniker": "Ejercicios_Basicos\\EJ_Tema2\\Sistema_Mascotas\\Mascota.cs",
@@ -241,12 +247,11 @@
               "RelativeToolTip": "Ejercicios_Basicos\\EJ_Tema2\\Sistema_Mascotas\\Mascota.cs",
               "ViewState": "AgIAACQAAAAAAAAAAAAYwB8AAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T03:44:01.804Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-27T03:44:01.804Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Podcast.cs",
               "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Corte_1\\Ejercicios_Basicos\\EJ_Tema2\\App_Musica\\Podcast.cs",
               "RelativeDocumentMoniker": "Ejercicios_Basicos\\EJ_Tema2\\App_Musica\\Podcast.cs",
@@ -254,12 +259,11 @@
               "RelativeToolTip": "Ejercicios_Basicos\\EJ_Tema2\\App_Musica\\Podcast.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAA3wB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T04:17:37.782Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-27T04:17:37.782Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Cancion.cs",
               "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Corte_1\\Ejercicios_Basicos\\EJ_Tema2\\App_Musica\\Cancion.cs",
               "RelativeDocumentMoniker": "Ejercicios_Basicos\\EJ_Tema2\\App_Musica\\Cancion.cs",
@@ -267,12 +271,11 @@
               "RelativeToolTip": "Ejercicios_Basicos\\EJ_Tema2\\App_Musica\\Cancion.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAYwAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T04:17:05.85Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-27T04:17:05.85Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Producto.cs",
               "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Corte_1\\Ejercicios_Basicos\\EJ_Tema2\\Inventario_Tienda\\Producto.cs",
               "RelativeDocumentMoniker": "Ejercicios_Basicos\\EJ_Tema2\\Inventario_Tienda\\Producto.cs",
@@ -280,8 +283,7 @@
               "RelativeToolTip": "Ejercicios_Basicos\\EJ_Tema2\\Inventario_Tienda\\Producto.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAAAAC8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T03:20:53.631Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-27T03:20:53.631Z"
             }
           ]
         }

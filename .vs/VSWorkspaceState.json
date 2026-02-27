@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\Corte_1",
-    "\\Corte_1\\Ejercicios_Basicos"
+    "\\Corte_1\\Ejercicios_Basicos",
+    "\\Corte_1\\Ejercicios_Basicos\\EJ_Tema1"
   ],
-  "SelectedNode": "\\Corte_1\\Ejercicios_Basicos\\EJ_Tema2",
+  "SelectedNode": "\\Corte_1\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
