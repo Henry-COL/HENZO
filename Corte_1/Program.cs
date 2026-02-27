@@ -1,4 +1,9 @@
-﻿using System;
+﻿using Corte_1.Ejercicios_Basicos.App_Musica;
+using Corte_1.Ejercicios_Basicos.Inventario;
+using Corte_1.Ejercicios_Basicos.Sistema_Mascotas;
+using Corte_1.Ejercicios_Basicos.Sitema_Biblioteca;
+using Corte_1.Ejercicios_Basicos.Vehiculos_Electricos;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,8 +13,101 @@ namespace Corte_1
 {
     internal class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
+            bool continuar = true;
+
+            while (continuar)
+            {
+                Console.Clear();
+                Console.WriteLine("╔════════════════════════════════════════╗");
+                Console.WriteLine("║        SISTEMA MULTI-EJERCICIOS        ║");
+                Console.WriteLine("╠════════════════════════════════════════╣");
+                Console.WriteLine("║ 1. Mascota Virtual                     ║");
+                Console.WriteLine("║ 2. Inventario de Tienda                ║");
+                Console.WriteLine("║ 3. App de Música                       ║");
+                Console.WriteLine("║ 4. Sistema Biblioteca                  ║");
+                Console.WriteLine("║ 5. Vehículos Eléctricos                ║");
+                Console.WriteLine("║ 0. Salir                               ║");
+                Console.WriteLine("╚════════════════════════════════════════╝");
+                Console.Write("\nSeleccione una opción: ");
+
+                if (!int.TryParse(Console.ReadLine(), out int opcion)) continue;
+                Console.Clear();
+
+                switch (opcion)
+                {
+                    case 1:
+                        Console.WriteLine(">>> EJERCICIO 1: MASCOTA VIRTUAL <<<");
+                        Mascota mascota = new Mascota();
+                        mascota.MostrarMascotas();
+                        break;
+
+                    case 2:
+                        Console.WriteLine(">>> EJERCICIO 2: INVENTARIO <<<");
+                        Producto producto = new Producto("Smartphone Galaxy", 850000, 15);
+                        Console.WriteLine($"Producto: {producto.Nombre}\nPrecio: ${producto.Precio_Producto}\nStock: {producto.Cantidad_Stock}");
+                        Console.Write("\nCantidad a comprar: ");
+                        producto.Cantidad = int.Parse(Console.ReadLine());
+                        producto.VenderProducto();
+                        break;
+
+                    case 3:
+                        Console.WriteLine(">>> EJERCICIO 3: STREAMING <<<");
+                        List<IReproductor> biblioteca = new List<IReproductor>
+                        {
+                            new Cancion("Bohemian Rhapsody", "Queen"),
+                            new Podcast("Psicología Al Desnudo", "Marina Mammoliti"),
+                            new Cancion("Blinding Lights", "The Weeknd")
+                        };
+
+                        for (int i = 0; i < biblioteca.Count; i++)
+                            Console.WriteLine($"{i}. [{biblioteca[i].GetType().Name}] {biblioteca[i].Titulo}");
+
+                        Console.Write("\nÍndice a reproducir: ");
+                        int eleccion = int.Parse(Console.ReadLine());
+                        if (eleccion >= 0 && eleccion < biblioteca.Count)
+                            biblioteca[eleccion].Play();
+                        break;
+
+                    case 4:
+                        Console.WriteLine(">>> EJERCICIO 4: BIBLIOTECA <<<");
+                        Libro libro = new Libro("El Principito");
+                        Console.WriteLine($"Libro: {libro.titulo} | Estado: {(libro.disponible ? "Disponible" : "Prestado")}");
+
+                        Console.WriteLine("\n[Paso 1] Intentando préstamo...");
+                        libro.Prestar();
+
+                        Console.WriteLine("\n[Paso 2] Intentando préstamo de nuevo...");
+                        libro.Prestar();
+                        break;
+
+                    case 5:
+                        Console.WriteLine(">>> EJERCICIO 5: VEHÍCULO ELÉCTRICO <<<");
+                        VehiculoElectrico miCoche = new VehiculoElectrico("Porsche Taycan", 100);
+                        Console.WriteLine($"Modelo: {miCoche.modelo} | Carga: {miCoche.bateria}%");
+
+                        Console.Write("\nDistancia del viaje (km): ");
+                        int km = int.Parse(Console.ReadLine());
+                        miCoche.Viajar(km);
+                        break;
+
+                    case 0:
+                        continuar = false;
+                        Console.WriteLine("Saliendo del sistema...");
+                        break;
+
+                    default:
+                        Console.WriteLine("Opción no válida.");
+                        break;
+                }
+
+                if (opcion != 0)
+                {
+                    Console.WriteLine("\nPresione cualquier tecla para volver al menú...");
+                    Console.ReadKey();
+                }
+            }
         }
     }
 }

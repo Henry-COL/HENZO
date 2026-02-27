@@ -1,0 +1,50 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Corte_1.Ejercicios_Basicos.Sistema_Mascotas
+{
+    public class Mascota
+    {
+        public string Nombre;
+
+        public virtual void HacerTruco()
+        {
+            Console.WriteLine("La mascota intenta hacer algo...");
+        }
+        public void MostrarMascotas()
+        {
+            List<Mascota> misMascotas = new List<Mascota>();
+
+            misMascotas.Add(new Gato { Nombre = "Michi" });
+            misMascotas.Add(new Loro { Nombre = "Paco" });
+            misMascotas.Add(new Gato { Nombre = "Garfield" });
+
+            Console.WriteLine("==== SISTEMA DE MASCOTAS VIRTUALES ====");
+            Console.WriteLine("Mascotas disponibles para actuar:");
+
+            for (int i = 0; i < misMascotas.Count; i++)
+            {
+                string tipoAnimal = misMascotas[i].GetType().Name;
+                Console.WriteLine($"{i}. {misMascotas[i].Nombre} ({tipoAnimal})");
+            }
+
+            Console.Write("\n¿Qué mascota quieres ver actuar? (Escribe el número): ");
+            int eleccion = int.Parse(Console.ReadLine());
+
+            if (eleccion >= 0 && eleccion < misMascotas.Count)
+            {
+                Console.WriteLine("");
+                misMascotas[eleccion].HacerTruco();
+            }
+            else
+            {
+                Console.WriteLine("Esa mascota no existe.");
+            }
+            Console.Write("\nPresiona cualquier tecla para salir...");
+            Console.ReadKey();
+        }
+    }
+}

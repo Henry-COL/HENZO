@@ -1,0 +1,7 @@
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Corte_1\bin\Debug\Corte_1.exe.config
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Corte_1\bin\Debug\Corte_1.exe
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Corte_1\bin\Debug\Corte_1.pdb
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Corte_1\obj\Debug\Corte_1.csproj.AssemblyReference.cache
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Corte_1\obj\Debug\Corte_1.csproj.CoreCompileInputs.cache
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Corte_1\obj\Debug\Corte_1.exe
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Corte_1\obj\Debug\Corte_1.pdb
