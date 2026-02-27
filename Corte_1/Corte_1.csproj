@@ -44,15 +44,20 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="..\..\..\ProgramCopia.cs" />
-    <Compile Include="Ejercicios_Basicos\App_Musica\Cancion.cs" />
-    <Compile Include="Ejercicios_Basicos\App_Musica\Interface.cs" />
-    <Compile Include="Ejercicios_Basicos\App_Musica\Podcast.cs" />
-    <Compile Include="Ejercicios_Basicos\Inventario_Tienda\Producto.cs" />
-    <Compile Include="Ejercicios_Basicos\Sistema_Mascotas\Gato.cs" />
-    <Compile Include="Ejercicios_Basicos\Sistema_Mascotas\Loro.cs" />
-    <Compile Include="Ejercicios_Basicos\Sistema_Mascotas\Mascota.cs" />
-    <Compile Include="Ejercicios_Basicos\Sitema_Biblioteca\Libro.cs" />
-    <Compile Include="Ejercicios_Basicos\Vehiculos_Electricos\VehiculoElectrico.cs" />
+    <Compile Include="Ejercicios_Basicos\EJ_Tema1\CL_Propina\CalculadoraPropina.cs" />
+    <Compile Include="Ejercicios_Basicos\EJ_Tema1\Control_Aforo\ControlAforo.cs" />
+    <Compile Include="Ejercicios_Basicos\EJ_Tema1\Generador_Correo\GeneradorCorreo.cs" />
+    <Compile Include="Ejercicios_Basicos\EJ_Tema1\Pefil_Gamer\Perfil.cs" />
+    <Compile Include="Ejercicios_Basicos\EJ_Tema1\Simulador_Semaforo\Semaforo.cs" />
+    <Compile Include="Ejercicios_Basicos\EJ_Tema2\App_Musica\Cancion.cs" />
+    <Compile Include="Ejercicios_Basicos\EJ_Tema2\App_Musica\Interface.cs" />
+    <Compile Include="Ejercicios_Basicos\EJ_Tema2\App_Musica\Podcast.cs" />
+    <Compile Include="Ejercicios_Basicos\EJ_Tema2\Inventario_Tienda\Producto.cs" />
+    <Compile Include="Ejercicios_Basicos\EJ_Tema2\Sistema_Mascotas\Gato.cs" />
+    <Compile Include="Ejercicios_Basicos\EJ_Tema2\Sistema_Mascotas\Loro.cs" />
+    <Compile Include="Ejercicios_Basicos\EJ_Tema2\Sistema_Mascotas\Mascota.cs" />
+    <Compile Include="Ejercicios_Basicos\EJ_Tema2\Sitema_Biblioteca\Libro.cs" />
+    <Compile Include="Ejercicios_Basicos\EJ_Tema2\Vehiculos_Electricos\VehiculoElectrico.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
