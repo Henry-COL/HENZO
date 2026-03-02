@@ -1,7 +1,13 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Corte_1\\Ejercicios_Basicos\\EJ_Tema1"
+    "\\Corte_1\\Ejercicios_Basicos",
+    "\\Corte_1\\Ejercicios_Basicos\\EJ_Tema1",
+    "\\Corte_1\\Ejercicios_Basicos\\EJ_Tema1\\Simulador_Semaforo",
+    "\\Corte_1\\Ejercicios_Basicos\\EJ_Tema2",
+    "\\Corte_1\\Ejercicios_Basicos\\EJ_Tema2\\Vehiculos_Electricos",
+    "\\Cuenta_Bancaria\\Banco"
   ],
+  "SelectedNode": "\\Cuenta_Bancaria",
   "PreviewInSolutionExplorer": false
 }
