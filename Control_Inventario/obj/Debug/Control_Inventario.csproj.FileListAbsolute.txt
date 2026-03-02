@@ -1,0 +1,7 @@
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Control_Inventario\bin\Debug\Control_Inventario.exe.config
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Control_Inventario\bin\Debug\Control_Inventario.exe
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Control_Inventario\bin\Debug\Control_Inventario.pdb
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Control_Inventario\obj\Debug\Control_Inventario.csproj.AssemblyReference.cache
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Control_Inventario\obj\Debug\Control_Inventario.csproj.CoreCompileInputs.cache
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Control_Inventario\obj\Debug\Control_Inventario.exe
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Control_Inventario\obj\Debug\Control_Inventario.pdb

@@ -7,15 +7,15 @@
       "RelativeMoniker": "D:0:0:{1F4CBACF-48CA-4E19-804C-72000DE72BB5}|Cuenta_Bancaria.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F4CBACF-48CA-4E19-804C-72000DE72BB5}|Cuenta_Bancaria.csproj|c:\\users\\henry quintero\\documents\\github\\henzo\\cuenta_bancaria\\banco\\cuentabancaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1F4CBACF-48CA-4E19-804C-72000DE72BB5}|Cuenta_Bancaria.csproj|C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Cuenta_Bancaria\\banco\\cuentabancaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F4CBACF-48CA-4E19-804C-72000DE72BB5}|Cuenta_Bancaria.csproj|solutionrelative:banco\\cuentabancaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F4CBACF-48CA-4E19-804C-72000DE72BB5}|Cuenta_Bancaria.csproj|c:\\users\\henry quintero\\documents\\github\\henzo\\cuenta_bancaria\\banco\\depositar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1F4CBACF-48CA-4E19-804C-72000DE72BB5}|Cuenta_Bancaria.csproj|C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Cuenta_Bancaria\\banco\\depositar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F4CBACF-48CA-4E19-804C-72000DE72BB5}|Cuenta_Bancaria.csproj|solutionrelative:banco\\depositar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F4CBACF-48CA-4E19-804C-72000DE72BB5}|Cuenta_Bancaria.csproj|c:\\users\\henry quintero\\documents\\github\\henzo\\cuenta_bancaria\\banco\\retirar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1F4CBACF-48CA-4E19-804C-72000DE72BB5}|Cuenta_Bancaria.csproj|C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Cuenta_Bancaria\\banco\\retirar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F4CBACF-48CA-4E19-804C-72000DE72BB5}|Cuenta_Bancaria.csproj|solutionrelative:banco\\retirar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -38,8 +38,7 @@
               "RelativeToolTip": "Banco\\Retirar.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAYwCQAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-02T01:47:57.665Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-02T01:47:57.665Z"
             },
             {
               "$type": "Document",
@@ -51,8 +50,7 @@
               "RelativeToolTip": "Banco\\Depositar.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-02T01:43:21.166Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-02T01:43:21.166Z"
             },
             {
               "$type": "Document",
@@ -64,8 +62,7 @@
               "RelativeToolTip": "Banco\\CuentaBancaria.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAQwB4AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-02T01:34:01.572Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-02T01:34:01.572Z"
             },
             {
               "$type": "Document",
@@ -75,7 +72,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Cuenta_Bancaria\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAQwEUAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwEUAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-02T01:32:59.81Z",
               "EditorCaption": ""

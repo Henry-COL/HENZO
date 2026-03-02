@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Control_Inventario\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{16631F83-793E-447B-A4C0-E6E32D8E1060}|Control_Inventario.csproj|c:\\users\\henry quintero\\documents\\github\\henzo\\control_inventario\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16631F83-793E-447B-A4C0-E6E32D8E1060}|Control_Inventario.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16631F83-793E-447B-A4C0-E6E32D8E1060}|Control_Inventario.csproj|c:\\users\\henry quintero\\documents\\github\\henzo\\control_inventario\\inventario\\venderproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16631F83-793E-447B-A4C0-E6E32D8E1060}|Control_Inventario.csproj|solutionrelative:inventario\\venderproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16631F83-793E-447B-A4C0-E6E32D8E1060}|Control_Inventario.csproj|c:\\users\\henry quintero\\documents\\github\\henzo\\control_inventario\\inventario\\agregarstock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16631F83-793E-447B-A4C0-E6E32D8E1060}|Control_Inventario.csproj|solutionrelative:inventario\\agregarstock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16631F83-793E-447B-A4C0-E6E32D8E1060}|Control_Inventario.csproj|c:\\users\\henry quintero\\documents\\github\\henzo\\control_inventario\\inventario\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16631F83-793E-447B-A4C0-E6E32D8E1060}|Control_Inventario.csproj|solutionrelative:inventario\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VenderProducto.cs",
+              "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Control_Inventario\\Inventario\\VenderProducto.cs",
+              "RelativeDocumentMoniker": "Inventario\\VenderProducto.cs",
+              "ToolTip": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Control_Inventario\\Inventario\\VenderProducto.cs",
+              "RelativeToolTip": "Inventario\\VenderProducto.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAswCIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T06:29:54.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AgregarStock.cs",
+              "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Control_Inventario\\Inventario\\AgregarStock.cs",
+              "RelativeDocumentMoniker": "Inventario\\AgregarStock.cs",
+              "ToolTip": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Control_Inventario\\Inventario\\AgregarStock.cs",
+              "RelativeToolTip": "Inventario\\AgregarStock.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAwAAADJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T06:22:45.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Control_Inventario\\Inventario\\Producto.cs",
+              "RelativeDocumentMoniker": "Inventario\\Producto.cs",
+              "ToolTip": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Control_Inventario\\Inventario\\Producto.cs",
+              "RelativeToolTip": "Inventario\\Producto.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAmwBkAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T06:11:45.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Control_Inventario\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Control_Inventario\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T06:11:15.479Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
