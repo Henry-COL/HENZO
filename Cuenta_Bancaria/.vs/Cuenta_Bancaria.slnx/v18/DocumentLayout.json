@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Cuenta_Bancaria\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1F4CBACF-48CA-4E19-804C-72000DE72BB5}|Cuenta_Bancaria.csproj|c:\\users\\henry quintero\\documents\\github\\henzo\\cuenta_bancaria\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F4CBACF-48CA-4E19-804C-72000DE72BB5}|Cuenta_Bancaria.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F4CBACF-48CA-4E19-804C-72000DE72BB5}|Cuenta_Bancaria.csproj|c:\\users\\henry quintero\\documents\\github\\henzo\\cuenta_bancaria\\banco\\cuentabancaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F4CBACF-48CA-4E19-804C-72000DE72BB5}|Cuenta_Bancaria.csproj|solutionrelative:banco\\cuentabancaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F4CBACF-48CA-4E19-804C-72000DE72BB5}|Cuenta_Bancaria.csproj|c:\\users\\henry quintero\\documents\\github\\henzo\\cuenta_bancaria\\banco\\depositar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F4CBACF-48CA-4E19-804C-72000DE72BB5}|Cuenta_Bancaria.csproj|solutionrelative:banco\\depositar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F4CBACF-48CA-4E19-804C-72000DE72BB5}|Cuenta_Bancaria.csproj|c:\\users\\henry quintero\\documents\\github\\henzo\\cuenta_bancaria\\banco\\retirar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F4CBACF-48CA-4E19-804C-72000DE72BB5}|Cuenta_Bancaria.csproj|solutionrelative:banco\\retirar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Retirar.cs",
+              "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Cuenta_Bancaria\\Banco\\Retirar.cs",
+              "RelativeDocumentMoniker": "Banco\\Retirar.cs",
+              "ToolTip": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Cuenta_Bancaria\\Banco\\Retirar.cs",
+              "RelativeToolTip": "Banco\\Retirar.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwCQAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T01:47:57.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Depositar.cs",
+              "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Cuenta_Bancaria\\Banco\\Depositar.cs",
+              "RelativeDocumentMoniker": "Banco\\Depositar.cs",
+              "ToolTip": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Cuenta_Bancaria\\Banco\\Depositar.cs",
+              "RelativeToolTip": "Banco\\Depositar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T01:43:21.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CuentaBancaria.cs",
+              "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Cuenta_Bancaria\\Banco\\CuentaBancaria.cs",
+              "RelativeDocumentMoniker": "Banco\\CuentaBancaria.cs",
+              "ToolTip": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Cuenta_Bancaria\\Banco\\CuentaBancaria.cs",
+              "RelativeToolTip": "Banco\\CuentaBancaria.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwB4AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T01:34:01.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Cuenta_Bancaria\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Cuenta_Bancaria\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwEUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T01:32:59.81Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

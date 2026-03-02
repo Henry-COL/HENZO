@@ -1,0 +1,7 @@
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Cuenta_Bancaria\bin\Debug\Cuenta_Bancaria.exe.config
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Cuenta_Bancaria\bin\Debug\Cuenta_Bancaria.exe
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Cuenta_Bancaria\bin\Debug\Cuenta_Bancaria.pdb
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Cuenta_Bancaria\obj\Debug\Cuenta_Bancaria.csproj.AssemblyReference.cache
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Cuenta_Bancaria\obj\Debug\Cuenta_Bancaria.csproj.CoreCompileInputs.cache
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Cuenta_Bancaria\obj\Debug\Cuenta_Bancaria.exe
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Cuenta_Bancaria\obj\Debug\Cuenta_Bancaria.pdb
