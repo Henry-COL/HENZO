@@ -9,7 +9,7 @@ namespace Corte_1.Ejercicios_Basicos.App_Musica
     public interface IReproductor
     {
         // Añadido: propiedad Titulo para que el código consumidor pueda acceder al título
-        string Titulo { get; }
+        string Titulo { get; set; }
         void Play();
         void Stop();
     }

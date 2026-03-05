@@ -8,7 +8,7 @@ namespace Corte_1.Ejercicios_Basicos.App_Musica
 {
     public class Podcast : IReproductor
     {
-        public string Titulo { get; private set; }
+        public string Titulo { get; set; }
         public string Host { get; set; }
 
         public Podcast(string nombre, string host)

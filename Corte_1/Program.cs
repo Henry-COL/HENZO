@@ -133,7 +133,7 @@ namespace Corte_1
                         Console.WriteLine(">>> EJERCICIO 8: STREAMING <<<");
                         List<IReproductor> biblioteca = new List<IReproductor>
                         {
-                            new Cancion("Bohemian Rhapsody", "Queen"),
+                            new Cancion("Kobe Brayant, te marchaste", "que pena dejaste"),
                             new Podcast("Psicología Al Desnudo", "Marina Mammoliti"),
                             new Cancion("Blinding Lights", "The Weeknd")
                         };

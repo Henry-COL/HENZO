@@ -8,8 +8,9 @@ namespace Corte_1.Ejercicios_Basicos.App_Musica
 {
     public class Cancion : IReproductor
     {
-        public string Titulo { get; private set; }
+        public string Titulo { get; set; }
         public string Artista { get; set; }
+        public string Album { get; set; }
 
         public Cancion(string titulo, string artista)
         {
