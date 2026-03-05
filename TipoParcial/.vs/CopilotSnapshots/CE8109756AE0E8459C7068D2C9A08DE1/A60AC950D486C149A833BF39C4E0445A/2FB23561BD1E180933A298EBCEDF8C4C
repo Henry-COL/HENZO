@@ -1,0 +1,27 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace TipoParcial.BibliotecaDigital.Modelos
+{
+    public class AudioLibro : MaterialBiblioteca
+    {
+        public TimeSpan Duracion { get; set; }
+        public string Narrador { get; set; }
+
+        public AudioLibro(string id, string titulo, string autor, int anio, string cat, TimeSpan duracion, string narrador) : base(id, titulo, autor, anio, cat)
+        {
+            Duracion = duracion;
+            Narrador = narrador;
+        }
+
+        public override void MostrarInformacion()
+        {
+            base.MostrarInformacion();
+            Console.WriteLine("Información del Audiolibro:");
+            Console.WriteLine($"Duración: {Duracion:hh\\:mm\\:ss} | Narrador: {Narrador}");
+        }
+    }
+}

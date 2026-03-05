@@ -1,0 +1,28 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace TipoParcial.BibliotecaDigital.Modelos
+{
+    public class Libro : MaterialBiblioteca
+    {
+        public int NumeroPaginas { get; set; }
+        public string ISBN { get; set; }
+
+        public Libro(string id, string titulo, string autor, int anio, string cat, int paginas, string isbn)
+            : base(id, titulo, autor, anio, cat)
+        {
+            NumeroPaginas = paginas;
+            ISBN = isbn;
+        }
+
+        public override void MostrarInformacion()
+        {
+            base.MostrarInformacion();
+            Console.WriteLine("Información del Libro:");
+            Console.WriteLine($"Páginas: {NumeroPaginas} | ISBN: {ISBN}");
+        }
+    }
+}

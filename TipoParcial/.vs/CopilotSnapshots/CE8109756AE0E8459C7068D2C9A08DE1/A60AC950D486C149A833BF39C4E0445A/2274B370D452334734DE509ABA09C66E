@@ -1,0 +1,68 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using TipoParcial.BibliotecaDigital.Interfaces;
+
+namespace TipoParcial.BibliotecaDigital.Modelos
+{
+    public class AudioLibro : MaterialBiblioteca, IPrestable
+    {
+        public TimeSpan Duracion { get; set; }
+        public string Narrador { get; set; }
+
+        // Implementación de IPrestable
+        public bool Prestado { get; set; }
+
+        public AudioLibro(string id, string titulo, string autor, int anio, string cat, TimeSpan duracion, string narrador) : base(id, titulo, autor, anio, cat)
+        {
+            Duracion = duracion;
+            Narrador = narrador;
+            Prestado = false;
+        }
+
+        public void Prestar()
+        {
+            if (!Prestado)
+            {
+                Prestado = true;
+                GenerarComprobantePrestramo();
+            }
+            else
+            {
+                Console.WriteLine("El audiolibro ya está prestado.");
+            }
+        }
+
+        public void Devolver()
+        {
+            Prestado = false;
+        }
+
+        public DateTime CalcularFechaDevolucion()
+        {
+            // Plazo por defecto de 14 días
+            return DateTime.Now.AddDays(14);
+        }
+
+        public void GenerarComprobantePrestramo()
+        {
+            Console.WriteLine($"Comprobante de préstamo - Audiolibro: {Titulo} | Dev: {CalcularFechaDevolucion():d}");
+        }
+
+        public decimal CalcularMultaPorRetraso(int diasRetraso)
+        {
+            if (diasRetraso <= 0) return 0m;
+            const decimal tarifaPorDia = 0.5m; // tarifa de ejemplo
+            return diasRetraso * tarifaPorDia;
+        }
+
+        public override void MostrarInformacion()
+        {
+            base.MostrarInformacion();
+            Console.WriteLine("Información del Audiolibro:");
+            Console.WriteLine($"Duración: {Duracion:hh\\:mm\\:ss} | Narrador: {Narrador}");
+        }
+    }
+}

@@ -1,0 +1,71 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using TipoParcial.BibliotecaDigital.Interfaces;
+
+namespace TipoParcial.BibliotecaDigital.Modelos
+{
+    public abstract class MaterialBiblioteca : IPrestable
+    {
+        public string Id { get; set; }
+        public string Titulo { get; set; }
+        public string Autor { get; set; }
+        public int AnioPublicacion { get; set; }
+        public string Categoria { get; set; }
+
+        protected MaterialBiblioteca(string id, string titulo, string autor, int anio, string categoria)
+        {
+            Id = id;
+            Titulo = titulo;
+            Autor = autor;
+            AnioPublicacion = anio;
+            Categoria = categoria;
+            Prestado = false;
+        }
+
+        public virtual void MostrarInformacion()
+        {
+            Console.WriteLine("Información del Material de Biblioteca:");
+            Console.WriteLine($"[ID: {Id}] - {Titulo}");
+            Console.WriteLine($"Autor: {Autor} | Año: {AnioPublicacion}");
+            Console.WriteLine($"Categoría: {Categoria}");
+        }
+
+        // IPrestable implementation
+        public bool Prestado { get; set; }
+
+        public virtual DateTime CalcularFechaDevolucion()
+        {
+            // Plazo por defecto: 14 días
+            return DateTime.Now.AddDays(14);
+        }
+
+        public virtual void GenerarComprobantePrestramo()
+        {
+            Console.WriteLine("--- Comprobante de Préstamo ---");
+            Console.WriteLine($"Material: {Titulo} (ID: {Id})");
+            Console.WriteLine($"Autor: {Autor}");
+            Console.WriteLine($"Fecha de devolución estimada: {CalcularFechaDevolucion():d}");
+            Console.WriteLine("-------------------------------");
+        }
+
+        public virtual decimal CalcularMultaPorRetraso(int diasRetraso)
+        {
+            const decimal tarifaPorDia = 0.50m; // tarifa por día de retraso
+            return diasRetraso > 0 ? diasRetraso * tarifaPorDia : 0m;
+        }
+
+        public virtual void Prestar()
+        {
+            Prestado = true;
+            GenerarComprobantePrestramo();
+        }
+
+        public virtual void Devolver()
+        {
+            Prestado = false;
+        }
+    }
+}

@@ -1,0 +1,26 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace TipoParcial.BibliotecaDigital.Modelos
+{
+    public class Revista : MaterialBiblioteca
+    {
+        public int NumeroEdicion { get; set; }
+        public string Periodicidad { get; set; }
+
+        public Revista(string id, string titulo, string autor, int anio, string cat, int edicion, string periodicidad) : base(id, titulo, autor, anio, cat)
+        {
+            NumeroEdicion = edicion;
+            Periodicidad = periodicidad;
+        }
+        public override void MostrarInformacion()
+        {
+            base.MostrarInformacion();
+            Console.WriteLine("Información de la Revista:");
+            Console.WriteLine($"Edicion: {NumeroEdicion} | Periodicidad: {Periodicidad}");
+        }
+    }
+}

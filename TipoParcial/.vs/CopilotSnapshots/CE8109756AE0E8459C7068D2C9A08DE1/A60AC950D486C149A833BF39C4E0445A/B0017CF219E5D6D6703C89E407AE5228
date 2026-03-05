@@ -1,0 +1,69 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using TipoParcial.BibliotecaDigital.Interfaces;
+
+namespace TipoParcial.BibliotecaDigital.Modelos
+{
+    public class Libro : MaterialBiblioteca, IPrestable
+    {
+        public int NumeroPaginas { get; set; }
+        public string ISBN { get; set; }
+
+        // Implementación de IPrestable
+        public bool Prestado { get; set; }
+
+        public Libro(string id, string titulo, string autor, int anio, string cat, int paginas, string isbn)
+            : base(id, titulo, autor, anio, cat)
+        {
+            NumeroPaginas = paginas;
+            ISBN = isbn;
+            Prestado = false;
+        }
+
+        public void Prestar()
+        {
+            if (!Prestado)
+            {
+                Prestado = true;
+                GenerarComprobantePrestramo();
+            }
+            else
+            {
+                Console.WriteLine("El libro ya está prestado.");
+            }
+        }
+
+        public void Devolver()
+        {
+            Prestado = false;
+        }
+
+        public DateTime CalcularFechaDevolucion()
+        {
+            // Plazo por defecto de 14 días
+            return DateTime.Now.AddDays(14);
+        }
+
+        public void GenerarComprobantePrestramo()
+        {
+            Console.WriteLine($"Comprobante de préstamo - Libro: {Titulo} | Dev: {CalcularFechaDevolucion():d}");
+        }
+
+        public decimal CalcularMultaPorRetraso(int diasRetraso)
+        {
+            if (diasRetraso <= 0) return 0m;
+            const decimal tarifaPorDia = 0.5m; // tarifa de ejemplo
+            return diasRetraso * tarifaPorDia;
+        }
+
+        public override void MostrarInformacion()
+        {
+            base.MostrarInformacion();
+            Console.WriteLine("Información del Libro:");
+            Console.WriteLine($"Páginas: {NumeroPaginas} | ISBN: {ISBN}");
+        }
+    }
+}
