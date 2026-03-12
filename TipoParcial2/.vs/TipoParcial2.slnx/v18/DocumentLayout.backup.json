@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\TipoParcial2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1AC370C1-A832-4543-8FE4-ED94A59FC907}|TipoParcial2.csproj|c:\\users\\henry quintero\\documents\\github\\henzo\\tipoparcial2\\concesionariovehiculos\\modelos\\vehiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AC370C1-A832-4543-8FE4-ED94A59FC907}|TipoParcial2.csproj|solutionrelative:concesionariovehiculos\\modelos\\vehiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AC370C1-A832-4543-8FE4-ED94A59FC907}|TipoParcial2.csproj|c:\\users\\henry quintero\\documents\\github\\henzo\\tipoparcial2\\concesionariovehiculos\\interfaces\\ivendible.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AC370C1-A832-4543-8FE4-ED94A59FC907}|TipoParcial2.csproj|solutionrelative:concesionariovehiculos\\interfaces\\ivendible.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AC370C1-A832-4543-8FE4-ED94A59FC907}|TipoParcial2.csproj|c:\\users\\henry quintero\\documents\\github\\henzo\\tipoparcial2\\concesionariovehiculos\\enumns\\tipocombustible.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AC370C1-A832-4543-8FE4-ED94A59FC907}|TipoParcial2.csproj|solutionrelative:concesionariovehiculos\\enumns\\tipocombustible.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AC370C1-A832-4543-8FE4-ED94A59FC907}|TipoParcial2.csproj|c:\\users\\henry quintero\\documents\\github\\henzo\\tipoparcial2\\concesionariovehiculos\\enumns\\estadovehiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AC370C1-A832-4543-8FE4-ED94A59FC907}|TipoParcial2.csproj|solutionrelative:concesionariovehiculos\\enumns\\estadovehiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AC370C1-A832-4543-8FE4-ED94A59FC907}|TipoParcial2.csproj|c:\\users\\henry quintero\\documents\\github\\henzo\\tipoparcial2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AC370C1-A832-4543-8FE4-ED94A59FC907}|TipoParcial2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Vehiculo.cs",
+              "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\TipoParcial2\\ConcesionarioVehiculos\\Modelos\\Vehiculo.cs",
+              "RelativeDocumentMoniker": "ConcesionarioVehiculos\\Modelos\\Vehiculo.cs",
+              "ToolTip": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\TipoParcial2\\ConcesionarioVehiculos\\Modelos\\Vehiculo.cs",
+              "RelativeToolTip": "ConcesionarioVehiculos\\Modelos\\Vehiculo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T21:50:09.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IVendible.cs",
+              "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\TipoParcial2\\ConcesionarioVehiculos\\Interfaces\\IVendible.cs",
+              "RelativeDocumentMoniker": "ConcesionarioVehiculos\\Interfaces\\IVendible.cs",
+              "ToolTip": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\TipoParcial2\\ConcesionarioVehiculos\\Interfaces\\IVendible.cs",
+              "RelativeToolTip": "ConcesionarioVehiculos\\Interfaces\\IVendible.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAowBEAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T21:27:39.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EstadoVehiculo.cs",
+              "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\TipoParcial2\\ConcesionarioVehiculos\\Enumns\\EstadoVehiculo.cs",
+              "RelativeDocumentMoniker": "ConcesionarioVehiculos\\Enumns\\EstadoVehiculo.cs",
+              "ToolTip": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\TipoParcial2\\ConcesionarioVehiculos\\Enumns\\EstadoVehiculo.cs",
+              "RelativeToolTip": "ConcesionarioVehiculos\\Enumns\\EstadoVehiculo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T21:26:04.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TipoCombustible.cs",
+              "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\TipoParcial2\\ConcesionarioVehiculos\\Enumns\\TipoCombustible.cs",
+              "RelativeDocumentMoniker": "ConcesionarioVehiculos\\Enumns\\TipoCombustible.cs",
+              "ToolTip": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\TipoParcial2\\ConcesionarioVehiculos\\Enumns\\TipoCombustible.cs",
+              "RelativeToolTip": "ConcesionarioVehiculos\\Enumns\\TipoCombustible.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T21:24:18.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\TipoParcial2\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\TipoParcial2\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T21:20:58.301Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
