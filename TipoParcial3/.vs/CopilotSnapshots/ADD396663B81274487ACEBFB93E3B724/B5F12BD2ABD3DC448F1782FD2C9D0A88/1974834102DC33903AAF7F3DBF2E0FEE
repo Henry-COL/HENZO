@@ -1,0 +1,113 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using TipoParcial3.SistemaRestaurante.Enums;
+using TipoParcial3.SistemaRestaurante.Modelos;
+using TipoParcial3.SistemaRestaurante.Modelos;
+
+namespace TipoParcial3
+{
+    public class Program
+    {
+        static void Main(string[] args)
+        {
+            Ejecutar();
+        }
+
+        public static void Ejecutar()
+        {
+            Console.WriteLine("¿Qué tipo de plato pedirá?");
+            Console.WriteLine("1- Entrada");
+            Console.WriteLine("2- Plato Principal");
+            Console.WriteLine("3- Postre");
+            int opcion = int.Parse(Console.ReadLine());
+
+            // Datos básicos comunes
+            Console.WriteLine("Ingrese el id:");
+            string id = Console.ReadLine();
+            Console.WriteLine("Ingrese el nombre:");
+            string nombre = Console.ReadLine();
+            Console.WriteLine("Ingrese la descripción:");
+            string descripcion = Console.ReadLine();
+            Console.WriteLine("Ingrese el precio base:");
+            decimal preciobase = decimal.Parse(Console.ReadLine());
+
+            // Llamada a los métodos de apoyo para Enums
+            TipoComida tipo = CalcularTipoComida();
+            NivelDificultad dificultad = CalcularDificultad();
+            EstadoOrden estado = CalcularEstadoOrden();
+
+            switch (opcion)
+            {
+                case 1:
+                    Console.WriteLine("¿Es fría? (1 para SÍ, otro para NO):");
+                    bool esfria = Console.ReadLine() == "1";
+                    Console.WriteLine("¿Cuántas porciones tiene?");
+                    int porciones = int.Parse(Console.ReadLine());
+
+                    Entrada entrada1 = new Entrada(id, nombre, descripcion, preciobase, tipo, dificultad, estado, esfria, porciones);
+                    entrada1.MostrarInformacionNutricional();
+                    entrada1.CalcularTiempoPreparacion();
+                    break;
+
+                case 2:
+                    Console.WriteLine("¿Cuál es la proteína principal?");
+                    string proteina = Console.ReadLine();
+                    Console.WriteLine("¿Incluye guarnición? (1 para SÍ, otro para NO):");
+                    bool guarnicion = Console.ReadLine() == "1";
+
+                    PlatoPrincipal plato1 = new PlatoPrincipal(id, nombre, descripcion, preciobase, tipo, dificultad, estado, proteina, guarnicion);
+                    plato1.MostrarInformacionNutricional();
+                    plato1.CalcularTiempoPreparacion();
+                    break;
+
+                case 3:
+                    Console.WriteLine("Ingrese calorías por porción:");
+                    int calorias = int.Parse(Console.ReadLine());
+                    Console.WriteLine("¿Contiene lactosa? (1 para SÍ, otro para NO):");
+                    bool lactosa = Console.ReadLine() == "1";
+
+                    Postre postre1 = new Postre(id, nombre, descripcion, preciobase, tipo, dificultad, estado, calorias, lactosa);
+                    postre1.MostrarInformacionNutricional();
+                    postre1.CalcularTiempoPreparacion();
+                    break;
+            }
+        }
+
+        // Métodos para convertir la entrada del usuario a Enum (Estilo básico)
+        private static TipoComida CalcularTipoComida()
+        {
+            Console.WriteLine("Tipo de comida: 1-Veg, 2-Básico, 3-Carnívora, 4-Mariscos, 5-Mixta");
+            int seleccion = int.Parse(Console.ReadLine());
+            if (seleccion == 1) return TipoComida.Vegetariana;
+            if (seleccion == 2) return TipoComida.Basico;
+            if (seleccion == 3) return TipoComida.Carnivora;
+            if (seleccion == 4) return TipoComida.Mariscos;
+            if (seleccion == 5) return TipoComida.Mixta;
+            return TipoComida.Desconocida;
+        }
+
+        private static NivelDificultad CalcularDificultad()
+        {
+            Console.WriteLine("Dificultad: 1-Fácil, 2-Intermedio, 3-Avanzado");
+            int seleccion = int.Parse(Console.ReadLine());
+            if (seleccion == 1) return NivelDificultad.Facil;
+            if (seleccion == 2) return NivelDificultad.Intermedio;
+            if (seleccion == 3) return NivelDificultad.Avanzado;
+            return NivelDificultad.Desconocido;
+        }
+
+        private static EstadoOrden CalcularEstadoOrden()
+        {
+            Console.WriteLine("Estado: 1-Pendiente, 2-Preparado, 3-Listo, 4-Entregado");
+            int seleccion = int.Parse(Console.ReadLine());
+            if (seleccion == 1) return EstadoOrden.Pendiente;
+            if (seleccion == 2) return EstadoOrden.Preparado;
+            if (seleccion == 3) return EstadoOrden.Listo;
+            if (seleccion == 4) return EstadoOrden.Entregado;
+            return EstadoOrden.Desconocido;
+        }
+    }
+}

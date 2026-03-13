@@ -46,6 +46,9 @@
     <Compile Include="ConcesionarioVehiculos\Enumns\EstadoVehiculo.cs" />
     <Compile Include="ConcesionarioVehiculos\Enumns\TipoCombustible.cs" />
     <Compile Include="ConcesionarioVehiculos\Interfaces\IVendible.cs" />
+    <Compile Include="ConcesionarioVehiculos\Modelos\Auto.cs" />
+    <Compile Include="ConcesionarioVehiculos\Modelos\Camion.cs" />
+    <Compile Include="ConcesionarioVehiculos\Modelos\Motocicleta.cs" />
     <Compile Include="ConcesionarioVehiculos\Modelos\Vehiculo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

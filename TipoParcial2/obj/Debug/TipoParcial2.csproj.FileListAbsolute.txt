@@ -1,0 +1,7 @@
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\TipoParcial2\obj\Debug\TipoParcial2.csproj.AssemblyReference.cache
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\TipoParcial2\obj\Debug\TipoParcial2.csproj.CoreCompileInputs.cache
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\TipoParcial2\bin\Debug\TipoParcial2.exe.config
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\TipoParcial2\bin\Debug\TipoParcial2.exe
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\TipoParcial2\bin\Debug\TipoParcial2.pdb
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\TipoParcial2\obj\Debug\TipoParcial2.exe
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\TipoParcial2\obj\Debug\TipoParcial2.pdb

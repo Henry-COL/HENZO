@@ -1,8 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Corte_1\\Ejercicios-POO\\Cuenta_Bancaria"
+    "\\Corte_1\\Ejercicios-POO",
+    "\\Corte_1\\Ejercicios-POO\\Cuenta_Bancaria",
+    "\\TipoParcial2",
+    "\\TipoParcial2\\ConcesionarioVehiculos",
+    "\\TipoParcial2\\ConcesionarioVehiculos\\Modelos"
   ],
-  "SelectedNode": "\\Corte_1",
+  "SelectedNode": "\\TipoParcial2\\ConcesionarioVehiculos\\Modelos\\Motocicleta.cs",
   "PreviewInSolutionExplorer": false
 }
