@@ -1,0 +1,7 @@
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\GestorArchivos\bin\Debug\GestorArchivos.exe.config
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\GestorArchivos\bin\Debug\GestorArchivos.exe
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\GestorArchivos\bin\Debug\GestorArchivos.pdb
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\GestorArchivos\obj\Debug\GestorArchivos.csproj.AssemblyReference.cache
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\GestorArchivos\obj\Debug\GestorArchivos.csproj.CoreCompileInputs.cache
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\GestorArchivos\obj\Debug\GestorArchivos.exe
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\GestorArchivos\obj\Debug\GestorArchivos.pdb
