@@ -8,5 +8,6 @@ namespace TipoParcial.BibliotecaDigital.Enums
 {
     public enum TipoCategoria
     {
+        Ficcion, NoFiccion, Ciencia, Historia
     }
 }

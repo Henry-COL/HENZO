@@ -8,5 +8,10 @@ namespace TipoParcial.BibliotecaDigital.Interfaces
 {
     public interface IPrestable
     {
+
+        DateTime CalcularFechaDevolcion();
+        void GenerarComprobantePrestamo();
+        decimal CalcularMultaPorRetraso(int diasRetraso);
+
     }
 }
