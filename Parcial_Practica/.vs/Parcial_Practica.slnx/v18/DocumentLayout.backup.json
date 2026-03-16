@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Parcial_Practica\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{959AA039-8C5C-41E9-BD4C-FAD7C9256840}|Parcial_Practica.csproj|c:\\users\\henry quintero\\documents\\github\\henzo\\parcial_practica\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{959AA039-8C5C-41E9-BD4C-FAD7C9256840}|Parcial_Practica.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{959AA039-8C5C-41E9-BD4C-FAD7C9256840}|Parcial_Practica.csproj|c:\\users\\henry quintero\\documents\\github\\henzo\\parcial_practica\\globalship\\modelo\\paquete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{959AA039-8C5C-41E9-BD4C-FAD7C9256840}|Parcial_Practica.csproj|solutionrelative:globalship\\modelo\\paquete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{959AA039-8C5C-41E9-BD4C-FAD7C9256840}|Parcial_Practica.csproj|c:\\users\\henry quintero\\documents\\github\\henzo\\parcial_practica\\globalship\\enum\\tipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{959AA039-8C5C-41E9-BD4C-FAD7C9256840}|Parcial_Practica.csproj|solutionrelative:globalship\\enum\\tipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Tipo.cs",
+              "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Parcial_Practica\\GlobalShip\\Enum\\Tipo.cs",
+              "RelativeDocumentMoniker": "GlobalShip\\Enum\\Tipo.cs",
+              "ToolTip": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Parcial_Practica\\GlobalShip\\Enum\\Tipo.cs",
+              "RelativeToolTip": "GlobalShip\\Enum\\Tipo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T13:33:11.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Paquete.cs",
+              "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Parcial_Practica\\GlobalShip\\Modelo\\Paquete.cs",
+              "RelativeDocumentMoniker": "GlobalShip\\Modelo\\Paquete.cs",
+              "ToolTip": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Parcial_Practica\\GlobalShip\\Modelo\\Paquete.cs",
+              "RelativeToolTip": "GlobalShip\\Modelo\\Paquete.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAADwvxUAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T13:32:18.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Parcial_Practica\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Parcial_Practica\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwDAAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T13:29:18.224Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
