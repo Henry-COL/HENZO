@@ -4,11 +4,14 @@
     "\\Corte_1",
     "\\Corte_1\\Ejercicios-POO",
     "\\Corte_1\\Ejercicios-POO\\Cuenta_Bancaria",
+    "\\Corte_1\\Ejercicios_Basicos",
+    "\\Corte_1\\Ejercicios_Basicos\\EJ_Tema1",
+    "\\Corte_1\\Ejercicios_Basicos\\EJ_Tema1\\Simulador_Semaforo",
     "\\TipoParcial",
     "\\TipoParcial2",
     "\\TipoParcial2\\ConcesionarioVehiculos",
     "\\TipoParcial2\\ConcesionarioVehiculos\\Modelos"
   ],
-  "SelectedNode": "\\Corte_1\\Ejercicios-POO\\Cuenta_Bancaria\\Program.cs",
+  "SelectedNode": "\\Corte_1\\Ejercicios_Basicos\\EJ_Tema1\\Simulador_Semaforo\\Semaforo.cs",
   "PreviewInSolutionExplorer": false
 }
