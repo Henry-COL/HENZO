@@ -1,0 +1,7 @@
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Cumpleaños\bin\Debug\Cumpleaños.exe.config
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Cumpleaños\bin\Debug\Cumpleaños.exe
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Cumpleaños\bin\Debug\Cumpleaños.pdb
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Cumpleaños\obj\Debug\Cumpleaños.csproj.AssemblyReference.cache
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Cumpleaños\obj\Debug\Cumpleaños.csproj.CoreCompileInputs.cache
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Cumpleaños\obj\Debug\Cumpleaños.exe
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Cumpleaños\obj\Debug\Cumpleaños.pdb

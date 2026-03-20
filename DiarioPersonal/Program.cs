@@ -8,35 +8,50 @@ namespace DiarioPersonal
     {
         static void Main(string[] args)
         {
-            Console.Write("Nombre: ");
-            var usuario = Console.ReadLine();
-            if (string.IsNullOrWhiteSpace(usuario)) usuario = "Usuario";
+            // 1. Configuración de la carpeta
+            string nombreCarpeta = "Diarios";
+            // Obtenemos la ruta de la carpeta de ejecución (bin/Debug) y le sumamos "Diarios"
+            string rutaDirectorio = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, nombreCarpeta);
 
-            var ruta = Path.Combine(Environment.CurrentDirectory, "diario.txt");
-
-            if (File.Exists(ruta))
+            // 2. Crear la carpeta si no existe
+            if (!Directory.Exists(rutaDirectorio))
             {
-                var lineas = File.ReadAllLines(ruta);
-                Console.WriteLine("\nÚltimas 3 entradas:");
-                foreach (var l in lineas.Skip(Math.Max(0, lineas.Length - 3)))
-                    Console.WriteLine(l);
-            }
-            else
-            {
-                Console.WriteLine("\nNo hay entradas.");
+                Directory.CreateDirectory(rutaDirectorio);
             }
 
-            Console.Write("\nEscribe tu entrada: ");
-            var mensaje = Console.ReadLine();
-            if (string.IsNullOrWhiteSpace(mensaje))
+            Console.WriteLine("======= Bienvenido a tu diario personal =======");
+            Console.Write("Ingresa tu nombre: ");
+            string nombre = Console.ReadLine();
+
+            Console.Write("¿Qué tienes en mente hoy?: ");
+            string pensamiento = Console.ReadLine();
+
+            // 3. Preparar el contenido con fecha y hora
+            string fechaActual = DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss");
+            string entradaDiario = $"[{fechaActual}] - {nombre}: {pensamiento}" + Environment.NewLine;
+
+            // 4. Construir la ruta del archivo correctamente
+            // NOTA: Solo usamos el nombre del archivo, porque la carpeta ya está en 'rutaDirectorio'
+            string nombreArchivo = $"{nombre}_diario.txt";
+            string rutaCompleta = Path.Combine(rutaDirectorio, nombreArchivo);
+
+            try
             {
-                Console.WriteLine("Nada que guardar.");
-                return;
+                // 5. Guardar el archivo (AppendAllText agrega texto al final, no sobrescribe)
+                File.AppendAllText(rutaCompleta, entradaDiario);
+
+                Console.WriteLine("\n===============================================");
+                Console.WriteLine("Pensamiento guardado con éxito.");
+                Console.WriteLine($"Archivo: {rutaCompleta}");
+                Console.WriteLine("===============================================");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"\nHubo un error al guardar: {ex.Message}");
             }
 
-            var linea = $"[{DateTime.Now:yyyy-MM-dd HH:mm:ss}] - {usuario}: {mensaje}{Environment.NewLine}";
-            File.AppendAllText(ruta, linea);
-            Console.WriteLine("Entrada guardada.");
+            Console.Write("\nPresiona cualquier tecla para salir...");
+            Console.ReadKey();
         }
     }
 }

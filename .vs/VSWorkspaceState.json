@@ -1,13 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Corte_1\\Ejercicios_Basicos",
-    "\\Corte_1\\Ejercicios_Basicos\\EJ_Tema1",
-    "\\Corte_1\\Ejercicios_Basicos\\EJ_Tema1\\Simulador_Semaforo",
-    "\\Parcial_Practica2\\Healt Tech\\Enum",
-    "\\TipoParcial2\\ConcesionarioVehiculos",
-    "\\TipoParcial2\\ConcesionarioVehiculos\\Modelos"
+    "\\DiarioPersonal"
   ],
-  "SelectedNode": "\\Parcial_Practica2",
+  "SelectedNode": "\\DiarioPersonal\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
