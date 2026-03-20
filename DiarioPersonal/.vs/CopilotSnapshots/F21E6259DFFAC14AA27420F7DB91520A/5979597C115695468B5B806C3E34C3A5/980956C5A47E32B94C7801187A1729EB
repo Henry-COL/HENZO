@@ -1,0 +1,64 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace DiarioPersonal
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            // Solicita el nombre del usuario
+            Console.Write("Ingrese su nombre: ");
+            string usuario = Console.ReadLine();
+            if (string.IsNullOrWhiteSpace(usuario))
+            {
+                usuario = "Usuario";
+            }
+
+            string ruta = System.IO.Path.Combine(Environment.CurrentDirectory, "diario.txt");
+
+            // Mostrar las últimas 3 líneas si el archivo existe
+            if (System.IO.File.Exists(ruta))
+            {
+                var todasLineas = System.IO.File.ReadAllLines(ruta, Encoding.UTF8);
+                Console.WriteLine("\nÚltimas 3 entradas del diario:");
+                int inicio = Math.Max(0, todasLineas.Length - 3);
+                for (int i = inicio; i < todasLineas.Length; i++)
+                {
+                    Console.WriteLine(todasLineas[i]);
+                }
+            }
+            else
+            {
+                Console.WriteLine("\nNo hay entradas previas en el diario.");
+            }
+
+            // Pedir nueva entrada
+            Console.WriteLine("\nEscribe tu pensamiento o actividad del día (presiona Enter para finalizar):");
+            string mensaje = Console.ReadLine();
+
+            if (string.IsNullOrWhiteSpace(mensaje))
+            {
+                Console.WriteLine("Entrada vacía. No se guardó nada.");
+                return;
+            }
+
+            string fechaHora = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
+            string linea = string.Format("[{0}] - {1}: {2}{3}", fechaHora, usuario, mensaje, Environment.NewLine);
+
+            try
+            {
+                // Regla de oro: no sobrescribir, usar AppendAllText
+                System.IO.File.AppendAllText(ruta, linea, Encoding.UTF8);
+                Console.WriteLine("\nEntrada guardada correctamente en: " + ruta);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Ocurrió un error al guardar la entrada: " + ex.Message);
+            }
+        }
+    }
+}

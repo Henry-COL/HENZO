@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Practica_Casa1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B11913D1-D616-4746-8B28-ADC0C49A39F0}|Practica_Casa1.csproj|c:\\users\\henry quintero\\documents\\github\\henzo\\practica_casa1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B11913D1-D616-4746-8B28-ADC0C49A39F0}|Practica_Casa1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B11913D1-D616-4746-8B28-ADC0C49A39F0}|Practica_Casa1.csproj|C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Practica_Casa1\\registroshospital\\interfaces\\icitas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B11913D1-D616-4746-8B28-ADC0C49A39F0}|Practica_Casa1.csproj|solutionrelative:registroshospital\\interfaces\\icitas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B11913D1-D616-4746-8B28-ADC0C49A39F0}|Practica_Casa1.csproj|C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Practica_Casa1\\registroshospital\\enums\\tipogravedad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B11913D1-D616-4746-8B28-ADC0C49A39F0}|Practica_Casa1.csproj|solutionrelative:registroshospital\\enums\\tipogravedad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ICitas.cs",
+              "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Practica_Casa1\\RegistrosHospital\\Interfaces\\ICitas.cs",
+              "RelativeDocumentMoniker": "RegistrosHospital\\Interfaces\\ICitas.cs",
+              "ToolTip": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Practica_Casa1\\RegistrosHospital\\Interfaces\\ICitas.cs",
+              "RelativeToolTip": "RegistrosHospital\\Interfaces\\ICitas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T02:13:55.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TipoGravedad.cs",
+              "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Practica_Casa1\\RegistrosHospital\\Enums\\TipoGravedad.cs",
+              "RelativeDocumentMoniker": "RegistrosHospital\\Enums\\TipoGravedad.cs",
+              "ToolTip": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Practica_Casa1\\RegistrosHospital\\Enums\\TipoGravedad.cs",
+              "RelativeToolTip": "RegistrosHospital\\Enums\\TipoGravedad.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T02:12:31.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Practica_Casa1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Practica_Casa1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T02:11:32.528Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

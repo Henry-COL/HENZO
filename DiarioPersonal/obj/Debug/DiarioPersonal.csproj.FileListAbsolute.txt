@@ -1,0 +1,7 @@
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\DiarioPersonal\bin\Debug\DiarioPersonal.exe.config
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\DiarioPersonal\bin\Debug\DiarioPersonal.exe
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\DiarioPersonal\bin\Debug\DiarioPersonal.pdb
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\DiarioPersonal\obj\Debug\DiarioPersonal.csproj.AssemblyReference.cache
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\DiarioPersonal\obj\Debug\DiarioPersonal.csproj.CoreCompileInputs.cache
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\DiarioPersonal\obj\Debug\DiarioPersonal.exe
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\DiarioPersonal\obj\Debug\DiarioPersonal.pdb

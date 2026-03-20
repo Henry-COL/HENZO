@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Parcial_Practica2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B0E77DEC-CD25-409E-9A4F-1A2353F09486}|Parcial_Practica2.csproj|C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Parcial_Practica2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0E77DEC-CD25-409E-9A4F-1A2353F09486}|Parcial_Practica2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B0E77DEC-CD25-409E-9A4F-1A2353F09486}|Parcial_Practica2.csproj|c:\\users\\henry quintero\\documents\\github\\henzo\\parcial_practica2\\healt tech\\enum\\especialidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B0E77DEC-CD25-409E-9A4F-1A2353F09486}|Parcial_Practica2.csproj|solutionrelative:healt tech\\enum\\especialidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0E77DEC-CD25-409E-9A4F-1A2353F09486}|Parcial_Practica2.csproj|c:\\users\\henry quintero\\documents\\github\\henzo\\parcial_practica2\\healt tech\\interfaz\\iprioritario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B0E77DEC-CD25-409E-9A4F-1A2353F09486}|Parcial_Practica2.csproj|C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Parcial_Practica2\\healt tech\\interfaz\\iprioritario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B0E77DEC-CD25-409E-9A4F-1A2353F09486}|Parcial_Practica2.csproj|solutionrelative:healt tech\\interfaz\\iprioritario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0E77DEC-CD25-409E-9A4F-1A2353F09486}|Parcial_Practica2.csproj|c:\\users\\henry quintero\\documents\\github\\henzo\\parcial_practica2\\healt tech\\modelo\\citamedica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B0E77DEC-CD25-409E-9A4F-1A2353F09486}|Parcial_Practica2.csproj|C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Parcial_Practica2\\healt tech\\modelo\\citamedica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B0E77DEC-CD25-409E-9A4F-1A2353F09486}|Parcial_Practica2.csproj|solutionrelative:healt tech\\modelo\\citamedica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0E77DEC-CD25-409E-9A4F-1A2353F09486}|Parcial_Practica2.csproj|c:\\users\\henry quintero\\documents\\github\\henzo\\parcial_practica2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0E77DEC-CD25-409E-9A4F-1A2353F09486}|Parcial_Practica2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,37 +26,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "IPrioritario.cs",
               "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Parcial_Practica2\\Healt Tech\\interfaz\\IPrioritario.cs",
               "RelativeDocumentMoniker": "Healt Tech\\interfaz\\IPrioritario.cs",
               "ToolTip": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Parcial_Practica2\\Healt Tech\\interfaz\\IPrioritario.cs",
               "RelativeToolTip": "Healt Tech\\interfaz\\IPrioritario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-19T20:27:26.856Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Citamedica.cs",
               "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Parcial_Practica2\\Healt Tech\\modelo\\Citamedica.cs",
               "RelativeDocumentMoniker": "Healt Tech\\modelo\\Citamedica.cs",
               "ToolTip": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Parcial_Practica2\\Healt Tech\\modelo\\Citamedica.cs",
               "RelativeToolTip": "Healt Tech\\modelo\\Citamedica.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAcwBgAAABiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-19T20:22:43.229Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Especialidad.cs",
               "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Parcial_Practica2\\Healt Tech\\Enum\\Especialidad.cs",
               "RelativeDocumentMoniker": "Healt Tech\\Enum\\Especialidad.cs",
@@ -69,13 +69,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Parcial_Practica2\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Parcial_Practica2\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwDAAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-19T20:10:59.205Z",
               "EditorCaption": ""

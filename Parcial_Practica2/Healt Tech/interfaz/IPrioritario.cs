@@ -8,6 +8,6 @@ namespace Parcial_Practica2.Healt_Tech.interfaz
 {
     public interface IPrioritario
     {
-        double calculardescuento();
+        double AplicarDescuento();
     }
 }

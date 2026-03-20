@@ -1,16 +1,13 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Corte_1",
-    "\\Corte_1\\Ejercicios-POO",
-    "\\Corte_1\\Ejercicios-POO\\Cuenta_Bancaria",
     "\\Corte_1\\Ejercicios_Basicos",
     "\\Corte_1\\Ejercicios_Basicos\\EJ_Tema1",
     "\\Corte_1\\Ejercicios_Basicos\\EJ_Tema1\\Simulador_Semaforo",
-    "\\TipoParcial",
-    "\\TipoParcial2",
+    "\\Parcial_Practica2\\Healt Tech\\Enum",
     "\\TipoParcial2\\ConcesionarioVehiculos",
     "\\TipoParcial2\\ConcesionarioVehiculos\\Modelos"
   ],
+  "SelectedNode": "\\Parcial_Practica2",
   "PreviewInSolutionExplorer": false
 }

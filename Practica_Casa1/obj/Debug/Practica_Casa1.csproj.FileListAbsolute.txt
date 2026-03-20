@@ -1,0 +1,7 @@
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Practica_Casa1\bin\Debug\Practica_Casa1.exe.config
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Practica_Casa1\bin\Debug\Practica_Casa1.exe
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Practica_Casa1\bin\Debug\Practica_Casa1.pdb
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Practica_Casa1\obj\Debug\Practica_Casa1.csproj.AssemblyReference.cache
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Practica_Casa1\obj\Debug\Practica_Casa1.csproj.CoreCompileInputs.cache
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Practica_Casa1\obj\Debug\Practica_Casa1.exe
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Practica_Casa1\obj\Debug\Practica_Casa1.pdb

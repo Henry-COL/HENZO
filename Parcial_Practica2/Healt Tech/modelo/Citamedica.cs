@@ -1,4 +1,5 @@
-﻿using Parcial_Practica2.Healt_Tech.interfaz;
+﻿using Parcial_Practica2.Healt_Tech.Enum;
+using Parcial_Practica2.Healt_Tech.interfaz;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,28 +10,30 @@ namespace Parcial_Practica2.Healt_Tech.modelo
 {
     public class Citamedica : IPrioritario
     {
-        public string paciente { get; set; }
-        public string especialidad { get; set; }
-        public double costobase { get; set; }
+        public string Paciente { get; set; }
+        public Especialidad Especialidad { get; set; }
 
-        public Citamedica(string paciente, string especialidad, double costobase)
+        public double CostoBase { get; set; }
+
+        public Citamedica(string Paciente, Especialidad Especialidad, double CostoBase)
         {
-            this.paciente = paciente;
-            this.especialidad = especialidad;
-            this.costobase = costobase;
+            this.Paciente = Paciente;
+            this.Especialidad = Especialidad;
+            this.CostoBase = CostoBase;
         }
 
-        public double calculardescuento()
+        public string ToCSV() => $"Nombre: {Paciente}, Especialidad: {Especialidad},Costo Base: $ {CostoBase}";
+
+        public double AplicarDescuento()
         {
-            if (!string.IsNullOrEmpty(especialidad) && especialidad.Equals("pediatra", StringComparison.OrdinalIgnoreCase))
+            double descuento = 0;
+            switch (Especialidad)
             {
-                return costobase - (costobase * 0.20);
+                case Especialidad Especialidad:
+                    descuento = 0.20;
+                    break;
             }
-            else
-            {
-                return costobase;
-            }
+            return CostoBase * (CostoBase - descuento);
         }
-  
     }
 }
