@@ -1,0 +1,36 @@
+﻿using Parcial_Practica2.Healt_Tech.interfaz;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Parcial_Practica2.Healt_Tech.modelo
+{
+    public class Citamedica : IPrioritario
+    {
+        public string paciente { get; set; }
+        public string especialidad { get; set; }
+        public double costobase { get; set; }
+
+        public Citamedica(string paciente, string especialidad, double costobase)
+        {
+            this.paciente = paciente;
+            this.especialidad = especialidad;
+            this.costobase = costobase;
+        }
+
+        public double calculardescuento()
+        {
+            if (!string.IsNullOrEmpty(especialidad) && especialidad.Equals("pediatra", StringComparison.OrdinalIgnoreCase))
+            {
+                return costobase - (costobase * 0.20);
+            }
+            else
+            {
+                return costobase;
+            }
+        }
+  
+    }
+}

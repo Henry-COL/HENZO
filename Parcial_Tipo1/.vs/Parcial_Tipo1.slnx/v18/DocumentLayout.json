@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Parcial_Tipo1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B4264AD4-3DFC-4FCA-ABFE-5DB4D0797823}|Parcial_Tipo1.csproj|c:\\users\\henry quintero\\documents\\github\\henzo\\parcial_tipo1\\parkingpro\\modelo\\vehiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4264AD4-3DFC-4FCA-ABFE-5DB4D0797823}|Parcial_Tipo1.csproj|solutionrelative:parkingpro\\modelo\\vehiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Parcial_Tipo1\\ParkingPro\\Modelo\\Vehiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ParkingPro\\Modelo\\Vehiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4264AD4-3DFC-4FCA-ABFE-5DB4D0797823}|Parcial_Tipo1.csproj|c:\\users\\henry quintero\\documents\\github\\henzo\\parcial_tipo1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B4264AD4-3DFC-4FCA-ABFE-5DB4D0797823}|Parcial_Tipo1.csproj|C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Parcial_Tipo1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4264AD4-3DFC-4FCA-ABFE-5DB4D0797823}|Parcial_Tipo1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -26,9 +26,9 @@
               "Title": "Vehiculo.cs",
               "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Parcial_Tipo1\\ParkingPro\\Modelo\\Vehiculo.cs",
               "RelativeDocumentMoniker": "ParkingPro\\Modelo\\Vehiculo.cs",
-              "ToolTip": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Parcial_Tipo1\\ParkingPro\\Modelo\\Vehiculo.cs*",
-              "RelativeToolTip": "ParkingPro\\Modelo\\Vehiculo.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Parcial_Tipo1\\ParkingPro\\Modelo\\Vehiculo.cs",
+              "RelativeToolTip": "ParkingPro\\Modelo\\Vehiculo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-16T16:49:36.71Z",
               "EditorCaption": ""
@@ -43,8 +43,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T16:49:11.891Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-16T16:49:11.891Z"
             }
           ]
         }
