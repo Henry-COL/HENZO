@@ -1,0 +1,2 @@
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Parcial_Corte1_Ejercicio1\obj\Debug\Parcial_Corte1_Ejercicio1.csproj.AssemblyReference.cache
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Parcial_Corte1_Ejercicio1\obj\Debug\Parcial_Corte1_Ejercicio1.csproj.CoreCompileInputs.cache

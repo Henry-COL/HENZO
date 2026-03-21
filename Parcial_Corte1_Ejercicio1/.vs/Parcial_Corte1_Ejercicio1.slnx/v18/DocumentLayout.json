@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Parcial_Corte1_Ejercicio1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AAC365CB-E3FF-48CF-B98E-A6FBEFC924C9}|Parcial_Corte1_Ejercicio1.csproj|c:\\users\\henry quintero\\documents\\github\\henzo\\parcial_corte1_ejercicio1\\autopartes express\\modelos\\repuesto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAC365CB-E3FF-48CF-B98E-A6FBEFC924C9}|Parcial_Corte1_Ejercicio1.csproj|solutionrelative:autopartes express\\modelos\\repuesto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAC365CB-E3FF-48CF-B98E-A6FBEFC924C9}|Parcial_Corte1_Ejercicio1.csproj|c:\\users\\henry quintero\\documents\\github\\henzo\\parcial_corte1_ejercicio1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAC365CB-E3FF-48CF-B98E-A6FBEFC924C9}|Parcial_Corte1_Ejercicio1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAC365CB-E3FF-48CF-B98E-A6FBEFC924C9}|Parcial_Corte1_Ejercicio1.csproj|c:\\users\\henry quintero\\documents\\github\\henzo\\parcial_corte1_ejercicio1\\autopartes express\\enums\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAC365CB-E3FF-48CF-B98E-A6FBEFC924C9}|Parcial_Corte1_Ejercicio1.csproj|solutionrelative:autopartes express\\enums\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAC365CB-E3FF-48CF-B98E-A6FBEFC924C9}|Parcial_Corte1_Ejercicio1.csproj|c:\\users\\henry quintero\\documents\\github\\henzo\\parcial_corte1_ejercicio1\\autopartes express\\interfaces\\igestionable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAC365CB-E3FF-48CF-B98E-A6FBEFC924C9}|Parcial_Corte1_Ejercicio1.csproj|solutionrelative:autopartes express\\interfaces\\igestionable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Repuesto.cs",
+              "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Parcial_Corte1_Ejercicio1\\AutoPartes Express\\Modelos\\Repuesto.cs",
+              "RelativeDocumentMoniker": "AutoPartes Express\\Modelos\\Repuesto.cs",
+              "ToolTip": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Parcial_Corte1_Ejercicio1\\AutoPartes Express\\Modelos\\Repuesto.cs",
+              "RelativeToolTip": "AutoPartes Express\\Modelos\\Repuesto.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAmwJEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T11:12:44.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IGestionable.cs",
+              "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Parcial_Corte1_Ejercicio1\\AutoPartes Express\\Interfaces\\IGestionable.cs",
+              "RelativeDocumentMoniker": "AutoPartes Express\\Interfaces\\IGestionable.cs",
+              "ToolTip": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Parcial_Corte1_Ejercicio1\\AutoPartes Express\\Interfaces\\IGestionable.cs",
+              "RelativeToolTip": "AutoPartes Express\\Interfaces\\IGestionable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T11:10:30.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Parcial_Corte1_Ejercicio1\\AutoPartes Express\\Enums\\Categoria.cs",
+              "RelativeDocumentMoniker": "AutoPartes Express\\Enums\\Categoria.cs",
+              "ToolTip": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Parcial_Corte1_Ejercicio1\\AutoPartes Express\\Enums\\Categoria.cs",
+              "RelativeToolTip": "AutoPartes Express\\Enums\\Categoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T11:09:17.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Parcial_Corte1_Ejercicio1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Parcial_Corte1_Ejercicio1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T11:07:58.388Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
