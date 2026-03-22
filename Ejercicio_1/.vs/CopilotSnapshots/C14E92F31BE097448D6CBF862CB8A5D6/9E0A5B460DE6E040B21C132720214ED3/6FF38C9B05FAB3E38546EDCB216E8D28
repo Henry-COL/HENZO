@@ -1,0 +1,104 @@
+﻿using Ejercicio_1.HospitalSystem.Enums;
+using Ejercicio_1.HospitalSystem.Interfaces;
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Ejercicio_1.HospitalSystem.Modelos
+{
+    public class Pacientes : IHospital
+    {
+        string Nombre_Paciente { get; set; }
+        int edad_paciente { get; set; }
+        int cedula_paciente { get; set; }
+        string telefono_paciente { get; set; }
+        TipoGravedad gravedad_paciente { get; set; }
+
+        public Pacientes(string nombre, int edad, int cedula_paciente,string telefono_paciente, TipoGravedad gravedad)
+        {
+            this.Nombre_Paciente = nombre;
+            this.edad_paciente = edad;
+            this.cedula_paciente = cedula_paciente;
+            this.telefono_paciente = telefono_paciente ;
+            this.gravedad_paciente = gravedad;
+        }
+
+        public double TotalPagar()
+        {
+            double pagar = 0;
+
+            switch (gravedad_paciente)
+            {
+                case TipoGravedad.Moderado:
+                    pagar = 5000;
+                    break;
+                case TipoGravedad.Leve:
+                    pagar = 2000;
+                    break;
+                case TipoGravedad.Grave:
+                    pagar = 10000;
+                    break;
+                case TipoGravedad.MuyGrave:
+                    pagar = 15000;
+                    break;
+                case TipoGravedad.Critico:
+                    pagar = 20000;
+                    break;
+                case TipoGravedad.SinGravedad:
+                    pagar = 1000;
+                    break;
+                case TipoGravedad.Desconocida:
+                    pagar = 3000;
+                    break;
+            }
+            return pagar;
+
+        }
+
+        public int TotalPacientes(List<Pacientes> lista)
+        {
+            if (lista == null)return 0;
+            return lista.Count;
+        }
+
+        public string Factura()
+        {
+            string fechaActual = DateTime.Now.ToString("dd/MM/yyyy hh:mm tt");
+
+            string datos = $"Fecha de Registro: {fechaActual}\n"; // <--- Nueva línea
+            datos += "--------------------------------------------\n";
+            datos += $"Paciente: {Nombre_Paciente}\n";
+            datos += $"Edad: {edad_paciente}\n";
+            datos += $"Cedula: {cedula_paciente}\n";
+            datos += $"Telefono: {telefono_paciente}\n";
+            datos += $"Gravedad: {gravedad_paciente}\n";
+            datos += $"\nTotal a Pagar: ${TotalPagar()}\n";
+
+            return datos;
+        }
+
+        public void Agregar(List<Pacientes> listaPacientes, string nombreCarpeta)
+        {
+            // Usamos 'this.gravedad' o solo 'gravedad' porque ya es una propiedad de esta clase
+            string rutaSubcarpeta = Path.Combine(nombreCarpeta, this.gravedad.ToString());
+
+            // Si la carpeta de la gravedad no existe, hay que crearla para evitar errores
+            if (!Directory.Exists(rutaSubcarpeta)) Directory.CreateDirectory(rutaSubcarpeta);
+
+            string nombreArchivo = $"{this.nombre}.txt";
+            string rutaArchivo = Path.Combine(rutaSubcarpeta, nombreArchivo);
+
+            // Guardado: Usamos 'this' para referirnos a este objeto actual
+            using (StreamWriter escritor = new StreamWriter(rutaArchivo))
+            {
+                // Llamamos a Factura() del objeto actual
+                escritor.WriteLine(this.Factura());
+            }
+
+            Console.WriteLine($"¡Datos de {this.nombre} guardados en la carpeta {this.gravedad}!");
+        }
+    }
+}

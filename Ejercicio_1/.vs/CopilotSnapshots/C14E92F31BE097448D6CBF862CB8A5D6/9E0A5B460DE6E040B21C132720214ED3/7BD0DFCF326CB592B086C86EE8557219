@@ -1,0 +1,47 @@
+﻿using Ejercicio_1.HospitalSystem.Interfaces;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Ejercicio_1.HospitalSystem.Modelos
+{
+    public class HospitalSystem : IHospital
+    {
+        public void Agregar(List<Pacientes> listaPacientes, string nombreCarpeta)
+        {
+            Console.Write("Ingrese el nombre del paciente: ");
+            string nombre = Console.ReadLine();
+            Console.Write("Ingrese la edad del paciente: ");
+            int edad = int.Parse(Console.ReadLine());
+            Console.Write("Ingrese la cedula del paciente: ");
+            int cedula = int.Parse(Console.ReadLine());
+            Console.Write("Ingrese el telefono del paciente: ");
+            string telefono = Console.ReadLine();
+            Console.Write("Ingrese la gravedad del paciente (Moderado, Leve, Grave, MuyGrave, Critico, SinGravedad, Desconocida): ");
+            string gravedadInput = Console.ReadLine();
+            TipoGravedad gravedad;
+            while (!Enum.TryParse(gravedadInput, true, out gravedad))
+            {
+                Console.Write("Gravedad no válida. Ingrese nuevamente (Moderado, Leve, Grave, MuyGrave, Critico, SinGravedad, Desconocida): ");
+                gravedadInput = Console.ReadLine();
+            }
+            Pacientes nuevoPaciente = new Pacientes(nombre, edad, cedula, telefono, gravedad);
+            listaPacientes.Add(nuevoPaciente);
+            // Guardar el paciente en un archivo de texto
+            string subCarpetaPath = System.IO.Path.Combine(nombreCarpeta, gravedad.ToString());
+            string archivoPath = System.IO.Path.Combine(subCarpetaPath, $"{cedula}.txt");
+            using (System.IO.StreamWriter writer = new System.IO.StreamWriter(archivoPath))
+            {
+                writer.WriteLine($"Nombre: {nombre}");
+                writer.WriteLine($"Edad: {edad}");
+                writer.WriteLine($"Cedula: {cedula}");
+                writer.WriteLine($"Telefono: {telefono}");
+                writer.WriteLine($"Gravedad: {gravedad}");
+                writer.WriteLine($"Total a Pagar: {nuevoPaciente.TotalPagar()}");
+            }
+            Console.WriteLine("Paciente agregado exitosamente.");
+        }
+    }
+}

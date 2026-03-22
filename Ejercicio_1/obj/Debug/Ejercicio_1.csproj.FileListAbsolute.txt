@@ -1,0 +1,7 @@
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Ejercicio_1\bin\Debug\Ejercicio_1.exe.config
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Ejercicio_1\bin\Debug\Ejercicio_1.exe
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Ejercicio_1\bin\Debug\Ejercicio_1.pdb
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Ejercicio_1\obj\Debug\Ejercicio_1.csproj.AssemblyReference.cache
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Ejercicio_1\obj\Debug\Ejercicio_1.csproj.CoreCompileInputs.cache
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Ejercicio_1\obj\Debug\Ejercicio_1.exe
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Ejercicio_1\obj\Debug\Ejercicio_1.pdb
