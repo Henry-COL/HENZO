@@ -1,9 +1,0 @@
-Fecha de Registro: 21/03/2026 11:46 p. m.
-Paciente: Ana Sofia
-Edad: 17
-Cedula: 23123131
-Telefono: 213132131
-Gravedad: Moderado
-
-Total a Pagar: $5000
-
