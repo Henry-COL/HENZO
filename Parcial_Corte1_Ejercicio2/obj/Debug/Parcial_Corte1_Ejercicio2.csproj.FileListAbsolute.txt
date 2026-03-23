@@ -1,0 +1,7 @@
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Parcial_Corte1_Ejercicio2\obj\Debug\Parcial_Corte1_Ejercicio2.csproj.AssemblyReference.cache
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Parcial_Corte1_Ejercicio2\obj\Debug\Parcial_Corte1_Ejercicio2.csproj.CoreCompileInputs.cache
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Parcial_Corte1_Ejercicio2\bin\Debug\Parcial_Corte1_Ejercicio2.exe.config
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Parcial_Corte1_Ejercicio2\bin\Debug\Parcial_Corte1_Ejercicio2.exe
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Parcial_Corte1_Ejercicio2\bin\Debug\Parcial_Corte1_Ejercicio2.pdb
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Parcial_Corte1_Ejercicio2\obj\Debug\Parcial_Corte1_Ejercicio2.exe
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Parcial_Corte1_Ejercicio2\obj\Debug\Parcial_Corte1_Ejercicio2.pdb
