@@ -1,0 +1,2 @@
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Corte_2\EjerciciosPractica\EjerciciosClase\Ejercicio_1_PROG\obj\Debug\Ejercicio_1_PROG.csproj.AssemblyReference.cache
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Corte_2\EjerciciosPractica\EjerciciosClase\Ejercicio_1_PROG\obj\Debug\Ejercicio_1_PROG.csproj.CoreCompileInputs.cache

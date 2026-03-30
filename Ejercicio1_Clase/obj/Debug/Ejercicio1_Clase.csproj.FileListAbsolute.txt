@@ -1,0 +1,7 @@
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Ejercicio1_Clase\obj\Debug\Ejercicio1_Clase.csproj.AssemblyReference.cache
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Ejercicio1_Clase\obj\Debug\Ejercicio1_Clase.csproj.CoreCompileInputs.cache
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Ejercicio1_Clase\bin\Debug\Ejercicio1_Clase.exe.config
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Ejercicio1_Clase\bin\Debug\Ejercicio1_Clase.exe
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Ejercicio1_Clase\bin\Debug\Ejercicio1_Clase.pdb
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Ejercicio1_Clase\obj\Debug\Ejercicio1_Clase.exe
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Ejercicio1_Clase\obj\Debug\Ejercicio1_Clase.pdb
