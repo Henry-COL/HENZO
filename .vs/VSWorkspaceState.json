@@ -1,11 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Corte_1",
-    "\\Corte_1\\Parcial_Corte",
     "\\Corte_2",
-    "\\Corte_2\\EjerciciosPractica"
+    "\\Corte_2\\EjerciciosPractica",
+    "\\Corte_2\\EjerciciosPractica\\EjerciciosCasa\\Ejercicio_1",
+    "\\Corte_2\\EjerciciosPractica\\EjerciciosClase"
   ],
-  "SelectedNode": "\\Corte_2\\EjerciciosPractica\\EjerciciosClase",
+  "SelectedNode": "\\Corte_2\\EjerciciosPractica\\EjerciciosClase\\Ejercicio_1_PROG",
   "PreviewInSolutionExplorer": false
 }
