@@ -1,9 +1,13 @@
 {
   "ExpandedNodes": [
     "",
+    "\\Corte_2",
     "\\Corte_2\\EjerciciosPractica",
-    "\\Corte_2\\EjerciciosPractica\\EjerciciosClase\\Ejercicio_5_PROG"
+    "\\Corte_2\\EjerciciosPractica\\EjerciciosClase",
+    "\\Corte_2\\EjerciciosPractica\\EjerciciosClase\\Ejercicio_5_PROG",
+    "\\Corte_2\\EjerciciosPractica\\EjerciciosClase\\PWV_Ejercicio_2",
+    "\\Corte_2\\EjerciciosPractica\\EjerciciosClase\\PWV_Ejercicio_3"
   ],
-  "SelectedNode": "\\README.md",
+  "SelectedNode": "\\Corte_2\\EjerciciosPractica\\EjerciciosClase\\PWV_Ejercicio_2\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
