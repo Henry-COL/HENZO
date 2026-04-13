@@ -1,0 +1,10 @@
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Corte_2\EjerciciosPractica\EjerciciosClase\PWV_Ejercicio_3\bin\Debug\PWV_Ejercicio_3.exe.config
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Corte_2\EjerciciosPractica\EjerciciosClase\PWV_Ejercicio_3\bin\Debug\PWV_Ejercicio_3.exe
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Corte_2\EjerciciosPractica\EjerciciosClase\PWV_Ejercicio_3\bin\Debug\PWV_Ejercicio_3.pdb
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Corte_2\EjerciciosPractica\EjerciciosClase\PWV_Ejercicio_3\obj\Debug\PWV_Ejercicio_3.csproj.AssemblyReference.cache
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Corte_2\EjerciciosPractica\EjerciciosClase\PWV_Ejercicio_3\obj\Debug\PWV_Ejercicio_3.Form1.resources
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Corte_2\EjerciciosPractica\EjerciciosClase\PWV_Ejercicio_3\obj\Debug\PWV_Ejercicio_3.csproj.GenerateResource.cache
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Corte_2\EjerciciosPractica\EjerciciosClase\PWV_Ejercicio_3\obj\Debug\PWV_Ejercicio_3.csproj.CoreCompileInputs.cache
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Corte_2\EjerciciosPractica\EjerciciosClase\PWV_Ejercicio_3\obj\Debug\PWV_Ejercicio_3.exe
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Corte_2\EjerciciosPractica\EjerciciosClase\PWV_Ejercicio_3\obj\Debug\PWV_Ejercicio_3.pdb
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Corte_2\EjerciciosPractica\EjerciciosClase\PWV_Ejercicio_3\obj\Debug\PWV_Ejercicio_3.Properties.Resources.resources
