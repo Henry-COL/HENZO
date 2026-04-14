@@ -1,0 +1,12 @@
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Corte_2\EjerciciosPractica\EjerciciosCasa\Ejercicio_2\ReproductorMusica\bin\Debug\ReproductorMusica.exe.config
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Corte_2\EjerciciosPractica\EjerciciosCasa\Ejercicio_2\ReproductorMusica\bin\Debug\ReproductorMusica.exe
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Corte_2\EjerciciosPractica\EjerciciosCasa\Ejercicio_2\ReproductorMusica\bin\Debug\ReproductorMusica.pdb
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Corte_2\EjerciciosPractica\EjerciciosCasa\Ejercicio_2\ReproductorMusica\obj\Debug\ReproductorMusica.csproj.AssemblyReference.cache
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Corte_2\EjerciciosPractica\EjerciciosCasa\Ejercicio_2\ReproductorMusica\obj\Debug\ReproductorMusica.Reproductor.resources
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Corte_2\EjerciciosPractica\EjerciciosCasa\Ejercicio_2\ReproductorMusica\obj\Debug\ReproductorMusica.csproj.GenerateResource.cache
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Corte_2\EjerciciosPractica\EjerciciosCasa\Ejercicio_2\ReproductorMusica\obj\Debug\ReproductorMusica.csproj.CoreCompileInputs.cache
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Corte_2\EjerciciosPractica\EjerciciosCasa\Ejercicio_2\ReproductorMusica\obj\Debug\ReproductorMusica.exe
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Corte_2\EjerciciosPractica\EjerciciosCasa\Ejercicio_2\ReproductorMusica\obj\Debug\ReproductorMusica.pdb
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Corte_2\EjerciciosPractica\EjerciciosCasa\Ejercicio_2\ReproductorMusica\obj\Debug\ReproductorMusica.Properties.Resources.resources
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Corte_2\EjerciciosPractica\EjerciciosCasa\Ejercicio_2\ReproductorMusica\obj\Debug\Interop.WMPLib.dll
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Corte_2\EjerciciosPractica\EjerciciosCasa\Ejercicio_2\ReproductorMusica\obj\Debug\ReproductorMusica.csproj.ResolveComReference.cache
