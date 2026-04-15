@@ -19,7 +19,7 @@ namespace ReproductorMusica
         {
             try
             {
-                string rutaArchivo = @"C:\Users\Henry Quintero\Documents\GitHub\HENZO\Corte_2\EjerciciosPractica\EjerciciosCasa\Ejercicio_2\ReproductorMusica\Images\Aria Vega, Ryan Castro -  CHÉVERE.mp3";
+                string rutaArchivo = @"C:\Users\Henry Quintero\Documents\GitHub\HENZO\Corte_2\EjerciciosPractica\EjerciciosCasa\Ejercicio_2\ReproductorMusica\Images\Feid - BREAK UP (FERXXO EDITION).mp3";
                 Titulo_Musica.Text = System.IO.Path.GetFileNameWithoutExtension(rutaArchivo);
                 player.URL = rutaArchivo;
                 player.controls.play();
