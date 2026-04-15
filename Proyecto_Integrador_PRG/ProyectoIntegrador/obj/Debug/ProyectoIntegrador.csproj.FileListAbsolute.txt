@@ -1,0 +1,10 @@
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Proyecto_Integrador_PRG\ProyectoIntegrador\bin\Debug\ProyectoIntegrador.exe.config
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Proyecto_Integrador_PRG\ProyectoIntegrador\bin\Debug\ProyectoIntegrador.exe
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Proyecto_Integrador_PRG\ProyectoIntegrador\bin\Debug\ProyectoIntegrador.pdb
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Proyecto_Integrador_PRG\ProyectoIntegrador\obj\Debug\ProyectoIntegrador.csproj.AssemblyReference.cache
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Proyecto_Integrador_PRG\ProyectoIntegrador\obj\Debug\ProyectoIntegrador.csproj.CoreCompileInputs.cache
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Proyecto_Integrador_PRG\ProyectoIntegrador\obj\Debug\ProyectoIntegrador.exe
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Proyecto_Integrador_PRG\ProyectoIntegrador\obj\Debug\ProyectoIntegrador.pdb
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Proyecto_Integrador_PRG\ProyectoIntegrador\obj\Debug\ProyectoIntegrador.Login.resources
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Proyecto_Integrador_PRG\ProyectoIntegrador\obj\Debug\ProyectoIntegrador.csproj.GenerateResource.cache
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Proyecto_Integrador_PRG\ProyectoIntegrador\obj\Debug\ProyectoIntegrador.Properties.Resources.resources
