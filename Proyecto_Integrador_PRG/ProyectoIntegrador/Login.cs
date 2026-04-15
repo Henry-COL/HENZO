@@ -32,29 +32,46 @@ namespace ProyectoIntegrador
         private void txtUser_Login_TextChanged(object sender, EventArgs e)
         {
 
-            if (string.IsNullOrWhiteSpace(txtUser_Login.Text))
+            if (!string.IsNullOrWhiteSpace(txtUser_Login.Text))
             {
-                lblError_Usuario_Login.Visible = true;
-                lblMensaje_Usuario_Login.Visible = true;
+                lblMensaje_Usuario_Login.Visible = false;
+                lblError_Usuario_Login.Visible = false;
             }
             else
             {
-                lblMensaje_Usuario_Login.Visible = false;
-
+                lblMensaje_Usuario_Login.Visible = true;
+                lblError_Usuario_Login.Visible = true;
             }
         }
 
         private void txtContraseña_Login_TextChanged(object sender, EventArgs e)
         {
-            if (string.IsNullOrWhiteSpace(txtContraseña_Login.Text))
+            txtContraseña_Login.UseSystemPasswordChar = true;
+            if (!string.IsNullOrWhiteSpace(txtContraseña_Login.Text))
             {
-                lblError_Contraseña_Login.Visible = true;
+                lblMensaje_Contraseña_Login.Visible = false;
+                lblError_Contraseña_Login.Visible = false;
             }
             else
             {
-                lblMensaje_Contraseña_Login.Visible = false;
-
+                lblMensaje_Contraseña_Login.Visible = true;
+                lblError_Contraseña_Login.Visible = true;
             }
+        }
+
+        private void lblOlvidoContraseña_Login_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Funcionalidad de recuperación de contraseña no implementada.");
+        }
+
+        private void lblRegistrarse_Login_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Funcionalidad de registro no implementada.");
+        }
+
+        private void btnMostarContraseña_Login_Click(object sender, EventArgs e)
+        {
+            txtContraseña_Login.UseSystemPasswordChar = !txtContraseña_Login.UseSystemPasswordChar;
         }
     }
 }

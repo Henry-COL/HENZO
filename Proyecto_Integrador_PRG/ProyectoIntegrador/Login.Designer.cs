@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.lblUsuario_Login = new System.Windows.Forms.Label();
@@ -43,6 +44,7 @@
             this.btnIniciarSesion_Login = new System.Windows.Forms.Button();
             this.lblRegistrarse_Login = new System.Windows.Forms.Label();
             this.picLogo_Login = new System.Windows.Forms.PictureBox();
+            this.btnMostarContraseña_Login = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picLogo_Login)).BeginInit();
@@ -96,10 +98,11 @@
             // btnCerrrar_Login
             // 
             this.btnCerrrar_Login.BackColor = System.Drawing.Color.Crimson;
-            this.btnCerrrar_Login.BackgroundImage = null;
+            this.btnCerrrar_Login.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnCerrrar_Login.BackgroundImage")));
             this.btnCerrrar_Login.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnCerrrar_Login.DialogResult = System.Windows.Forms.DialogResult.OK;
             this.btnCerrrar_Login.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCerrrar_Login.ForeColor = System.Drawing.Color.Red;
             this.btnCerrrar_Login.Location = new System.Drawing.Point(954, 10);
             this.btnCerrrar_Login.Name = "btnCerrrar_Login";
             this.btnCerrrar_Login.Size = new System.Drawing.Size(43, 40);
@@ -126,7 +129,6 @@
             this.txtContraseña_Login.Location = new System.Drawing.Point(377, 509);
             this.txtContraseña_Login.MaxLength = 8;
             this.txtContraseña_Login.Name = "txtContraseña_Login";
-            this.txtContraseña_Login.PasswordChar = '*';
             this.txtContraseña_Login.Size = new System.Drawing.Size(315, 29);
             this.txtContraseña_Login.TabIndex = 8;
             this.txtContraseña_Login.TextChanged += new System.EventHandler(this.txtContraseña_Login_TextChanged);
@@ -197,6 +199,7 @@
             // 
             this.lblOlvidoContraseña_Login.AutoSize = true;
             this.lblOlvidoContraseña_Login.BackColor = System.Drawing.Color.SlateGray;
+            this.lblOlvidoContraseña_Login.Cursor = System.Windows.Forms.Cursors.Help;
             this.lblOlvidoContraseña_Login.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblOlvidoContraseña_Login.ForeColor = System.Drawing.SystemColors.Info;
             this.lblOlvidoContraseña_Login.Location = new System.Drawing.Point(354, 612);
@@ -204,14 +207,17 @@
             this.lblOlvidoContraseña_Login.Size = new System.Drawing.Size(175, 20);
             this.lblOlvidoContraseña_Login.TabIndex = 13;
             this.lblOlvidoContraseña_Login.Text = "¿Olvidó su contraseña?";
+            this.lblOlvidoContraseña_Login.Click += new System.EventHandler(this.lblOlvidoContraseña_Login_Click);
             // 
             // btnIniciarSesion_Login
             // 
             this.btnIniciarSesion_Login.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.btnIniciarSesion_Login.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnIniciarSesion_Login.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnIniciarSesion_Login.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnIniciarSesion_Login.Location = new System.Drawing.Point(454, 557);
+            this.btnIniciarSesion_Login.Location = new System.Drawing.Point(435, 557);
             this.btnIniciarSesion_Login.Name = "btnIniciarSesion_Login";
-            this.btnIniciarSesion_Login.Size = new System.Drawing.Size(168, 39);
+            this.btnIniciarSesion_Login.Size = new System.Drawing.Size(198, 39);
             this.btnIniciarSesion_Login.TabIndex = 14;
             this.btnIniciarSesion_Login.Text = "Iniciar Sesión";
             this.btnIniciarSesion_Login.UseVisualStyleBackColor = false;
@@ -220,6 +226,7 @@
             // 
             this.lblRegistrarse_Login.AutoSize = true;
             this.lblRegistrarse_Login.BackColor = System.Drawing.Color.SlateGray;
+            this.lblRegistrarse_Login.Cursor = System.Windows.Forms.Cursors.Help;
             this.lblRegistrarse_Login.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRegistrarse_Login.ForeColor = System.Drawing.SystemColors.Info;
             this.lblRegistrarse_Login.Location = new System.Drawing.Point(556, 612);
@@ -227,6 +234,7 @@
             this.lblRegistrarse_Login.Size = new System.Drawing.Size(151, 20);
             this.lblRegistrarse_Login.TabIndex = 15;
             this.lblRegistrarse_Login.Text = "Registrarse a la app";
+            this.lblRegistrarse_Login.Click += new System.EventHandler(this.lblRegistrarse_Login_Click);
             // 
             // picLogo_Login
             // 
@@ -236,11 +244,22 @@
             this.picLogo_Login.TabIndex = 16;
             this.picLogo_Login.TabStop = false;
             // 
+            // btnMostarContraseña_Login
+            // 
+            this.btnMostarContraseña_Login.Location = new System.Drawing.Point(655, 509);
+            this.btnMostarContraseña_Login.Name = "btnMostarContraseña_Login";
+            this.btnMostarContraseña_Login.Size = new System.Drawing.Size(37, 29);
+            this.btnMostarContraseña_Login.TabIndex = 17;
+            this.btnMostarContraseña_Login.Text = "(+)";
+            this.btnMostarContraseña_Login.UseVisualStyleBackColor = true;
+            this.btnMostarContraseña_Login.Click += new System.EventHandler(this.btnMostarContraseña_Login_Click);
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.ClientSize = new System.Drawing.Size(1031, 733);
+            this.Controls.Add(this.btnMostarContraseña_Login);
             this.Controls.Add(this.picLogo_Login);
             this.Controls.Add(this.lblRegistrarse_Login);
             this.Controls.Add(this.btnIniciarSesion_Login);
@@ -286,5 +305,6 @@
         private System.Windows.Forms.Button btnIniciarSesion_Login;
         private System.Windows.Forms.Label lblRegistrarse_Login;
         private System.Windows.Forms.PictureBox picLogo_Login;
+        private System.Windows.Forms.Button btnMostarContraseña_Login;
     }
 }
