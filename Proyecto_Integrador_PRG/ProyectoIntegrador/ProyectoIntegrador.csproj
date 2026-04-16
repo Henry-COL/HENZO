@@ -83,7 +83,10 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Content Include="Media\Decorativos\Login\Bordes_.png" />
+    <Content Include="Media\Decorativos\Login\Boton_Cerrar_Login.png" />
+    <Content Include="Media\Decorativos\Login\Boton_Minimizar_Login.png" />
+    <Content Include="Media\Decorativos\Login\Boton_Ventana_Login.png" />
+    <Content Include="Media\Decorativos\Login\Ventana_Login.png" />
     <Content Include="Media\Imagenes\Login\delete.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

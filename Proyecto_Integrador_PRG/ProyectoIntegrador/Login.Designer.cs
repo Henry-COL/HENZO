@@ -29,11 +29,10 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.PanelContenedor = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.lblUsuario_Login = new System.Windows.Forms.Label();
             this.lblContraseña_Login = new System.Windows.Forms.Label();
-            this.btnCerrrar_Login = new System.Windows.Forms.Button();
             this.txtUser_Login = new System.Windows.Forms.TextBox();
             this.txtContraseña_Login = new System.Windows.Forms.TextBox();
             this.lblMensaje_Usuario_Login = new System.Windows.Forms.Label();
@@ -46,25 +45,25 @@
             this.picLogo_Login = new System.Windows.Forms.PictureBox();
             this.btnMostarContraseña_Login = new System.Windows.Forms.Button();
             this.lblMensaje_IniciarSesion_Login = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.btn_cerrar_login = new System.Windows.Forms.Button();
+            this.btn_ventana_login = new System.Windows.Forms.Button();
+            this.btn_minimizar_login = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.PanelContenedor)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picLogo_Login)).BeginInit();
             this.SuspendLayout();
             // 
-            // pictureBox1
+            // PanelContenedor
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Gray;
-            this.pictureBox1.Location = new System.Drawing.Point(-1, -1);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1032, 63);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.PanelContenedor.BackColor = System.Drawing.Color.Gray;
+            this.PanelContenedor.Location = new System.Drawing.Point(-1, -1);
+            this.PanelContenedor.Name = "PanelContenedor";
+            this.PanelContenedor.Size = new System.Drawing.Size(1032, 63);
+            this.PanelContenedor.TabIndex = 0;
+            this.PanelContenedor.TabStop = false;
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox2.BackColor = System.Drawing.Color.SlateGray;
             this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox2.Location = new System.Drawing.Point(324, 133);
@@ -97,21 +96,6 @@
             this.lblContraseña_Login.Size = new System.Drawing.Size(119, 22);
             this.lblContraseña_Login.TabIndex = 5;
             this.lblContraseña_Login.Text = "Contraseña:";
-            // 
-            // btnCerrrar_Login
-            // 
-            this.btnCerrrar_Login.BackColor = System.Drawing.Color.Crimson;
-            this.btnCerrrar_Login.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnCerrrar_Login.BackgroundImage")));
-            this.btnCerrrar_Login.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnCerrrar_Login.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.btnCerrrar_Login.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCerrrar_Login.ForeColor = System.Drawing.Color.Red;
-            this.btnCerrrar_Login.Location = new System.Drawing.Point(954, 10);
-            this.btnCerrrar_Login.Name = "btnCerrrar_Login";
-            this.btnCerrrar_Login.Size = new System.Drawing.Size(43, 40);
-            this.btnCerrrar_Login.TabIndex = 6;
-            this.btnCerrrar_Login.UseVisualStyleBackColor = false;
-            this.btnCerrrar_Login.Click += new System.EventHandler(this.btnCerrrar_Login_Click);
             // 
             // txtUser_Login
             // 
@@ -272,11 +256,57 @@
             this.lblMensaje_IniciarSesion_Login.Text = "Por favor, para poder iniciar sesión,\r\nprimero rellena los datos solicitados.";
             this.lblMensaje_IniciarSesion_Login.Visible = false;
             // 
+            // btn_cerrar_login
+            // 
+            this.btn_cerrar_login.BackColor = System.Drawing.Color.Gray;
+            this.btn_cerrar_login.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_cerrar_login.BackgroundImage")));
+            this.btn_cerrar_login.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_cerrar_login.FlatAppearance.BorderSize = 0;
+            this.btn_cerrar_login.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Brown;
+            this.btn_cerrar_login.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_cerrar_login.Location = new System.Drawing.Point(965, 15);
+            this.btn_cerrar_login.Name = "btn_cerrar_login";
+            this.btn_cerrar_login.Size = new System.Drawing.Size(53, 32);
+            this.btn_cerrar_login.TabIndex = 20;
+            this.btn_cerrar_login.UseVisualStyleBackColor = false;
+            this.btn_cerrar_login.Click += new System.EventHandler(this.btnCerrrar_Login_Click);
+            // 
+            // btn_ventana_login
+            // 
+            this.btn_ventana_login.BackColor = System.Drawing.Color.Gray;
+            this.btn_ventana_login.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_ventana_login.BackgroundImage")));
+            this.btn_ventana_login.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_ventana_login.FlatAppearance.BorderSize = 0;
+            this.btn_ventana_login.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_ventana_login.Location = new System.Drawing.Point(906, 15);
+            this.btn_ventana_login.Name = "btn_ventana_login";
+            this.btn_ventana_login.Size = new System.Drawing.Size(53, 32);
+            this.btn_ventana_login.TabIndex = 21;
+            this.btn_ventana_login.UseVisualStyleBackColor = false;
+            this.btn_ventana_login.Click += new System.EventHandler(this.btn_ventana_login_Click);
+            // 
+            // btn_minimizar_login
+            // 
+            this.btn_minimizar_login.BackColor = System.Drawing.Color.Gray;
+            this.btn_minimizar_login.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_minimizar_login.BackgroundImage")));
+            this.btn_minimizar_login.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_minimizar_login.FlatAppearance.BorderSize = 0;
+            this.btn_minimizar_login.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_minimizar_login.Location = new System.Drawing.Point(847, 15);
+            this.btn_minimizar_login.Name = "btn_minimizar_login";
+            this.btn_minimizar_login.Size = new System.Drawing.Size(53, 32);
+            this.btn_minimizar_login.TabIndex = 22;
+            this.btn_minimizar_login.UseVisualStyleBackColor = false;
+            this.btn_minimizar_login.Click += new System.EventHandler(this.btn_minimizar_login_Click);
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.ClientSize = new System.Drawing.Size(1031, 733);
+            this.Controls.Add(this.btn_minimizar_login);
+            this.Controls.Add(this.btn_ventana_login);
+            this.Controls.Add(this.btn_cerrar_login);
             this.Controls.Add(this.lblMensaje_IniciarSesion_Login);
             this.Controls.Add(this.btnMostarContraseña_Login);
             this.Controls.Add(this.picLogo_Login);
@@ -289,17 +319,16 @@
             this.Controls.Add(this.lblMensaje_Usuario_Login);
             this.Controls.Add(this.txtContraseña_Login);
             this.Controls.Add(this.txtUser_Login);
-            this.Controls.Add(this.btnCerrrar_Login);
             this.Controls.Add(this.lblContraseña_Login);
             this.Controls.Add(this.lblUsuario_Login);
             this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.PanelContenedor);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
             this.Load += new System.EventHandler(this.Login_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PanelContenedor)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picLogo_Login)).EndInit();
             this.ResumeLayout(false);
@@ -309,11 +338,10 @@
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox PanelContenedor;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label lblUsuario_Login;
         private System.Windows.Forms.Label lblContraseña_Login;
-        private System.Windows.Forms.Button btnCerrrar_Login;
         private System.Windows.Forms.TextBox txtUser_Login;
         private System.Windows.Forms.TextBox txtContraseña_Login;
         private System.Windows.Forms.Label lblMensaje_Usuario_Login;
@@ -326,5 +354,8 @@
         private System.Windows.Forms.PictureBox picLogo_Login;
         private System.Windows.Forms.Button btnMostarContraseña_Login;
         private System.Windows.Forms.Label lblMensaje_IniciarSesion_Login;
+        private System.Windows.Forms.Button btn_cerrar_login;
+        private System.Windows.Forms.Button btn_ventana_login;
+        private System.Windows.Forms.Button btn_minimizar_login;
     }
 }

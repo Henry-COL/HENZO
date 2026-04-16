@@ -8,3 +8,4 @@ C:\Users\Henry Quintero\Documents\GitHub\HENZO\Proyecto_Integrador_PRG\ProyectoI
 C:\Users\Henry Quintero\Documents\GitHub\HENZO\Proyecto_Integrador_PRG\ProyectoIntegrador\obj\Debug\ProyectoIntegrador.Login.resources
 C:\Users\Henry Quintero\Documents\GitHub\HENZO\Proyecto_Integrador_PRG\ProyectoIntegrador\obj\Debug\ProyectoIntegrador.csproj.GenerateResource.cache
 C:\Users\Henry Quintero\Documents\GitHub\HENZO\Proyecto_Integrador_PRG\ProyectoIntegrador\obj\Debug\ProyectoIntegrador.Properties.Resources.resources
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Proyecto_Integrador_PRG\ProyectoIntegrador\obj\Debug\ProyectoIntegrador.PanelContenedor.resources
