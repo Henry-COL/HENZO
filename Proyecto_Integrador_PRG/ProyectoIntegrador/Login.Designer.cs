@@ -45,6 +45,7 @@
             this.lblRegistrarse_Login = new System.Windows.Forms.Label();
             this.picLogo_Login = new System.Windows.Forms.PictureBox();
             this.btnMostarContraseña_Login = new System.Windows.Forms.Button();
+            this.lblMensaje_IniciarSesion_Login = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picLogo_Login)).BeginInit();
@@ -65,11 +66,13 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox2.BackColor = System.Drawing.Color.SlateGray;
+            this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox2.Location = new System.Drawing.Point(324, 133);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(408, 555);
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // lblUsuario_Login
             // 
@@ -202,7 +205,7 @@
             this.lblOlvidoContraseña_Login.Cursor = System.Windows.Forms.Cursors.Help;
             this.lblOlvidoContraseña_Login.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblOlvidoContraseña_Login.ForeColor = System.Drawing.SystemColors.Info;
-            this.lblOlvidoContraseña_Login.Location = new System.Drawing.Point(354, 612);
+            this.lblOlvidoContraseña_Login.Location = new System.Drawing.Point(354, 646);
             this.lblOlvidoContraseña_Login.Name = "lblOlvidoContraseña_Login";
             this.lblOlvidoContraseña_Login.Size = new System.Drawing.Size(175, 20);
             this.lblOlvidoContraseña_Login.TabIndex = 13;
@@ -215,12 +218,13 @@
             this.btnIniciarSesion_Login.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btnIniciarSesion_Login.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnIniciarSesion_Login.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnIniciarSesion_Login.Location = new System.Drawing.Point(435, 557);
+            this.btnIniciarSesion_Login.Location = new System.Drawing.Point(435, 591);
             this.btnIniciarSesion_Login.Name = "btnIniciarSesion_Login";
             this.btnIniciarSesion_Login.Size = new System.Drawing.Size(198, 39);
             this.btnIniciarSesion_Login.TabIndex = 14;
             this.btnIniciarSesion_Login.Text = "Iniciar Sesión";
             this.btnIniciarSesion_Login.UseVisualStyleBackColor = false;
+            this.btnIniciarSesion_Login.Click += new System.EventHandler(this.btnIniciarSesion_Login_Click);
             // 
             // lblRegistrarse_Login
             // 
@@ -229,7 +233,7 @@
             this.lblRegistrarse_Login.Cursor = System.Windows.Forms.Cursors.Help;
             this.lblRegistrarse_Login.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRegistrarse_Login.ForeColor = System.Drawing.SystemColors.Info;
-            this.lblRegistrarse_Login.Location = new System.Drawing.Point(556, 612);
+            this.lblRegistrarse_Login.Location = new System.Drawing.Point(556, 646);
             this.lblRegistrarse_Login.Name = "lblRegistrarse_Login";
             this.lblRegistrarse_Login.Size = new System.Drawing.Size(151, 20);
             this.lblRegistrarse_Login.TabIndex = 15;
@@ -238,6 +242,7 @@
             // 
             // picLogo_Login
             // 
+            this.picLogo_Login.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.picLogo_Login.Location = new System.Drawing.Point(415, 155);
             this.picLogo_Login.Name = "picLogo_Login";
             this.picLogo_Login.Size = new System.Drawing.Size(237, 235);
@@ -254,11 +259,25 @@
             this.btnMostarContraseña_Login.UseVisualStyleBackColor = true;
             this.btnMostarContraseña_Login.Click += new System.EventHandler(this.btnMostarContraseña_Login_Click);
             // 
+            // lblMensaje_IniciarSesion_Login
+            // 
+            this.lblMensaje_IniciarSesion_Login.AutoSize = true;
+            this.lblMensaje_IniciarSesion_Login.BackColor = System.Drawing.Color.SlateGray;
+            this.lblMensaje_IniciarSesion_Login.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMensaje_IniciarSesion_Login.ForeColor = System.Drawing.Color.Gold;
+            this.lblMensaje_IniciarSesion_Login.Location = new System.Drawing.Point(398, 550);
+            this.lblMensaje_IniciarSesion_Login.Name = "lblMensaje_IniciarSesion_Login";
+            this.lblMensaje_IniciarSesion_Login.Size = new System.Drawing.Size(276, 34);
+            this.lblMensaje_IniciarSesion_Login.TabIndex = 18;
+            this.lblMensaje_IniciarSesion_Login.Text = "Por favor, para poder iniciar sesión,\r\nprimero rellena los datos solicitados.";
+            this.lblMensaje_IniciarSesion_Login.Visible = false;
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.ClientSize = new System.Drawing.Size(1031, 733);
+            this.Controls.Add(this.lblMensaje_IniciarSesion_Login);
             this.Controls.Add(this.btnMostarContraseña_Login);
             this.Controls.Add(this.picLogo_Login);
             this.Controls.Add(this.lblRegistrarse_Login);
@@ -306,5 +325,6 @@
         private System.Windows.Forms.Label lblRegistrarse_Login;
         private System.Windows.Forms.PictureBox picLogo_Login;
         private System.Windows.Forms.Button btnMostarContraseña_Login;
+        private System.Windows.Forms.Label lblMensaje_IniciarSesion_Login;
     }
 }

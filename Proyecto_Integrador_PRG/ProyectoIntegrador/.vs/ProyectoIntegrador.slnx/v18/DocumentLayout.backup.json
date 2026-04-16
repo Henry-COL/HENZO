@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Proyecto_Integrador_PRG\\ProyectoIntegrador\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{606F9D7A-6D3A-485C-90D6-ECA311D96EB1}|ProyectoIntegrador.csproj|C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Proyecto_Integrador_PRG\\ProyectoIntegrador\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{606F9D7A-6D3A-485C-90D6-ECA311D96EB1}|ProyectoIntegrador.csproj|C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Proyecto_Integrador_PRG\\ProyectoIntegrador\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{606F9D7A-6D3A-485C-90D6-ECA311D96EB1}|ProyectoIntegrador.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{606F9D7A-6D3A-485C-90D6-ECA311D96EB1}|ProyectoIntegrador.csproj|c:\\users\\henry quintero\\documents\\github\\henzo\\proyecto_integrador_prg\\proyectointegrador\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{606F9D7A-6D3A-485C-90D6-ECA311D96EB1}|ProyectoIntegrador.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{606F9D7A-6D3A-485C-90D6-ECA311D96EB1}|ProyectoIntegrador.csproj|c:\\users\\henry quintero\\documents\\github\\henzo\\proyecto_integrador_prg\\proyectointegrador\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{606F9D7A-6D3A-485C-90D6-ECA311D96EB1}|ProyectoIntegrador.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{606F9D7A-6D3A-485C-90D6-ECA311D96EB1}|ProyectoIntegrador.csproj|C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Proyecto_Integrador_PRG\\ProyectoIntegrador\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{606F9D7A-6D3A-485C-90D6-ECA311D96EB1}|ProyectoIntegrador.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{606F9D7A-6D3A-485C-90D6-ECA311D96EB1}|ProyectoIntegrador.csproj|c:\\users\\henry quintero\\documents\\github\\henzo\\proyecto_integrador_prg\\proyectointegrador\\olvido_contrase\u00F1a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{606F9D7A-6D3A-485C-90D6-ECA311D96EB1}|ProyectoIntegrador.csproj|solutionrelative:olvido_contrase\u00F1a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{606F9D7A-6D3A-485C-90D6-ECA311D96EB1}|ProyectoIntegrador.csproj|C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Proyecto_Integrador_PRG\\ProyectoIntegrador\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{606F9D7A-6D3A-485C-90D6-ECA311D96EB1}|ProyectoIntegrador.csproj|solutionrelative:login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{606F9D7A-6D3A-485C-90D6-ECA311D96EB1}|ProyectoIntegrador.csproj|c:\\users\\henry quintero\\documents\\github\\henzo\\proyecto_integrador_prg\\proyectointegrador\\app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{606F9D7A-6D3A-485C-90D6-ECA311D96EB1}|ProyectoIntegrador.csproj|C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Proyecto_Integrador_PRG\\ProyectoIntegrador\\app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{606F9D7A-6D3A-485C-90D6-ECA311D96EB1}|ProyectoIntegrador.csproj|solutionrelative:app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{606F9D7A-6D3A-485C-90D6-ECA311D96EB1}|ProyectoIntegrador.csproj|C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Proyecto_Integrador_PRG\\ProyectoIntegrador\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{606F9D7A-6D3A-485C-90D6-ECA311D96EB1}|ProyectoIntegrador.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,19 +43,56 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "app.manifest",
-              "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Proyecto_Integrador_PRG\\ProyectoIntegrador\\app.manifest",
-              "RelativeDocumentMoniker": "app.manifest",
-              "ToolTip": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Proyecto_Integrador_PRG\\ProyectoIntegrador\\app.manifest",
-              "RelativeToolTip": "app.manifest",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001203|",
-              "WhenOpened": "2026-04-15T19:34:06.823Z",
-              "EditorCaption": ""
+              "Title": "Olvido_Contrase\u00F1a.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Proyecto_Integrador_PRG\\ProyectoIntegrador\\Olvido_Contrase\u00F1a.cs",
+              "RelativeDocumentMoniker": "Olvido_Contrase\u00F1a.cs",
+              "ToolTip": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Proyecto_Integrador_PRG\\ProyectoIntegrador\\Olvido_Contrase\u00F1a.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Olvido_Contrase\u00F1a.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T15:43:30.278Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Proyecto_Integrador_PRG\\ProyectoIntegrador\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Proyecto_Integrador_PRG\\ProyectoIntegrador\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T17:06:47.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Proyecto_Integrador_PRG\\ProyectoIntegrador\\Login.cs",
+              "RelativeDocumentMoniker": "Login.cs",
+              "ToolTip": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Proyecto_Integrador_PRG\\ProyectoIntegrador\\Login.cs",
+              "RelativeToolTip": "Login.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAgwBMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T17:10:19.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Proyecto_Integrador_PRG\\ProyectoIntegrador\\Login.cs",
+              "RelativeDocumentMoniker": "Login.cs",
+              "ToolTip": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Proyecto_Integrador_PRG\\ProyectoIntegrador\\Login.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Login.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T19:18:03.332Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Login.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Proyecto_Integrador_PRG\\ProyectoIntegrador\\Login.Designer.cs",
               "RelativeDocumentMoniker": "Login.Designer.cs",
@@ -64,40 +105,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Login.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Proyecto_Integrador_PRG\\ProyectoIntegrador\\Login.cs",
-              "RelativeDocumentMoniker": "Login.cs",
-              "ToolTip": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Proyecto_Integrador_PRG\\ProyectoIntegrador\\Login.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Login.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-15T19:18:03.332Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Login.cs",
-              "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Proyecto_Integrador_PRG\\ProyectoIntegrador\\Login.cs",
-              "RelativeDocumentMoniker": "Login.cs",
-              "ToolTip": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Proyecto_Integrador_PRG\\ProyectoIntegrador\\Login.cs",
-              "RelativeToolTip": "Login.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAwwEkAAABjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-15T17:10:19.992Z",
+              "DocumentIndex": 5,
+              "Title": "app.manifest",
+              "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Proyecto_Integrador_PRG\\ProyectoIntegrador\\app.manifest",
+              "RelativeDocumentMoniker": "app.manifest",
+              "ToolTip": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Proyecto_Integrador_PRG\\ProyectoIntegrador\\app.manifest",
+              "RelativeToolTip": "app.manifest",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001203|",
+              "WhenOpened": "2026-04-15T19:34:06.823Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Proyecto_Integrador_PRG\\ProyectoIntegrador\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Proyecto_Integrador_PRG\\ProyectoIntegrador\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-15T17:06:47.081Z"
             }
           ]
         }

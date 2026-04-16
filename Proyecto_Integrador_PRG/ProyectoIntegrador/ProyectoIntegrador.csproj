@@ -54,6 +54,12 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="Olvido_Contraseña.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Olvido_Contraseña.Designer.cs">
+      <DependentUpon>Olvido_Contraseña.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
@@ -77,6 +83,7 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <Content Include="Media\Decorativos\Login\Bordes_.png" />
     <Content Include="Media\Imagenes\Login\delete.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
