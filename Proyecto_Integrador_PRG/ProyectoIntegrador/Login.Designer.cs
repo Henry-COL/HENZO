@@ -226,10 +226,12 @@
             // 
             // picLogo_Login
             // 
-            this.picLogo_Login.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.picLogo_Login.Location = new System.Drawing.Point(415, 155);
+            this.picLogo_Login.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.picLogo_Login.Image = ((System.Drawing.Image)(resources.GetObject("picLogo_Login.Image")));
+            this.picLogo_Login.Location = new System.Drawing.Point(401, 157);
             this.picLogo_Login.Name = "picLogo_Login";
-            this.picLogo_Login.Size = new System.Drawing.Size(237, 235);
+            this.picLogo_Login.Size = new System.Drawing.Size(257, 235);
+            this.picLogo_Login.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picLogo_Login.TabIndex = 16;
             this.picLogo_Login.TabStop = false;
             // 

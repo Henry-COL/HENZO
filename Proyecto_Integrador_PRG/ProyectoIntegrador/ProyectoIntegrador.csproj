@@ -67,6 +67,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Include="Registro_App.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro_App.Designer.cs">
+      <DependentUpon>Registro_App.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -76,9 +82,15 @@
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Olvido_Contraseña.resx">
+      <DependentUpon>Olvido_Contraseña.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro_App.resx">
+      <DependentUpon>Registro_App.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup />
@@ -87,7 +99,10 @@
     <Content Include="Media\Decorativos\Login\Boton_Minimizar_Login.png" />
     <Content Include="Media\Decorativos\Login\Boton_Ventana_Login.png" />
     <Content Include="Media\Decorativos\Login\Ventana_Login.png" />
+    <Content Include="Media\Imagenes\Login\61118c636e4a9.jpeg" />
+    <Content Include="Media\Imagenes\Login\Boton_Ventana_Login.png" />
     <Content Include="Media\Imagenes\Login\delete.png" />
+    <Content Include="Media\Imagenes\Login\descarga %283%29.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -63,6 +63,7 @@ namespace ProyectoIntegrador
 
         private void lblOlvidoContraseña_Login_Click(object sender, EventArgs e)
         {
+            this.Hide();
             Olvido_Contraseña RecuperarContraseña = new Olvido_Contraseña();
             RecuperarContraseña.FormClosed += (s, args) => this.Show();
             RecuperarContraseña.Show();
@@ -70,7 +71,10 @@ namespace ProyectoIntegrador
 
         private void lblRegistrarse_Login_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Funcionalidad de registro no implementada.");
+            this.Hide();
+            Registro_App NuevaCuenta = new Registro_App();
+            NuevaCuenta.FormClosed += (s, args) => this.Show();
+            NuevaCuenta.Show();
         }
 
         private void btnMostarContraseña_Login_Click(object sender, EventArgs e)
