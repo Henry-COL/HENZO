@@ -10,3 +10,7 @@ C:\Users\Henry Quintero\Documents\GitHub\HENZO\Proyecto_Integrador_PRG\ProyectoI
 C:\Users\Henry Quintero\Documents\GitHub\HENZO\Proyecto_Integrador_PRG\ProyectoIntegrador\obj\Debug\ProyectoIntegrador.Properties.Resources.resources
 C:\Users\Henry Quintero\Documents\GitHub\HENZO\Proyecto_Integrador_PRG\ProyectoIntegrador\obj\Debug\ProyectoIntegrador.Olvido_Contraseña.resources
 C:\Users\Henry Quintero\Documents\GitHub\HENZO\Proyecto_Integrador_PRG\ProyectoIntegrador\obj\Debug\ProyectoIntegrador.Registro_App.resources
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Proyecto_Integrador_PRG\ProyectoIntegrador\obj\Debug\ProyectoIntegrador.Interfaces.Mensajes_Error.Mensaje_Error_Basico.resources
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Proyecto_Integrador_PRG\ProyectoIntegrador\obj\Debug\Interop.MediaPlayer.dll
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Proyecto_Integrador_PRG\ProyectoIntegrador\obj\Debug\Interop.WMPLib.dll
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Proyecto_Integrador_PRG\ProyectoIntegrador\obj\Debug\ProyectoIntegrador.csproj.ResolveComReference.cache

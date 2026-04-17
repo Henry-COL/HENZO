@@ -48,16 +48,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Login.cs">
+    <Compile Include="Interfaces\Login\Login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Login.Designer.cs">
+    <Compile Include="Interfaces\Login\Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="Olvido_Contraseña.cs">
+    <Compile Include="Interfaces\Mensajes_Error\Mensaje_Error_Basico.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Olvido_Contraseña.Designer.cs">
+    <Compile Include="Interfaces\Mensajes_Error\Mensaje_Error_Basico.Designer.cs">
+      <DependentUpon>Mensaje_Error_Basico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaces\Soporte_Contraseña\Olvido_Contraseña.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaces\Soporte_Contraseña\Olvido_Contraseña.Designer.cs">
       <DependentUpon>Olvido_Contraseña.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
@@ -67,10 +73,10 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="Registro_App.cs">
+    <Compile Include="Interfaces\Registrar_Usuario\Registro_App.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Registro_App.Designer.cs">
+    <Compile Include="Interfaces\Registrar_Usuario\Registro_App.Designer.cs">
       <DependentUpon>Registro_App.cs</DependentUpon>
     </Compile>
   </ItemGroup>
@@ -79,26 +85,63 @@
     <None Include="app.manifest" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Login.resx">
+    <EmbeddedResource Include="Interfaces\Login\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Olvido_Contraseña.resx">
+    <EmbeddedResource Include="Interfaces\Mensajes_Error\Mensaje_Error_Basico.resx">
+      <DependentUpon>Mensaje_Error_Basico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaces\Soporte_Contraseña\Olvido_Contraseña.resx">
       <DependentUpon>Olvido_Contraseña.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Registro_App.resx">
+    <EmbeddedResource Include="Interfaces\Registrar_Usuario\Registro_App.resx">
       <DependentUpon>Registro_App.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
+    <COMReference Include="MediaPlayer">
+      <Guid>{22D6F304-B0F6-11D0-94AB-0080C74C7E95}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Interfaces\Sonidos\Notificacion_Error_Basico.mp3" />
+    <Content Include="Media\Decorativos\Error\Advertencia_Basica.png" />
     <Content Include="Media\Decorativos\Login\Boton_Cerrar_Login.png" />
     <Content Include="Media\Decorativos\Login\Boton_Minimizar_Login.png" />
     <Content Include="Media\Decorativos\Login\Boton_Ventana_Login.png" />
+    <Content Include="Media\Decorativos\Login\Fofff.png" />
+    <Content Include="Media\Decorativos\Login\vecteezy_abstract-background-of-black-elements-premium-background_8791387.jpg" />
+    <Content Include="Media\Decorativos\Login\vecteezy_dark-geometric-black-abstract-background-elegent-design-pattern_36387347.jpg" />
     <Content Include="Media\Decorativos\Login\Ventana_Login.png" />
+    <Content Include="Media\Decorativos\Login\wavy-lines-border-in-paper-cut-style-grey-smooth-color-vintage-wallpaper-vector.jpg" />
     <Content Include="Media\Imagenes\Login\61118c636e4a9.jpeg" />
     <Content Include="Media\Imagenes\Login\Boton_Ventana_Login.png" />
     <Content Include="Media\Imagenes\Login\delete.png" />

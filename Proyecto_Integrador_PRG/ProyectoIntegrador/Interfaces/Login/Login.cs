@@ -1,9 +1,12 @@
-﻿using System;
+﻿using ProyectoIntegrador.Interfaces.Mensajes_Error;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Drawing2D;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -23,6 +26,10 @@ namespace ProyectoIntegrador
 
         private void Login_Load(object sender, EventArgs e)
         {
+            RedondearControl(Fondo_Inicio, 14);
+            RedondearControl(txtUser_Login, 9);
+            RedondearControl(txtContraseña_Login, 9);
+            RedondearForm(17);
 
         }
 
@@ -86,18 +93,47 @@ namespace ProyectoIntegrador
         {
             if (string.IsNullOrWhiteSpace(txtUser_Login.Text) || string.IsNullOrWhiteSpace(txtContraseña_Login.Text))
             {
-                lblMensaje_IniciarSesion_Login.Visible = true;
+                string mensajeError = "Para poder iniciar sesión, debes completar\nlos campos requeridos primero.";
+                Mensaje_Error_Basico error_login = new Mensaje_Error_Basico(mensajeError);
+                error_login.FormClosed += (s, args) => this.Show();
+                error_login.Show();
+
+                // Sonido personalizado:
+                SystemSounds.Beep.Play();
+
                 return;
             }
             else if (!string.IsNullOrWhiteSpace(txtUser_Login.Text) && !string.IsNullOrWhiteSpace(txtContraseña_Login.Text))
             {
-                lblMensaje_IniciarSesion_Login.Visible = false;
                 MessageBox.Show("Inicio de sesión exitoso (simulado).");
             }
         }
 
-        private void pictureBox2_Click(object sender, EventArgs e)
+
+        //Bordes Redondeados
+        private void RedondearControl(Control control, int radio)
         {
+            GraphicsPath gp = new GraphicsPath();
+            // Crea un arco en cada esquina para formar el radio de 14px
+            gp.AddArc(0, 0, radio, radio, 180, 90);
+            gp.AddArc(control.Width - radio, 0, radio, radio, 270, 90);
+            gp.AddArc(control.Width - radio, control.Height - radio, radio, radio, 0, 90);
+            gp.AddArc(0, control.Height - radio, radio, radio, 90, 90);
+            gp.CloseAllFigures();
+
+            control.Region = new Region(gp);
+        }
+
+        private void RedondearForm(int radio)
+        {
+            GraphicsPath gp = new GraphicsPath();
+            gp.AddArc(0, 0, radio, radio, 180, 90);
+            gp.AddArc(this.Width - radio, 0, radio, radio, 270, 90);
+            gp.AddArc(this.Width - radio, this.Height - radio, radio, radio, 0, 90);
+            gp.AddArc(0, this.Height - radio, radio, radio, 90, 90);
+            gp.CloseAllFigures();
+
+            this.Region = new Region(gp);
         }
 
         private void btn_minimizar_login_Click(object sender, EventArgs e)
@@ -108,6 +144,13 @@ namespace ProyectoIntegrador
         private void btn_ventana_login_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void txtUser_Login_HelpRequested(object sender, HelpEventArgs hlpevent)
+        {
+            lblMensaje_Usuario_Login.Visible = true;
+            lblMensaje_Usuario_Login.Text = "Ingresa tu nombre de usuario o correo electrónico registrado.";
+            hlpevent.Handled = true;
         }
     }
 }
