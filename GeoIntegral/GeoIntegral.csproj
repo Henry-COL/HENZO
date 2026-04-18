@@ -32,9 +32,14 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -45,9 +50,27 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Load_Screen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Load_Screen.Designer.cs">
+      <DependentUpon>Load_Screen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Login_Screen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Login_Screen.Designer.cs">
+      <DependentUpon>Login_Screen.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="app.manifest" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
@@ -55,8 +78,22 @@
     <Folder Include="Data\" />
     <Folder Include="Helpers\" />
     <Folder Include="Models\" />
-    <Folder Include="Resources\" />
-    <Folder Include="Views\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Load_Screen.resx">
+      <DependentUpon>Load_Screen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Login_Screen.resx">
+      <DependentUpon>Login_Screen.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\GeoIntegral_Logo_App.png" />
+    <Content Include="Resources\Logo_App_GI.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

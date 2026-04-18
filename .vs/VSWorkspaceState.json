@@ -1,9 +1,14 @@
 {
   "ExpandedNodes": [
     "",
+    "\\Corte_2",
     "\\Corte_2\\EjerciciosPractica",
-    "\\Corte_2\\EjerciciosPractica\\EjerciciosClase"
+    "\\Corte_2\\EjerciciosPractica\\EjerciciosClase",
+    "\\Corte_2\\EjerciciosPractica\\EjerciciosClase\\PWV_Ejercicio_1",
+    "\\GeoIntegral",
+    "\\Proyecto_Integrador_PRG",
+    "\\Proyecto_Integrador_PRG\\ProyectoIntegrador"
   ],
-  "SelectedNode": "\\Corte_2",
+  "SelectedNode": "\\GeoIntegral\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
