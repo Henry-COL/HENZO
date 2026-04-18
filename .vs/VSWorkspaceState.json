@@ -4,13 +4,13 @@
     "\\Corte_2",
     "\\Corte_2\\EjerciciosPractica",
     "\\Corte_2\\EjerciciosPractica\\EjerciciosClase",
-    "\\Corte_2\\EjerciciosPractica\\EjerciciosClase\\Ejercicio_5_PROG",
-    "\\Corte_2\\EjerciciosPractica\\EjerciciosClase\\PWV_Ejercicio_1",
     "\\Corte_2\\EjerciciosPractica\\EjerciciosClase\\PWV_Ejercicio_2",
     "\\Corte_2\\EjerciciosPractica\\EjerciciosClase\\PWV_Ejercicio_3",
     "\\Proyecto_Integrador_PRG",
-    "\\Proyecto_Integrador_PRG\\ProyectoIntegrador"
+    "\\Proyecto_Integrador_PRG\\ProyectoIntegrador",
+    "\\Proyecto_Integrador_PRG\\ProyectoIntegrador\\Interfaces",
+    "\\Proyecto_Integrador_PRG\\ProyectoIntegrador\\Interfaces\\Login"
   ],
-  "SelectedNode": "\\Proyecto_Integrador_PRG\\ProyectoIntegrador\\ProyectoIntegrador.slnx",
+  "SelectedNode": "\\Proyecto_Integrador_PRG\\ProyectoIntegrador\\Interfaces\\Login\\Login.cs",
   "PreviewInSolutionExplorer": false
 }
