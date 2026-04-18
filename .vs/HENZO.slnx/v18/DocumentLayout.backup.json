@@ -30,11 +30,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
@@ -46,8 +50,7 @@
               "RelativeToolTip": "Corte_2\\EjerciciosPractica\\EjerciciosClase\\PWV_Ejercicio_1\\Form2.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-15T02:54:21.667Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-15T02:54:21.667Z"
             },
             {
               "$type": "Document",
@@ -59,8 +62,7 @@
               "RelativeToolTip": "Corte_2\\EjerciciosPractica\\EjerciciosClase\\PWV_Ejercicio_1\\Form1.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T05:04:18.487Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-13T05:04:18.487Z"
             },
             {
               "$type": "Document",
@@ -72,8 +74,7 @@
               "RelativeToolTip": "Corte_2\\EjerciciosPractica\\EjerciciosClase\\Ejercicio_5_PROG\\Form1.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAJUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-06T13:53:06.212Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-06T13:53:06.212Z"
             },
             {
               "$type": "Document",
@@ -83,7 +84,7 @@
               "RelativeDocumentMoniker": "Corte_2\\EjerciciosPractica\\EjerciciosClase\\Ejercicio_4_PROG\\Form1.Designer.cs",
               "ToolTip": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Corte_2\\EjerciciosPractica\\EjerciciosClase\\Ejercicio_4_PROG\\Form1.Designer.cs",
               "RelativeToolTip": "Corte_2\\EjerciciosPractica\\EjerciciosClase\\Ejercicio_4_PROG\\Form1.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEBAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-06T13:52:03.535Z",
               "EditorCaption": ""
