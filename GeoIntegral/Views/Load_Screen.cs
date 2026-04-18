@@ -22,6 +22,9 @@ namespace GeoIntegral.Views
 
         private void ConfigurarComponentes()
         {
+
+            if (this.DesignMode) return;
+
             Logo_App.BackColor = Color.Transparent;
 
             Barra_Carga.Minimum = 0;

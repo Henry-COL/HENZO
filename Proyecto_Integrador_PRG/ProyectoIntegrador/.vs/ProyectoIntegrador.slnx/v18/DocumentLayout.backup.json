@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Proyecto_Integrador_PRG\\ProyectoIntegrador\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{606F9D7A-6D3A-485C-90D6-ECA311D96EB1}|ProyectoIntegrador.csproj|C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Proyecto_Integrador_PRG\\ProyectoIntegrador\\app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{606F9D7A-6D3A-485C-90D6-ECA311D96EB1}|ProyectoIntegrador.csproj|c:\\users\\henry quintero\\documents\\github\\henzo\\proyecto_integrador_prg\\proyectointegrador\\app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{606F9D7A-6D3A-485C-90D6-ECA311D96EB1}|ProyectoIntegrador.csproj|solutionrelative:app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{606F9D7A-6D3A-485C-90D6-ECA311D96EB1}|ProyectoIntegrador.csproj|c:\\users\\henry quintero\\documents\\github\\henzo\\proyecto_integrador_prg\\proyectointegrador\\data\\datosusuarios.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{606F9D7A-6D3A-485C-90D6-ECA311D96EB1}|ProyectoIntegrador.csproj|C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Proyecto_Integrador_PRG\\ProyectoIntegrador\\data\\datosusuarios.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{606F9D7A-6D3A-485C-90D6-ECA311D96EB1}|ProyectoIntegrador.csproj|solutionrelative:data\\datosusuarios.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
@@ -78,8 +78,7 @@
               "RelativeToolTip": "Data\\DatosUsuarios.csv",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
-              "WhenOpened": "2026-04-18T03:24:59.705Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-18T03:24:59.705Z"
             },
             {
               "$type": "Document",
