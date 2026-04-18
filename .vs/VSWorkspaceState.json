@@ -1,16 +1,15 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Corte_2",
     "\\Corte_2\\EjerciciosPractica",
     "\\Corte_2\\EjerciciosPractica\\EjerciciosClase",
     "\\Corte_2\\EjerciciosPractica\\EjerciciosClase\\PWV_Ejercicio_1",
-    "\\Corte_2\\EjerciciosPractica\\EjerciciosClase\\PWV_Ejercicio_3",
-    "\\Proyecto_Integrador_PRG",
-    "\\Proyecto_Integrador_PRG\\ProyectoIntegrador",
+    "\\GeoIntegral",
+    "\\GeoIntegral\\GeoIntegral",
+    "\\GeoIntegral\\GeoIntegral\\Views",
     "\\Proyecto_Integrador_PRG\\ProyectoIntegrador\\Interfaces",
     "\\Proyecto_Integrador_PRG\\ProyectoIntegrador\\Interfaces\\Login"
   ],
-  "SelectedNode": "\\Proyecto_Integrador_PRG\\ProyectoIntegrador\\Interfaces\\Login\\Login.cs",
+  "SelectedNode": "\\GeoIntegral\\GeoIntegral\\Views\\LoadScreen.cs",
   "PreviewInSolutionExplorer": false
 }

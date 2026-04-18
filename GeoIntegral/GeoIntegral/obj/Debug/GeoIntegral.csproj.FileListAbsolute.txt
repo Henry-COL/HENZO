@@ -1,7 +1,0 @@
-C:\Users\Henry Quintero\Documents\GitHub\HENZO\GeoIntegral\GeoIntegral\bin\Debug\GeoIntegral.exe.config
-C:\Users\Henry Quintero\Documents\GitHub\HENZO\GeoIntegral\GeoIntegral\bin\Debug\GeoIntegral.exe
-C:\Users\Henry Quintero\Documents\GitHub\HENZO\GeoIntegral\GeoIntegral\bin\Debug\GeoIntegral.pdb
-C:\Users\Henry Quintero\Documents\GitHub\HENZO\GeoIntegral\GeoIntegral\obj\Debug\GeoIntegral.csproj.AssemblyReference.cache
-C:\Users\Henry Quintero\Documents\GitHub\HENZO\GeoIntegral\GeoIntegral\obj\Debug\GeoIntegral.csproj.CoreCompileInputs.cache
-C:\Users\Henry Quintero\Documents\GitHub\HENZO\GeoIntegral\GeoIntegral\obj\Debug\GeoIntegral.exe
-C:\Users\Henry Quintero\Documents\GitHub\HENZO\GeoIntegral\GeoIntegral\obj\Debug\GeoIntegral.pdb
