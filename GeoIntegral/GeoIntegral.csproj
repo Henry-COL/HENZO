@@ -39,9 +39,15 @@
     <StartupObject />
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>packages\Guna.UI2.WinForms.2.0.4.7\lib\net472\Guna.UI2.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -74,6 +80,7 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="app.manifest" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
@@ -89,6 +96,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Views\Load_Screen.resx">
       <DependentUpon>Load_Screen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Login_Screen.aa.resx">
+      <DependentUpon>Login_Screen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\Login_Screen.resx">
       <DependentUpon>Login_Screen.cs</DependentUpon>

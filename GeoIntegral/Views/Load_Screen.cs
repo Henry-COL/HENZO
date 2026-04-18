@@ -69,7 +69,7 @@ namespace GeoIntegral.Views
                 Barra_Carga.Value = 100;
                 this.Close();
 
-                int yuca = 1;
+                
 
             }
         }
