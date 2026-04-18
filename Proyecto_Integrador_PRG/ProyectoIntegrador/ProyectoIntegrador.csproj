@@ -83,6 +83,7 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="app.manifest" />
+    <None Include="Data\DatosUsuarios.csv" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Interfaces\Login\Login.resx">
