@@ -15,3 +15,4 @@ C:\Users\Henry Quintero\Documents\GitHub\HENZO\GeoIntegral\obj\Debug\GeoInteg.74
 C:\Users\Henry Quintero\Documents\GitHub\HENZO\GeoIntegral\obj\Debug\GeoIntegral.exe
 C:\Users\Henry Quintero\Documents\GitHub\HENZO\GeoIntegral\obj\Debug\GeoIntegral.pdb
 C:\Users\Henry Quintero\Documents\GitHub\HENZO\GeoIntegral\obj\Debug\GeoIntegral.Views.Error_MSG.resources
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\GeoIntegral\obj\Debug\GeoIntegral.Views.Register_User.resources

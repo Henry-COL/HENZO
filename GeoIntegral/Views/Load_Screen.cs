@@ -79,6 +79,8 @@ namespace GeoIntegral.Views
 
         private void label2_Click(object sender, EventArgs e)
         {
+            Register_User NuevaCuenta = new Register_User();
+            NuevaCuenta.Show();
         }
     }
 }

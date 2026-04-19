@@ -85,6 +85,12 @@
     <Compile Include="Views\Login_Screen.Designer.cs">
       <DependentUpon>Login_Screen.cs</DependentUpon>
     </Compile>
+    <Compile Include="Views\Register_User.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Register_User.Designer.cs">
+      <DependentUpon>Register_User.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -111,6 +117,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Views\Login_Screen.resx">
       <DependentUpon>Login_Screen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Register_User.resx">
+      <DependentUpon>Register_User.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
