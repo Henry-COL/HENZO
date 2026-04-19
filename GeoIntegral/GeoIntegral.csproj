@@ -57,12 +57,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controllers\UsuarioController.cs" />
+    <Compile Include="Data\UsuarioRepository.cs" />
+    <Compile Include="Models\Usuario.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Error_MSG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Error_MSG.Designer.cs">
+      <DependentUpon>Error_MSG.cs</DependentUpon>
     </Compile>
     <Compile Include="Views\Load_Screen.cs">
       <SubType>Form</SubType>
@@ -83,16 +92,16 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Controllers\" />
     <Folder Include="DataBase\" />
-    <Folder Include="Data\" />
     <Folder Include="Helpers\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Error_MSG.resx">
+      <DependentUpon>Error_MSG.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\Load_Screen.resx">
       <DependentUpon>Load_Screen.cs</DependentUpon>
@@ -105,8 +114,15 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Resources\Advertencia_Basica.png" />
+    <Content Include="Resources\Boton_Cerrar_Login.png" />
+    <Content Include="Resources\Boton_Minimizar_Login.png" />
+    <Content Include="Resources\Boton_Ventana_Login.png" />
+    <Content Include="Resources\Comprobar.jpg" />
     <Content Include="Resources\GeoIntegral_Logo_App.png" />
     <Content Include="Resources\Logo_App_GI.ico" />
+    <Content Include="Resources\Pasword_Image.png" />
+    <Content Include="Resources\User_Image.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

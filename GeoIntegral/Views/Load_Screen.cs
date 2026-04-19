@@ -1,43 +1,16 @@
 ﻿using System;
 using System.Drawing;
+using System.Media;
 using System.Windows.Forms;
 
 namespace GeoIntegral.Views
 {
     public partial class Load_Screen : Form
     {
-        private double _pasoOpacidad;
-        private double _pasoProgreso;
-        private double _progresoActual = 0;
-
-        private const double SegundosOpacidad = 1.5;
-        private const double SegundosBarra = 5.0;
-        private const int IntervaloTimer = 15;
-
         public Load_Screen()
         {
             InitializeComponent();
-            ConfigurarComponentes();
-        }
-
-        private void ConfigurarComponentes()
-        {
-
-            if (this.DesignMode) return;
-
-            Logo_App.BackColor = Color.Transparent;
-
-            Barra_Carga.Minimum = 0;
-            Barra_Carga.Maximum = 100;
-            Barra_Carga.Value = 0;
-
-            double ticksOpacidad = (SegundosOpacidad * 1000.0) / IntervaloTimer;
-            _pasoOpacidad = 1.0 / ticksOpacidad;
-
-            double ticksBarra = (SegundosBarra * 1000.0) / IntervaloTimer;
-            _pasoProgreso = 100.0 / ticksBarra;
-
-            tmrFadeIn.Interval = IntervaloTimer;
+            tmrFadeIn.Interval = 3;
         }
 
         private void Load_Screen_Load(object sender, EventArgs e)
@@ -49,34 +22,59 @@ namespace GeoIntegral.Views
 
         private void tmrFadeIn_Tick(object sender, EventArgs e)
         {
-            if (this.Opacity < 1.0)
+
+            if (Barra_Carga.Value < 100)
             {
-                this.Opacity += _pasoOpacidad;
+                Barra_Carga.Value += 1;
             }
-
-            if (_progresoActual < 100)
+            else
             {
-                _progresoActual += _pasoProgreso;
-                Barra_Carga.Value = (int)Math.Min(_progresoActual, 100);
-            }
-
-
-
-            if (this.Opacity >= 1.0 && _progresoActual >= 100)
-            {
-                tmrFadeIn.Stop();
-                this.Opacity = 1.0;
-                Barra_Carga.Value = 100;
-                this.Close();
-
-                
-
             }
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void txtUsuario_Login_TextChanged(object sender, EventArgs e)
+        {
+            if (txtUsuario_Login.Text == "")
+            {
+                lblMensaje1.Visible = true;
+            }
+            else
+            {
+                lblMensaje1.Visible = false;
+            }
+        }
+
+        private void txtContraseña_Login_TextChanged(object sender, EventArgs e)
+        {
+            if (txtContraseña_Login.Text == "")
+            {
+                lblMensaje2.Visible = true;
+            }
+            else
+            {
+                lblMensaje2.Visible = false;
+            }
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            if (txtUsuario_Login.Text == "" || txtContraseña_Login.Text == "")
+            {
+                SystemSounds.Beep.Play();
+                Error_MSG error_MSG = new Error_MSG();
+                error_MSG.Show();
+            }
+            else
+            {
+                Login_Screen loginScreen = new Login_Screen();
+                loginScreen.Show();
+                this.Hide();
+            }
         }
     }
 }

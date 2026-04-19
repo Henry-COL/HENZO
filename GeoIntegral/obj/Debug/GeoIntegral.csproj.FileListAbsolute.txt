@@ -1,11 +1,17 @@
 C:\Users\Henry Quintero\Documents\GitHub\HENZO\GeoIntegral\bin\Debug\GeoIntegral.exe.config
 C:\Users\Henry Quintero\Documents\GitHub\HENZO\GeoIntegral\bin\Debug\GeoIntegral.exe
 C:\Users\Henry Quintero\Documents\GitHub\HENZO\GeoIntegral\bin\Debug\GeoIntegral.pdb
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\GeoIntegral\bin\Debug\aa\GeoIntegral.resources.dll
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\GeoIntegral\bin\Debug\Guna.UI2.dll
 C:\Users\Henry Quintero\Documents\GitHub\HENZO\GeoIntegral\obj\Debug\GeoIntegral.csproj.AssemblyReference.cache
 C:\Users\Henry Quintero\Documents\GitHub\HENZO\GeoIntegral\obj\Debug\GeoIntegral.Properties.Resources.resources
 C:\Users\Henry Quintero\Documents\GitHub\HENZO\GeoIntegral\obj\Debug\GeoIntegral.Views.Load_Screen.resources
 C:\Users\Henry Quintero\Documents\GitHub\HENZO\GeoIntegral\obj\Debug\GeoIntegral.Views.Login_Screen.resources
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\GeoIntegral\obj\Debug\GeoIntegral.Views.Login_Screen.aa.resources
 C:\Users\Henry Quintero\Documents\GitHub\HENZO\GeoIntegral\obj\Debug\GeoIntegral.csproj.GenerateResource.cache
 C:\Users\Henry Quintero\Documents\GitHub\HENZO\GeoIntegral\obj\Debug\GeoIntegral.csproj.CoreCompileInputs.cache
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\GeoIntegral\obj\Debug\aa\GeoIntegral.resources.dll
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\GeoIntegral\obj\Debug\GeoInteg.74D226CE.Up2Date
 C:\Users\Henry Quintero\Documents\GitHub\HENZO\GeoIntegral\obj\Debug\GeoIntegral.exe
 C:\Users\Henry Quintero\Documents\GitHub\HENZO\GeoIntegral\obj\Debug\GeoIntegral.pdb
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\GeoIntegral\obj\Debug\GeoIntegral.Views.Error_MSG.resources

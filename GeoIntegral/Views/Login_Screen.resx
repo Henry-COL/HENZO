@@ -117,6 +117,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <metadata name="guna2BorderlessForm1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -126,6 +129,205 @@
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>1112, 668</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="guna2Panel1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="pnlMenu.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="pnlMenu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="pnlMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 603</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pnlMenu.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pnlMenu.Name" xml:space="preserve">
+    <value>pnlMenu</value>
+  </data>
+  <data name="&gt;&gt;pnlMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlMenu.Parent" xml:space="preserve">
+    <value>guna2Panel1</value>
+  </data>
+  <data name="&gt;&gt;pnlMenu.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="guna2Panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 53</value>
+  </data>
+  <data name="guna2Panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1092, 603</value>
+  </data>
+  <data name="guna2Panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;guna2Panel1.Name" xml:space="preserve">
+    <value>guna2Panel1</value>
+  </data>
+  <data name="&gt;&gt;guna2Panel1.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Panel, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;guna2Panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;guna2Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="guna2Button1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="guna2Button1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="guna2Button1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="guna2Button1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAJIAAABbCAYAAACYnNzyAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EQAACxEBf2RfkQAABgdJREFUeF7t3X3oXmMcx/Fr5mHzsOZhkseYEJo8LcooWTKGlLA/qI0UYVJbTWrJ
+        U4gsUWwtjfmTPyaSvzbyGGOxPGRhZIxmmafhra++t84+O/e937brd//c1/V91dWvzvmec586n8597utc
+        5/qlFMIwOCyl9EhKaVVKaXNKiWjRGm1jSunNlNKclNIYDU/HBSmlTS0bR4vW1tamlMZriOxK1AzR3Sml
+        S6JFk3ZFSumpRk7WaZAWNFYepCtDEFMaeZncXGH3RLbwrubCEHpY45l5prmwc2N9cXNhCD2875lZ31zY
+        uUxFkMJQdYJkv+T+E0EK2yuCFLKIIIUsIkghiwhSyCKCFLKIIIUsIkghiwhSyCKCFLKIIIUsIkghiwhS
+        yCKCFLKIIIUs6ggSYG2U/R1pfhy7/B+OJaPygwTsDtwHfOF/R2lNvwDjgKXAKuBaXT/Ayg4SMNpPXNOT
+        WtcPwF7Ae3IsN2jdgCo+SPsCP8jJM3dq7XACxgLL9CCAT0byCplR8UHaE3hdzx7wF3Cj1g8HYDdgkR6A
+        e0zrB1TZQTLA0cC3egaB34HLtT4nv7G+Vz/YvQ3sqtsMqPKDZIDJwAY9k8AvwFlanwswWz/QfQTsp/UD
+        rI4gGeB8vwqpjcAJWr+zgCv1g9zXgL0WX5J6gmSAGcDfemb9q+9Qrd9RwHnAn/ohwM/AsVpfgLqCZIBb
+        9ey6j+1XntZvL+Bk4FfduQfrdK0vRH1BMsD9epad/cIbq/VDBUwE1utOgT+AS7W+INUGyR5RLNaz7V7S
+        +qEAJnjvudrcr66GEVRnkAwwpksnoXla63sBxgMrdSd+P1bDrC71Bsn4s6839Oy7B7S+jT/6eFk3dgu1
+        vlB1B8kA+wOfagK89/s2rW/yXutndUO3TOsLFkEywBHAN5oEv0meofXGe60X6AZuuYVMtylYBKkDmAT8
+        pInwMJ3dUj9PC50NERmn9YWLIDUBUzw4yvqFTmzUzdQCZ73WB2651ypEkBRwmabDfQccCUzv0mttz/Im
+        6v4qEUFqA1yvKXFfAr/pQmATcKrupyIRpDY+xnu+pqUL+9q7UPdRmQhSNz5M93FNjbBe61m6bYUiSL0A
+        ewDPaXqc9VrP020qFUHqBdgbeFUT1PCoblOpCFI3NgwWeF6TI6z3+3bdtkIRpDZ+s71QU9OFheka3Udl
+        Ikht7Im9psXZ4Dcb5djmXN1PRSJICrhJE+I+8zFHZ3YZAWnLSh0BuS0RpCYfsG8/6dW/vdqNumla4L4H
+        jttyr1WIIHUAU72HWtmD3JNa6q/WQvc5cLDWFy6CZHzA/o+aCA/WVK03Poxkjm7gPrQRmLpNwSJIPhZp
+        nSbBv+JaxyJ1eO/3Q7qhW6n1Bas7SH7z3DY60tyi9W182pxuoyRf1PpC1RskH2v9jp55d4/W9+KPUmxU
+        pLLHKIu0vkB1Bsm/kl7Rs+4Wa/1QeJhW6848TPO1vjD1Bcl7rXXyrQ57PWm0bjNUwAHAV7pTN6uw6f6a
+        qgzSw3qG3Wv2daf128un0bH+pDbTtb4QdQUJmNtlEgn7uT5B63cUcFqX3m+bRmerFwkKUE+QfMB+W6+1
+        Ddg/XOt3FnCOfpCzuQEmaf2AqyNIPmDfrgbKOiGP1/pcbEY4/UC3FjhE6wdY+UHy2dpsMi1lvdZTtD4n
+        7/2+WT/YrYmp/waEv9v/gZ5Bf52oL9PMeFdDt3kkl2j9gCo+SPZef9sztL5Olu5hWqIH4eObtHwQFR8k
+        a0/IybtD6/rBj2WFHMtVWjegyg5Sh9+nvGUTXo3kFcCfyz3o0+BM0/UDrI4gGb8i6OK+8xvwEmb7b6on
+        SGFYRZBCFhGkkEUEKWQRQQpZRJBCFhGkkEUEKWQRQQpZRJBCFhGkkEUEKWQRQQpZRJBCFhGkkEUEKWTR
+        GqS1vvC65sIQeljtmVneXPiCL3w3pbTD78GHathr7nYlsszMbq64qPH1ZlOyHNVcGYKzf2xo/8jHLjid
+        vGxlaWNltGhDaTM1RMa+0uamlDa3bBAtWrNtSClt879D7ZNSOialNDmldEa0aI12it/2bPW/e/8BkGvS
+        dNwX22AAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="guna2Button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1042, 6</value>
+  </data>
+  <data name="guna2Button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 37</value>
+  </data>
+  <data name="guna2Button1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;guna2Button1.Name" xml:space="preserve">
+    <value>guna2Button1</value>
+  </data>
+  <data name="&gt;&gt;guna2Button1.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;guna2Button1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;guna2Button1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="guna2Button2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="guna2Button2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="guna2Button2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>978, 6</value>
+  </data>
+  <data name="guna2Button2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 37</value>
+  </data>
+  <data name="guna2Button2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="guna2Button2.Text" xml:space="preserve">
+    <value>[]</value>
+  </data>
+  <data name="&gt;&gt;guna2Button2.Name" xml:space="preserve">
+    <value>guna2Button2</value>
+  </data>
+  <data name="&gt;&gt;guna2Button2.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;guna2Button2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;guna2Button2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="guna2Button3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="guna2Button3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="guna2Button3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>914, 6</value>
+  </data>
+  <data name="guna2Button3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 37</value>
+  </data>
+  <data name="guna2Button3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="guna2Button3.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="&gt;&gt;guna2Button3.Name" xml:space="preserve">
+    <value>guna2Button3</value>
+  </data>
+  <data name="&gt;&gt;guna2Button3.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;guna2Button3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;guna2Button3.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Barra_Titulo.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="Barra_Titulo.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Barra_Titulo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="Barra_Titulo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1112, 52</value>
+  </data>
+  <data name="Barra_Titulo.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Barra_Titulo.Name" xml:space="preserve">
+    <value>Barra_Titulo</value>
+  </data>
+  <data name="&gt;&gt;Barra_Titulo.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Panel, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;Barra_Titulo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Barra_Titulo.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 8pt, style=Bold</value>
@@ -1000,7 +1202,6 @@
         OTi0Cn+Jc7NAnKuGn/CDH/zgBz/4wQ9+8IMf/OCH6vH/4l4f6ppBgTcAAAAASUVORK5CYII=
 </value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="$this.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
   </data>
@@ -1009,6 +1210,12 @@
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>hola</value>
+  </data>
+  <data name="&gt;&gt;guna2BorderlessForm1.Name" xml:space="preserve">
+    <value>guna2BorderlessForm1</value>
+  </data>
+  <data name="&gt;&gt;guna2BorderlessForm1.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2BorderlessForm, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>Login_Screen</value>

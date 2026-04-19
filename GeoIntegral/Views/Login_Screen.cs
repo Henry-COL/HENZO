@@ -16,18 +16,35 @@ namespace GeoIntegral.Views
         public Login_Screen()
         {
             InitializeComponent();
+            this.SetStyle(ControlStyles.UserPaint | ControlStyles.AllPaintingInWmPaint | ControlStyles.OptimizedDoubleBuffer, true);
+            this.UpdateStyles();
         }
 
-        private void AntialiasBordes(Control control, int radio)
+        private void Login_Screen_Load(object sender, EventArgs e)
         {
-            GraphicsPath path = new GraphicsPath();
-            path.StartFigure();
-            path.AddArc(0, 0, radio, radio, 180, 90);
-            path.AddArc(control.Width - radio, 0, radio, radio, 270, 90);
-            path.AddArc(control.Width - radio, control.Height - radio, radio, radio, 0, 90);
-            path.AddArc(0, control.Height - radio, radio, radio, 90, 90);
-            path.CloseFigure();
-            control.Region = new Region(path);
+            this.MaximizedBounds = Screen.FromHandle(this.Handle).WorkingArea;
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+            if (this.WindowState == FormWindowState.Normal)
+            {
+                this.WindowState = FormWindowState.Maximized;
+            }
+            else
+            {
+                this.WindowState = FormWindowState.Normal;
+            }
+        }
+
+        private void guna2Button3_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
         }
     }
 }
