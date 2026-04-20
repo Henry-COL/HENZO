@@ -1,0 +1,163 @@
+﻿using System;
+using System.IO;
+using System.Drawing;
+using System.Windows.Forms;
+
+namespace Ejercicio2_GuiaPractica
+{
+    public class MainForm : Form
+    {
+        private TextBox txtDni;
+        private TextBox txtCiudad;
+        private TextBox txtNombre;
+        private Button btnRegistrar;
+        private Button btnCargar;
+        private ListBox lstClientes;
+        private const string FilePath = "clientes.txt";
+
+        public MainForm()
+        {
+            InitializeComponents();
+        }
+
+        private void InitializeComponents()
+        {
+            this.Text = "Gestión de Clientes";
+            this.ClientSize = new Size(640, 480);
+            this.StartPosition = FormStartPosition.CenterScreen;
+
+            var gbDatos = new GroupBox();
+            gbDatos.Text = "Datos del Cliente";
+            gbDatos.SetBounds(10, 10, 610, 180);
+
+            var lblDni = new Label() { Text = "DNI (Código)", AutoSize = true };
+            lblDni.SetBounds(10, 25, 100, 20);
+            txtDni = new TextBox() { Name = "txtDni" };
+            txtDni.SetBounds(10, 45, 220, 22);
+
+            var lblCiudad = new Label() { Text = "Ciudad", AutoSize = true };
+            lblCiudad.SetBounds(250, 25, 100, 20);
+            txtCiudad = new TextBox() { Name = "txtCiudad" };
+            txtCiudad.SetBounds(250, 45, 220, 22);
+
+            var lblNombre = new Label() { Text = "Nombre Completo", AutoSize = true };
+            lblNombre.SetBounds(10, 80, 200, 20);
+            txtNombre = new TextBox() { Name = "txtNombre" };
+            txtNombre.SetBounds(10, 100, 560, 22);
+
+            btnRegistrar = new Button() { Text = "Registrar Cliente" };
+            btnRegistrar.SetBounds(10, 130, 150, 30);
+            btnRegistrar.Click += BtnRegistrar_Click;
+
+            gbDatos.Controls.Add(lblDni);
+            gbDatos.Controls.Add(txtDni);
+            gbDatos.Controls.Add(lblCiudad);
+            gbDatos.Controls.Add(txtCiudad);
+            gbDatos.Controls.Add(lblNombre);
+            gbDatos.Controls.Add(txtNombre);
+            gbDatos.Controls.Add(btnRegistrar);
+
+            var gbReg = new GroupBox();
+            gbReg.Text = "Clientes Registrados";
+            gbReg.SetBounds(10, 200, 610, 240);
+
+            lstClientes = new ListBox();
+            lstClientes.SetBounds(10, 20, 580, 160);
+            lstClientes.HorizontalScrollbar = true;
+
+            btnCargar = new Button() { Text = "Cargar desde Archivo" };
+            btnCargar.SetBounds(10, 185, 150, 30);
+            btnCargar.Click += BtnCargar_Click;
+
+            gbReg.Controls.Add(lstClientes);
+            gbReg.Controls.Add(btnCargar);
+
+            this.Controls.Add(gbDatos);
+            this.Controls.Add(gbReg);
+        }
+
+        private void BtnRegistrar_Click(object sender, EventArgs e)
+        {
+            var dni = txtDni.Text?.Trim() ?? string.Empty;
+            var nombre = txtNombre.Text?.Trim() ?? string.Empty;
+            var ciudad = txtCiudad.Text?.Trim();
+
+            if (string.IsNullOrWhiteSpace(dni))
+            {
+                MessageBox.Show("El DNI no puede estar vacío.", "Validación", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txtDni.Focus();
+                return;
+            }
+
+            if (string.IsNullOrWhiteSpace(nombre))
+            {
+                MessageBox.Show("El Nombre no puede estar vacío.", "Validación", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txtNombre.Focus();
+                return;
+            }
+
+            if (string.IsNullOrWhiteSpace(ciudad))
+            {
+                ciudad = "No especificado";
+            }
+
+            var record = string.Join('|', dni, ciudad, nombre);
+
+            try
+            {
+                File.AppendAllText(FilePath, record + Environment.NewLine);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al guardar el archivo: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            lstClientes.Items.Add(FormatDisplay(record));
+
+            // limpiar campos
+            txtDni.Text = string.Empty;
+            txtCiudad.Text = string.Empty;
+            txtNombre.Text = string.Empty;
+            txtDni.Focus();
+        }
+
+        private void BtnCargar_Click(object sender, EventArgs e)
+        {
+            lstClientes.Items.Clear();
+
+            if (!File.Exists(FilePath))
+            {
+                MessageBox.Show("No hay archivo de clientes. Aún no se ha registrado ninguno.", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                return;
+            }
+
+            string[] lines;
+            try
+            {
+                lines = File.ReadAllLines(FilePath);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al leer el archivo: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            foreach (var line in lines)
+            {
+                if (string.IsNullOrWhiteSpace(line)) continue;
+                lstClientes.Items.Add(FormatDisplay(line));
+            }
+        }
+
+        private string FormatDisplay(string recordLine)
+        {
+            var parts = recordLine.Split('|');
+            if (parts.Length >= 3)
+            {
+                return $"{parts[0]}    -    {parts[2]}    ({parts[1]})";
+            }
+            return recordLine;
+        }
+    }
+}

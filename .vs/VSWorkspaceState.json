@@ -4,14 +4,13 @@
     "\\Corte_2",
     "\\Corte_2\\EjerciciosPractica",
     "\\Corte_2\\EjerciciosPractica\\EjerciciosClase",
-    "\\Corte_2\\EjerciciosPractica\\EjerciciosClase\\Ejercicio_5_PROG",
+    "\\Corte_2\\EjerciciosPractica\\EjerciciosClase\\Ejercicio1_GuiaPractica",
     "\\GeoIntegral",
-    "\\GeoIntegral\\Models",
     "\\GeoIntegral\\Views",
     "\\Proyecto_Integrador_PRG",
     "\\Proyecto_Integrador_PRG\\ProyectoIntegrador",
     "\\Proyecto_Integrador_PRG\\ProyectoIntegrador\\Data"
   ],
-  "SelectedNode": "\\Proyecto_Integrador_PRG\\ProyectoIntegrador\\Data\\DatosUsuarios.csv",
+  "SelectedNode": "\\Corte_2\\EjerciciosPractica\\EjerciciosClase\\Ejercicio1_GuiaPractica\\Form1.cs",
   "PreviewInSolutionExplorer": false
 }

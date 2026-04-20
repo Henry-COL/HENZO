@@ -1,0 +1,7 @@
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Corte_2\EjerciciosPractica\EjerciciosClase\Ejercicio2_GuiaPractica\obj\Debug\Ejercicio2_GuiaPractica.csproj.AssemblyReference.cache
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Corte_2\EjerciciosPractica\EjerciciosClase\Ejercicio2_GuiaPractica\obj\Debug\Ejercicio2_GuiaPractica.csproj.CoreCompileInputs.cache
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Corte_2\EjerciciosPractica\EjerciciosClase\Ejercicio2_GuiaPractica\bin\Debug\Ejercicio2_GuiaPractica.exe.config
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Corte_2\EjerciciosPractica\EjerciciosClase\Ejercicio2_GuiaPractica\bin\Debug\Ejercicio2_GuiaPractica.exe
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Corte_2\EjerciciosPractica\EjerciciosClase\Ejercicio2_GuiaPractica\bin\Debug\Ejercicio2_GuiaPractica.pdb
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Corte_2\EjerciciosPractica\EjerciciosClase\Ejercicio2_GuiaPractica\obj\Debug\Ejercicio2_GuiaPractica.exe
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Corte_2\EjerciciosPractica\EjerciciosClase\Ejercicio2_GuiaPractica\obj\Debug\Ejercicio2_GuiaPractica.pdb

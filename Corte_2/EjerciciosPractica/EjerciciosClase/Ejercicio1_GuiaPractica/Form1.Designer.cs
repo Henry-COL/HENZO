@@ -30,16 +30,35 @@
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.numericUpDownCost = new System.Windows.Forms.NumericUpDown();
+            this.label4 = new System.Windows.Forms.Label();
+            this.numericUpDownQuantity = new System.Windows.Forms.NumericUpDown();
+            this.buttonCreate = new System.Windows.Forms.Button();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.listBoxProducts = new System.Windows.Forms.ListBox();
+            this.buttonUpdate = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.buttonCreate);
+            this.groupBox1.Controls.Add(this.numericUpDownQuantity);
+            this.groupBox1.Controls.Add(this.label4);
+            this.groupBox1.Controls.Add(this.numericUpDownCost);
+            this.groupBox1.Controls.Add(this.label3);
+            this.groupBox1.Controls.Add(this.textBox2);
+            this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Controls.Add(this.textBox1);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(400, 185);
+            this.groupBox1.Size = new System.Drawing.Size(631, 298);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Crear producto";
@@ -53,11 +72,121 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Nombre";
             // 
+            // textBox1
+            // 
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox1.Location = new System.Drawing.Point(24, 73);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(593, 28);
+            this.textBox1.TabIndex = 1;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(20, 129);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(73, 22);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Codigo";
+            // 
+            // textBox2
+            // 
+            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox2.Location = new System.Drawing.Point(24, 167);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(170, 28);
+            this.textBox2.TabIndex = 3;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(215, 129);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(57, 22);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "Costo";
+            // 
+            // numericUpDownCost
+            // 
+            this.numericUpDownCost.Location = new System.Drawing.Point(219, 165);
+            this.numericUpDownCost.Maximum = new decimal(new int[] {
+            1000000,
+            0,
+            0,
+            0});
+            this.numericUpDownCost.Name = "numericUpDownCost";
+            this.numericUpDownCost.Size = new System.Drawing.Size(120, 28);
+            this.numericUpDownCost.TabIndex = 5;
+            this.numericUpDownCost.DecimalPlaces = 2;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(360, 129);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(88, 22);
+            this.label4.TabIndex = 6;
+            this.label4.Text = "Cantidad";
+            // 
+            // numericUpDownQuantity
+            // 
+            this.numericUpDownQuantity.Location = new System.Drawing.Point(364, 165);
+            this.numericUpDownQuantity.Maximum = new decimal(new int[] {
+            1000000,
+            0,
+            0,
+            0});
+            this.numericUpDownQuantity.Name = "numericUpDownQuantity";
+            this.numericUpDownQuantity.Size = new System.Drawing.Size(120, 28);
+            this.numericUpDownQuantity.TabIndex = 7;
+            // 
+            // buttonCreate
+            // 
+            this.buttonCreate.Location = new System.Drawing.Point(24, 210);
+            this.buttonCreate.Name = "buttonCreate";
+            this.buttonCreate.Size = new System.Drawing.Size(100, 34);
+            this.buttonCreate.TabIndex = 8;
+            this.buttonCreate.Text = "Crear";
+            this.buttonCreate.UseVisualStyleBackColor = true;
+            this.buttonCreate.Click += new System.EventHandler(this.buttonCreate_Click);
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.listBoxProducts);
+            this.groupBox2.Controls.Add(this.buttonUpdate);
+            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox2.Location = new System.Drawing.Point(12, 326);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(631, 300);
+            this.groupBox2.TabIndex = 1;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Listado Productos";
+            // 
+            // listBoxProducts
+            // 
+            this.listBoxProducts.FormattingEnabled = true;
+            this.listBoxProducts.ItemHeight = 20;
+            this.listBoxProducts.Location = new System.Drawing.Point(24, 36);
+            this.listBoxProducts.Name = "listBoxProducts";
+            this.listBoxProducts.Size = new System.Drawing.Size(593, 184);
+            this.listBoxProducts.TabIndex = 0;
+            // 
+            // buttonUpdate
+            // 
+            this.buttonUpdate.Location = new System.Drawing.Point(24, 230);
+            this.buttonUpdate.Name = "buttonUpdate";
+            this.buttonUpdate.Size = new System.Drawing.Size(100, 34);
+            this.buttonUpdate.TabIndex = 1;
+            this.buttonUpdate.Text = "Actualizar";
+            this.buttonUpdate.UseVisualStyleBackColor = true;
+            this.buttonUpdate.Click += new System.EventHandler(this.buttonUpdate_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(632, 655);
+            this.ClientSize = new System.Drawing.Size(668, 655);
+            this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -71,5 +200,16 @@
 
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.NumericUpDown numericUpDownCost;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.NumericUpDown numericUpDownQuantity;
+        private System.Windows.Forms.Button buttonCreate;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.ListBox listBoxProducts;
+        private System.Windows.Forms.Button buttonUpdate;
     }
 }
