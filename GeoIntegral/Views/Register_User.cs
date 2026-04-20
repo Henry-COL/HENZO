@@ -16,5 +16,17 @@ namespace GeoIntegral.Views
         {
             InitializeComponent();
         }
+
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+            Owner.Show();
+            this.Close();
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            Owner.Show();
+            this.Close();
+        }
     }
 }

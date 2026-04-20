@@ -7,11 +7,11 @@
       "RelativeMoniker": "D:0:0:{D7BBA623-BAD4-405B-8738-075012616704}|app_inventario.csproj|solutionrelative:principal_screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7BBA623-BAD4-405B-8738-075012616704}|app_inventario.csproj|c:\\users\\henry quintero\\documents\\github\\henzo\\corte_2\\ejerciciospractica\\ejerciciosclase\\app_inventario\\principal_screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D7BBA623-BAD4-405B-8738-075012616704}|app_inventario.csproj|C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Corte_2\\EjerciciosPractica\\EjerciciosClase\\app_inventario\\principal_screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D7BBA623-BAD4-405B-8738-075012616704}|app_inventario.csproj|solutionrelative:principal_screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7BBA623-BAD4-405B-8738-075012616704}|app_inventario.csproj|c:\\users\\henry quintero\\documents\\github\\henzo\\corte_2\\ejerciciospractica\\ejerciciosclase\\app_inventario\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D7BBA623-BAD4-405B-8738-075012616704}|app_inventario.csproj|C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Corte_2\\EjerciciosPractica\\EjerciciosClase\\app_inventario\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D7BBA623-BAD4-405B-8738-075012616704}|app_inventario.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -67,8 +67,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-20T13:43:36.979Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-20T13:43:36.979Z"
             }
           ]
         }

@@ -45,6 +45,7 @@
             this.lblMensaje1 = new System.Windows.Forms.Label();
             this.lblMensaje2 = new System.Windows.Forms.Label();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2BorderlessForm2 = new Guna.UI2.WinForms.Guna2BorderlessForm(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.Logo_App)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -88,7 +89,7 @@
             // Barra_Carga
             // 
             this.Barra_Carga.BorderRadius = 6;
-            this.Barra_Carga.Location = new System.Drawing.Point(47, 28);
+            this.Barra_Carga.Location = new System.Drawing.Point(32, 12);
             this.Barra_Carga.Name = "Barra_Carga";
             this.Barra_Carga.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.Barra_Carga.ProgressColor2 = System.Drawing.Color.Green;
@@ -96,6 +97,7 @@
             this.Barra_Carga.TabIndex = 5;
             this.Barra_Carga.Text = "guna2ProgressBar1";
             this.Barra_Carga.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
+            this.Barra_Carga.Visible = false;
             // 
             // txtUsuario_Login
             // 
@@ -247,6 +249,12 @@
             this.guna2Panel1.Size = new System.Drawing.Size(412, 262);
             this.guna2Panel1.TabIndex = 16;
             // 
+            // guna2BorderlessForm2
+            // 
+            this.guna2BorderlessForm2.ContainerControl = this;
+            this.guna2BorderlessForm2.DockIndicatorTransparencyValue = 0.6D;
+            this.guna2BorderlessForm2.TransparentWhileDrag = true;
+            // 
             // Load_Screen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -288,5 +296,6 @@
         private System.Windows.Forms.Label lblMensaje2;
         private System.Windows.Forms.Label lblMensaje1;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
+        private Guna.UI2.WinForms.Guna2BorderlessForm guna2BorderlessForm2;
     }
 }

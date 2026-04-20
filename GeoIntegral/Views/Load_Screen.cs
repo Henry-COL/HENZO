@@ -67,7 +67,8 @@ namespace GeoIntegral.Views
             {
                 SystemSounds.Beep.Play();
                 Error_MSG error_MSG = new Error_MSG();
-                error_MSG.Show();
+                error_MSG.StartPosition = FormStartPosition.CenterParent;
+                error_MSG.ShowDialog(this);
             }
             else
             {
@@ -79,8 +80,11 @@ namespace GeoIntegral.Views
 
         private void label2_Click(object sender, EventArgs e)
         {
+            // Load_Screen.Owner = this;
+            this.Hide();
             Register_User NuevaCuenta = new Register_User();
-            NuevaCuenta.Show();
+            NuevaCuenta.StartPosition = FormStartPosition.CenterParent;
+            NuevaCuenta.ShowDialog(this);
         }
     }
 }

@@ -4,13 +4,14 @@
     "\\Corte_2",
     "\\Corte_2\\EjerciciosPractica",
     "\\Corte_2\\EjerciciosPractica\\EjerciciosClase",
-    "\\Corte_2\\EjerciciosPractica\\EjerciciosClase\\Ejercicio_5_PROG",
+    "\\Corte_2\\EjerciciosPractica\\EjerciciosClase\\app_inventario",
+    "\\Corte_2\\EjerciciosPractica\\EjerciciosClase\\app_inventario\\Properties",
     "\\GeoIntegral",
     "\\GeoIntegral\\Views",
     "\\Proyecto_Integrador_PRG",
     "\\Proyecto_Integrador_PRG\\ProyectoIntegrador",
     "\\Proyecto_Integrador_PRG\\ProyectoIntegrador\\Data"
   ],
-  "SelectedNode": "\\Corte_2\\EjerciciosPractica\\EjerciciosClase\\Ejercicio_5_PROG\\Form1.Designer.cs",
+  "SelectedNode": "\\Corte_2\\EjerciciosPractica\\EjerciciosClase\\app_inventario\\Principal_Screen.cs",
   "PreviewInSolutionExplorer": false
 }
