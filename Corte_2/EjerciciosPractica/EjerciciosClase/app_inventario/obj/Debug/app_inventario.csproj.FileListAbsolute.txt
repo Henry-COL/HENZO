@@ -1,0 +1,9 @@
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Corte_2\EjerciciosPractica\EjerciciosClase\app_inventario\bin\Debug\app_inventario.exe.config
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Corte_2\EjerciciosPractica\EjerciciosClase\app_inventario\bin\Debug\app_inventario.exe
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Corte_2\EjerciciosPractica\EjerciciosClase\app_inventario\bin\Debug\app_inventario.pdb
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Corte_2\EjerciciosPractica\EjerciciosClase\app_inventario\obj\Debug\app_inventario.csproj.AssemblyReference.cache
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Corte_2\EjerciciosPractica\EjerciciosClase\app_inventario\obj\Debug\app_inventario.Principal_Screen.resources
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Corte_2\EjerciciosPractica\EjerciciosClase\app_inventario\obj\Debug\app_inventario.csproj.GenerateResource.cache
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Corte_2\EjerciciosPractica\EjerciciosClase\app_inventario\obj\Debug\app_inventario.csproj.CoreCompileInputs.cache
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Corte_2\EjerciciosPractica\EjerciciosClase\app_inventario\obj\Debug\app_inventario.exe
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Corte_2\EjerciciosPractica\EjerciciosClase\app_inventario\obj\Debug\app_inventario.pdb

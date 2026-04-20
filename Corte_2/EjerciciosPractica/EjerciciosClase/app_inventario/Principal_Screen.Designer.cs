@@ -28,7 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.fileSystemWatcher1 = new System.IO.FileSystemWatcher();
+            ((System.ComponentModel.ISupportInitialize)(this.fileSystemWatcher1)).BeginInit();
             this.SuspendLayout();
+            // 
+            // fileSystemWatcher1
+            // 
+            this.fileSystemWatcher1.EnableRaisingEvents = true;
+            this.fileSystemWatcher1.SynchronizingObject = this;
             // 
             // Principal_Screen
             // 
@@ -37,10 +44,13 @@
             this.ClientSize = new System.Drawing.Size(938, 450);
             this.Name = "Principal_Screen";
             this.Text = "Principal_Screen";
+            ((System.ComponentModel.ISupportInitialize)(this.fileSystemWatcher1)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
+
+        private System.IO.FileSystemWatcher fileSystemWatcher1;
     }
 }
