@@ -1,0 +1,10 @@
+C:\Users\andre\Documents\GitHub\PROGRAMACION\Segundo Corte\VentasDiarias\bin\Debug\VentasDiarias.exe.config
+C:\Users\andre\Documents\GitHub\PROGRAMACION\Segundo Corte\VentasDiarias\bin\Debug\VentasDiarias.exe
+C:\Users\andre\Documents\GitHub\PROGRAMACION\Segundo Corte\VentasDiarias\bin\Debug\VentasDiarias.pdb
+C:\Users\andre\Documents\GitHub\PROGRAMACION\Segundo Corte\VentasDiarias\obj\Debug\VentasDiarias.csproj.AssemblyReference.cache
+C:\Users\andre\Documents\GitHub\PROGRAMACION\Segundo Corte\VentasDiarias\obj\Debug\VentasDiarias.Form1.resources
+C:\Users\andre\Documents\GitHub\PROGRAMACION\Segundo Corte\VentasDiarias\obj\Debug\VentasDiarias.Properties.Resources.resources
+C:\Users\andre\Documents\GitHub\PROGRAMACION\Segundo Corte\VentasDiarias\obj\Debug\VentasDiarias.csproj.GenerateResource.cache
+C:\Users\andre\Documents\GitHub\PROGRAMACION\Segundo Corte\VentasDiarias\obj\Debug\VentasDiarias.csproj.CoreCompileInputs.cache
+C:\Users\andre\Documents\GitHub\PROGRAMACION\Segundo Corte\VentasDiarias\obj\Debug\VentasDiarias.exe
+C:\Users\andre\Documents\GitHub\PROGRAMACION\Segundo Corte\VentasDiarias\obj\Debug\VentasDiarias.pdb

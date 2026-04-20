@@ -1,0 +1,10 @@
+C:\Users\andre\Documents\GitHub\PROGRAMACION\Segundo Corte\RegistroClientes\bin\Debug\RegistroClientes.exe.config
+C:\Users\andre\Documents\GitHub\PROGRAMACION\Segundo Corte\RegistroClientes\bin\Debug\RegistroClientes.exe
+C:\Users\andre\Documents\GitHub\PROGRAMACION\Segundo Corte\RegistroClientes\bin\Debug\RegistroClientes.pdb
+C:\Users\andre\Documents\GitHub\PROGRAMACION\Segundo Corte\RegistroClientes\obj\Debug\RegistroClientes.csproj.AssemblyReference.cache
+C:\Users\andre\Documents\GitHub\PROGRAMACION\Segundo Corte\RegistroClientes\obj\Debug\RegistroClientes.Form1.resources
+C:\Users\andre\Documents\GitHub\PROGRAMACION\Segundo Corte\RegistroClientes\obj\Debug\RegistroClientes.Properties.Resources.resources
+C:\Users\andre\Documents\GitHub\PROGRAMACION\Segundo Corte\RegistroClientes\obj\Debug\RegistroClientes.csproj.GenerateResource.cache
+C:\Users\andre\Documents\GitHub\PROGRAMACION\Segundo Corte\RegistroClientes\obj\Debug\RegistroClientes.csproj.CoreCompileInputs.cache
+C:\Users\andre\Documents\GitHub\PROGRAMACION\Segundo Corte\RegistroClientes\obj\Debug\RegistroClientes.exe
+C:\Users\andre\Documents\GitHub\PROGRAMACION\Segundo Corte\RegistroClientes\obj\Debug\RegistroClientes.pdb
