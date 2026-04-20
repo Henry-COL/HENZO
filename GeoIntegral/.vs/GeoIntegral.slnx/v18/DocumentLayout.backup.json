@@ -3,44 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\GeoIntegral\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FB82A2F3-816C-4FDA-8005-96A4CF2B3017}|GeoIntegral.csproj|C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\GeoIntegral\\views\\error_msg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FB82A2F3-816C-4FDA-8005-96A4CF2B3017}|GeoIntegral.csproj|solutionrelative:views\\error_msg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB82A2F3-816C-4FDA-8005-96A4CF2B3017}|GeoIntegral.csproj|c:\\users\\henry quintero\\documents\\github\\henzo\\geointegral\\views\\register_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FB82A2F3-816C-4FDA-8005-96A4CF2B3017}|GeoIntegral.csproj|solutionrelative:views\\register_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB82A2F3-816C-4FDA-8005-96A4CF2B3017}|GeoIntegral.csproj|C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\GeoIntegral\\views\\load_screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB82A2F3-816C-4FDA-8005-96A4CF2B3017}|GeoIntegral.csproj|solutionrelative:views\\load_screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB82A2F3-816C-4FDA-8005-96A4CF2B3017}|GeoIntegral.csproj|C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\GeoIntegral\\views\\load_screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FB82A2F3-816C-4FDA-8005-96A4CF2B3017}|GeoIntegral.csproj|solutionrelative:views\\load_screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FB82A2F3-816C-4FDA-8005-96A4CF2B3017}|GeoIntegral.csproj|C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\GeoIntegral\\views\\login_screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{FB82A2F3-816C-4FDA-8005-96A4CF2B3017}|GeoIntegral.csproj|solutionrelative:views\\login_screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB82A2F3-816C-4FDA-8005-96A4CF2B3017}|GeoIntegral.csproj|C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\GeoIntegral\\views\\register_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB82A2F3-816C-4FDA-8005-96A4CF2B3017}|GeoIntegral.csproj|solutionrelative:views\\register_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB82A2F3-816C-4FDA-8005-96A4CF2B3017}|GeoIntegral.csproj|C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\GeoIntegral\\data\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB82A2F3-816C-4FDA-8005-96A4CF2B3017}|GeoIntegral.csproj|solutionrelative:data\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FB82A2F3-816C-4FDA-8005-96A4CF2B3017}|GeoIntegral.csproj|C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\GeoIntegral\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB82A2F3-816C-4FDA-8005-96A4CF2B3017}|GeoIntegral.csproj|solutionrelative:models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB82A2F3-816C-4FDA-8005-96A4CF2B3017}|GeoIntegral.csproj|C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\GeoIntegral\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB82A2F3-816C-4FDA-8005-96A4CF2B3017}|GeoIntegral.csproj|solutionrelative:controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FB82A2F3-816C-4FDA-8005-96A4CF2B3017}|GeoIntegral.csproj|C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\GeoIntegral\\views\\error_msg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FB82A2F3-816C-4FDA-8005-96A4CF2B3017}|GeoIntegral.csproj|solutionrelative:views\\error_msg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FB82A2F3-816C-4FDA-8005-96A4CF2B3017}|GeoIntegral.csproj|C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\GeoIntegral\\views\\error_msg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB82A2F3-816C-4FDA-8005-96A4CF2B3017}|GeoIntegral.csproj|solutionrelative:views\\error_msg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB82A2F3-816C-4FDA-8005-96A4CF2B3017}|GeoIntegral.csproj|C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\GeoIntegral\\views\\load_screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FB82A2F3-816C-4FDA-8005-96A4CF2B3017}|GeoIntegral.csproj|solutionrelative:views\\load_screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB82A2F3-816C-4FDA-8005-96A4CF2B3017}|GeoIntegral.csproj|C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\GeoIntegral\\data\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB82A2F3-816C-4FDA-8005-96A4CF2B3017}|GeoIntegral.csproj|solutionrelative:data\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB82A2F3-816C-4FDA-8005-96A4CF2B3017}|GeoIntegral.csproj|C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\GeoIntegral\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB82A2F3-816C-4FDA-8005-96A4CF2B3017}|GeoIntegral.csproj|solutionrelative:controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB82A2F3-816C-4FDA-8005-96A4CF2B3017}|GeoIntegral.csproj|C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\GeoIntegral\\views\\load_screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB82A2F3-816C-4FDA-8005-96A4CF2B3017}|GeoIntegral.csproj|solutionrelative:views\\load_screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB82A2F3-816C-4FDA-8005-96A4CF2B3017}|GeoIntegral.csproj|c:\\users\\henry quintero\\documents\\github\\henzo\\geointegral\\views\\register_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FB82A2F3-816C-4FDA-8005-96A4CF2B3017}|GeoIntegral.csproj|solutionrelative:views\\register_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB82A2F3-816C-4FDA-8005-96A4CF2B3017}|GeoIntegral.csproj|C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\GeoIntegral\\views\\register_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB82A2F3-816C-4FDA-8005-96A4CF2B3017}|GeoIntegral.csproj|solutionrelative:views\\register_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FB82A2F3-816C-4FDA-8005-96A4CF2B3017}|GeoIntegral.csproj|C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\GeoIntegral\\views\\login_screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -58,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,31 +70,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Load_Screen.cs",
-              "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\GeoIntegral\\Views\\Load_Screen.cs",
-              "RelativeDocumentMoniker": "Views\\Load_Screen.cs",
-              "ToolTip": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\GeoIntegral\\Views\\Load_Screen.cs",
-              "RelativeToolTip": "Views\\Load_Screen.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAqwFIAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-19T00:12:24.337Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Register_User.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\GeoIntegral\\Views\\Register_User.cs",
-              "RelativeDocumentMoniker": "Views\\Register_User.cs",
-              "ToolTip": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\GeoIntegral\\Views\\Register_User.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Views\\Register_User.cs [Dise\u00F1o]",
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\GeoIntegral\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\GeoIntegral\\Models\\Usuario.cs",
+              "RelativeToolTip": "Models\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-19T05:27:23.657Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2026-04-19T05:08:02.786Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Error_MSG.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\GeoIntegral\\Views\\Error_MSG.cs",
               "RelativeDocumentMoniker": "Views\\Error_MSG.cs",
@@ -107,28 +96,94 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Error_MSG.cs",
+              "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\GeoIntegral\\Views\\Error_MSG.cs",
+              "RelativeDocumentMoniker": "Views\\Error_MSG.cs",
+              "ToolTip": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\GeoIntegral\\Views\\Error_MSG.cs",
+              "RelativeToolTip": "Views\\Error_MSG.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T04:41:27.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Load_Screen.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\GeoIntegral\\Views\\Load_Screen.cs",
               "RelativeDocumentMoniker": "Views\\Load_Screen.cs",
               "ToolTip": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\GeoIntegral\\Views\\Load_Screen.cs [Dise\u00F1o]",
               "RelativeToolTip": "Views\\Load_Screen.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-19T00:05:42.405Z"
+              "WhenOpened": "2026-04-19T00:05:42.405Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Login_Screen.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\GeoIntegral\\Views\\Login_Screen.cs",
               "RelativeDocumentMoniker": "Views\\Login_Screen.cs",
               "ToolTip": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\GeoIntegral\\Views\\Login_Screen.cs [Dise\u00F1o]",
               "RelativeToolTip": "Views\\Login_Screen.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-18T20:57:07.284Z"
+              "WhenOpened": "2026-04-18T20:57:07.284Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "UsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\GeoIntegral\\Data\\UsuarioRepository.cs",
+              "RelativeDocumentMoniker": "Data\\UsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\GeoIntegral\\Data\\UsuarioRepository.cs",
+              "RelativeToolTip": "Data\\UsuarioRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T05:08:46.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\GeoIntegral\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\GeoIntegral\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "Controllers\\UsuarioController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T05:13:26.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Load_Screen.cs",
+              "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\GeoIntegral\\Views\\Load_Screen.cs",
+              "RelativeDocumentMoniker": "Views\\Load_Screen.cs",
+              "ToolTip": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\GeoIntegral\\Views\\Load_Screen.cs",
+              "RelativeToolTip": "Views\\Load_Screen.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAqwFIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T00:12:24.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Register_User.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\GeoIntegral\\Views\\Register_User.cs",
+              "RelativeDocumentMoniker": "Views\\Register_User.cs",
+              "ToolTip": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\GeoIntegral\\Views\\Register_User.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Views\\Register_User.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T05:27:23.657Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Register_User.cs",
               "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\GeoIntegral\\Views\\Register_User.cs",
               "RelativeDocumentMoniker": "Views\\Register_User.cs",
@@ -140,55 +195,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UsuarioRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\GeoIntegral\\Data\\UsuarioRepository.cs",
-              "RelativeDocumentMoniker": "Data\\UsuarioRepository.cs",
-              "ToolTip": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\GeoIntegral\\Data\\UsuarioRepository.cs",
-              "RelativeToolTip": "Data\\UsuarioRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-19T05:08:46.647Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\GeoIntegral\\Models\\Usuario.cs",
-              "RelativeDocumentMoniker": "Models\\Usuario.cs",
-              "ToolTip": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\GeoIntegral\\Models\\Usuario.cs",
-              "RelativeToolTip": "Models\\Usuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-19T05:08:02.786Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UsuarioController.cs",
-              "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\GeoIntegral\\Controllers\\UsuarioController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UsuarioController.cs",
-              "ToolTip": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\GeoIntegral\\Controllers\\UsuarioController.cs",
-              "RelativeToolTip": "Controllers\\UsuarioController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-19T05:13:26.723Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Error_MSG.cs",
-              "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\GeoIntegral\\Views\\Error_MSG.cs",
-              "RelativeDocumentMoniker": "Views\\Error_MSG.cs",
-              "ToolTip": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\GeoIntegral\\Views\\Error_MSG.cs",
-              "RelativeToolTip": "Views\\Error_MSG.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-19T04:41:27.618Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 10,
               "Title": "Login_Screen.cs",
               "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\GeoIntegral\\Views\\Login_Screen.cs",
@@ -197,7 +203,8 @@
               "RelativeToolTip": "Views\\Login_Screen.cs",
               "ViewState": "AgIAAB0AAAAAAAAAAAAqwDAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-19T00:02:51.825Z"
+              "WhenOpened": "2026-04-19T00:02:51.825Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

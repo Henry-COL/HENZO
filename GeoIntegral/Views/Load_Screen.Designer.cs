@@ -88,7 +88,7 @@
             // Barra_Carga
             // 
             this.Barra_Carga.BorderRadius = 6;
-            this.Barra_Carga.Location = new System.Drawing.Point(65, 28);
+            this.Barra_Carga.Location = new System.Drawing.Point(47, 28);
             this.Barra_Carga.Name = "Barra_Carga";
             this.Barra_Carga.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.Barra_Carga.ProgressColor2 = System.Drawing.Color.Green;
