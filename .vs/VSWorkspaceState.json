@@ -9,8 +9,9 @@
     "\\GeoIntegral\\Models",
     "\\GeoIntegral\\Views",
     "\\Proyecto_Integrador_PRG",
-    "\\Proyecto_Integrador_PRG\\ProyectoIntegrador"
+    "\\Proyecto_Integrador_PRG\\ProyectoIntegrador",
+    "\\Proyecto_Integrador_PRG\\ProyectoIntegrador\\Data"
   ],
-  "SelectedNode": "\\GeoIntegral\\Views\\Register_User.cs",
+  "SelectedNode": "\\Proyecto_Integrador_PRG\\ProyectoIntegrador\\Data\\DatosUsuarios.csv",
   "PreviewInSolutionExplorer": false
 }
