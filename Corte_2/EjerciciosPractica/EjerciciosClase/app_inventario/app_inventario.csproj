@@ -83,11 +83,14 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="DataBase\" />
     <Folder Include="Media\Music\" />
+    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Media\Imagenes\App_Icon_Music.png" />
     <Content Include="Media\Imagenes\Logo_Wallpaper.png" />
+    <Content Include="Media\Imagenes\User_Icon.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
