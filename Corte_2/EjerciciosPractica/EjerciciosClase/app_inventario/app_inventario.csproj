@@ -87,6 +87,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Media\Imagenes\App_Icon_Music.png" />
+    <Content Include="Media\Imagenes\Logo_Wallpaper.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
