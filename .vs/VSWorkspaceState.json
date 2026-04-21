@@ -4,13 +4,11 @@
     "\\Corte_2",
     "\\Corte_2\\EjerciciosPractica",
     "\\Corte_2\\EjerciciosPractica\\EjerciciosClase",
-    "\\Corte_2\\EjerciciosPractica\\EjerciciosClase\\PWV_Ejercicio_1",
-    "\\GeoIntegral",
+    "\\Corte_2\\EjerciciosPractica\\EjerciciosClase\\app_inventario",
     "\\GeoIntegral\\Views",
-    "\\Proyecto_Integrador_PRG",
     "\\Proyecto_Integrador_PRG\\ProyectoIntegrador",
     "\\Proyecto_Integrador_PRG\\ProyectoIntegrador\\Data"
   ],
-  "SelectedNode": "\\GeoIntegral\\packages.config",
+  "SelectedNode": "\\Corte_2\\EjerciciosPractica\\EjerciciosClase\\app_inventario\\Principal_Screen.cs",
   "PreviewInSolutionExplorer": false
 }
