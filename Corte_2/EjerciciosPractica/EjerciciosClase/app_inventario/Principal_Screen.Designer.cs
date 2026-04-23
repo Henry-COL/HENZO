@@ -88,6 +88,8 @@
             this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.guna2ShadowPanel1 = new Guna.UI2.WinForms.Guna2ShadowPanel();
+            this.guna2ShadowPanel2 = new Guna.UI2.WinForms.Guna2ShadowPanel();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
@@ -104,6 +106,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.Most_Popular_1)).BeginInit();
             this.guna2Panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
+            this.guna2ShadowPanel1.SuspendLayout();
+            this.guna2ShadowPanel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // guna2BorderlessForm1
@@ -119,10 +123,11 @@
             this.panel1.Controls.Add(this.pag5);
             this.panel1.Controls.Add(this.pag4);
             this.panel1.Controls.Add(this.pag2);
+            this.panel1.Controls.Add(this.guna2Panel2);
             this.panel1.Controls.Add(this.pag3);
             this.panel1.Controls.Add(this.pag1);
-            this.panel1.Controls.Add(this.guna2Button6);
             this.panel1.Controls.Add(this.guna2PictureBox2);
+            this.panel1.Controls.Add(this.guna2Button6);
             this.panel1.Controls.Add(this.guna2Button5);
             this.panel1.Controls.Add(this.guna2Button4);
             this.panel1.Controls.Add(this.guna2Button3);
@@ -132,7 +137,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(310, 639);
+            this.panel1.Size = new System.Drawing.Size(310, 739);
             this.panel1.TabIndex = 0;
             // 
             // pag5
@@ -194,6 +199,7 @@
             this.guna2Button6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(28)))), ((int)(((byte)(40)))));
             this.guna2Button6.Font = new System.Drawing.Font("Montserrat Alternates SemiBold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button6.ForeColor = System.Drawing.Color.White;
+            this.guna2Button6.HoverState.FillColor = System.Drawing.Color.DarkGreen;
             this.guna2Button6.Location = new System.Drawing.Point(15, 414);
             this.guna2Button6.Name = "guna2Button6";
             this.guna2Button6.Size = new System.Drawing.Size(280, 45);
@@ -206,7 +212,7 @@
             this.guna2PictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox2.Image")));
             this.guna2PictureBox2.ImageRotate = 0F;
-            this.guna2PictureBox2.Location = new System.Drawing.Point(68, 489);
+            this.guna2PictureBox2.Location = new System.Drawing.Point(77, 476);
             this.guna2PictureBox2.Name = "guna2PictureBox2";
             this.guna2PictureBox2.Size = new System.Drawing.Size(158, 112);
             this.guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -223,6 +229,7 @@
             this.guna2Button5.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(28)))), ((int)(((byte)(40)))));
             this.guna2Button5.Font = new System.Drawing.Font("Montserrat Alternates SemiBold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button5.ForeColor = System.Drawing.Color.White;
+            this.guna2Button5.HoverState.FillColor = System.Drawing.Color.DarkGreen;
             this.guna2Button5.Location = new System.Drawing.Point(13, 356);
             this.guna2Button5.Name = "guna2Button5";
             this.guna2Button5.Size = new System.Drawing.Size(280, 45);
@@ -240,6 +247,7 @@
             this.guna2Button4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(28)))), ((int)(((byte)(40)))));
             this.guna2Button4.Font = new System.Drawing.Font("Montserrat Alternates SemiBold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button4.ForeColor = System.Drawing.Color.White;
+            this.guna2Button4.HoverState.FillColor = System.Drawing.Color.DarkGreen;
             this.guna2Button4.Location = new System.Drawing.Point(13, 295);
             this.guna2Button4.Name = "guna2Button4";
             this.guna2Button4.Size = new System.Drawing.Size(280, 45);
@@ -257,6 +265,7 @@
             this.guna2Button3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(28)))), ((int)(((byte)(40)))));
             this.guna2Button3.Font = new System.Drawing.Font("Montserrat Alternates SemiBold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button3.ForeColor = System.Drawing.Color.White;
+            this.guna2Button3.HoverState.FillColor = System.Drawing.Color.DarkGreen;
             this.guna2Button3.Location = new System.Drawing.Point(13, 235);
             this.guna2Button3.Name = "guna2Button3";
             this.guna2Button3.Size = new System.Drawing.Size(280, 45);
@@ -274,10 +283,7 @@
             this.guna2Button2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(28)))), ((int)(((byte)(40)))));
             this.guna2Button2.Font = new System.Drawing.Font("Montserrat Alternates SemiBold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button2.ForeColor = System.Drawing.Color.White;
-            this.guna2Button2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.guna2Button2.HoverState.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.guna2Button2.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.guna2Button2.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.guna2Button2.HoverState.FillColor = System.Drawing.Color.DarkGreen;
             this.guna2Button2.Location = new System.Drawing.Point(13, 175);
             this.guna2Button2.Name = "guna2Button2";
             this.guna2Button2.Size = new System.Drawing.Size(280, 45);
@@ -317,7 +323,7 @@
             this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
             this.guna2Button1.HoverState.FillColor = System.Drawing.Color.Green;
-            this.guna2Button1.Location = new System.Drawing.Point(1402, 12);
+            this.guna2Button1.Location = new System.Drawing.Point(1285, 5);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.Size = new System.Drawing.Size(62, 35);
             this.guna2Button1.TabIndex = 1;
@@ -330,14 +336,12 @@
             this.guna2Panel1.BorderRadius = 10;
             this.guna2Panel1.Controls.Add(this.guna2Panel6);
             this.guna2Panel1.Controls.Add(this.guna2Panel5);
-            this.guna2Panel1.Controls.Add(this.guna2Panel4);
-            this.guna2Panel1.Controls.Add(this.label5);
             this.guna2Panel1.Controls.Add(this.guna2Panel3);
             this.guna2Panel1.Controls.Add(this.label4);
             this.guna2Panel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(56)))), ((int)(((byte)(70)))));
-            this.guna2Panel1.Location = new System.Drawing.Point(325, 53);
+            this.guna2Panel1.Location = new System.Drawing.Point(325, 46);
             this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(929, 574);
+            this.guna2Panel1.Size = new System.Drawing.Size(1022, 294);
             this.guna2Panel1.TabIndex = 2;
             this.guna2Panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel1_Paint);
             // 
@@ -351,7 +355,7 @@
             this.guna2Panel6.Controls.Add(this.label12);
             this.guna2Panel6.Controls.Add(this.Most_Popular_Price2);
             this.guna2Panel6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(28)))), ((int)(((byte)(40)))));
-            this.guna2Panel6.Location = new System.Drawing.Point(627, 96);
+            this.guna2Panel6.Location = new System.Drawing.Point(676, 67);
             this.guna2Panel6.Name = "guna2Panel6";
             this.guna2Panel6.Size = new System.Drawing.Size(285, 191);
             this.guna2Panel6.TabIndex = 28;
@@ -425,7 +429,7 @@
             this.guna2Panel5.Controls.Add(this.label15);
             this.guna2Panel5.Controls.Add(this.Most_Popular_Art3);
             this.guna2Panel5.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(28)))), ((int)(((byte)(40)))));
-            this.guna2Panel5.Location = new System.Drawing.Point(318, 96);
+            this.guna2Panel5.Location = new System.Drawing.Point(315, 67);
             this.guna2Panel5.Name = "guna2Panel5";
             this.guna2Panel5.Size = new System.Drawing.Size(285, 191);
             this.guna2Panel5.TabIndex = 8;
@@ -492,26 +496,16 @@
             // guna2Panel4
             // 
             this.guna2Panel4.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Panel4.BorderRadius = 9;
-            this.guna2Panel4.Controls.Add(this.New_Add_lastBuy);
-            this.guna2Panel4.Controls.Add(this.New_Add_lastPrice);
-            this.guna2Panel4.Controls.Add(this.New_Add_lastArt);
-            this.guna2Panel4.Controls.Add(this.New_Add_last);
-            this.guna2Panel4.Controls.Add(this.label17);
-            this.guna2Panel4.Controls.Add(this.New_Add_halfBuy);
-            this.guna2Panel4.Controls.Add(this.New_Add_halfPrice);
-            this.guna2Panel4.Controls.Add(this.New_Add_halfArt);
-            this.guna2Panel4.Controls.Add(this.New_Add_half);
-            this.guna2Panel4.Controls.Add(this.label20);
+            this.guna2Panel4.BorderRadius = 20;
             this.guna2Panel4.Controls.Add(this.New_Add_newBuy);
             this.guna2Panel4.Controls.Add(this.New_Add_newPrice);
             this.guna2Panel4.Controls.Add(this.New_Add_newArt);
             this.guna2Panel4.Controls.Add(this.New_Add_new);
             this.guna2Panel4.Controls.Add(this.label23);
             this.guna2Panel4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(28)))), ((int)(((byte)(40)))));
-            this.guna2Panel4.Location = new System.Drawing.Point(14, 361);
+            this.guna2Panel4.Location = new System.Drawing.Point(14, 17);
             this.guna2Panel4.Name = "guna2Panel4";
-            this.guna2Panel4.Size = new System.Drawing.Size(797, 191);
+            this.guna2Panel4.Size = new System.Drawing.Size(993, 270);
             this.guna2Panel4.TabIndex = 18;
             // 
             // New_Add_lastBuy
@@ -524,7 +518,7 @@
             this.New_Add_lastBuy.FillColor = System.Drawing.Color.DarkGreen;
             this.New_Add_lastBuy.Font = new System.Drawing.Font("Montserrat Alternates SemiBold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.New_Add_lastBuy.ForeColor = System.Drawing.Color.White;
-            this.New_Add_lastBuy.Location = new System.Drawing.Point(688, 122);
+            this.New_Add_lastBuy.Location = new System.Drawing.Point(253, 150);
             this.New_Add_lastBuy.Name = "New_Add_lastBuy";
             this.New_Add_lastBuy.Size = new System.Drawing.Size(97, 36);
             this.New_Add_lastBuy.TabIndex = 17;
@@ -535,7 +529,7 @@
             this.New_Add_lastPrice.AutoSize = true;
             this.New_Add_lastPrice.Font = new System.Drawing.Font("Montserrat Alternates", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.New_Add_lastPrice.ForeColor = System.Drawing.Color.White;
-            this.New_Add_lastPrice.Location = new System.Drawing.Point(687, 80);
+            this.New_Add_lastPrice.Location = new System.Drawing.Point(252, 108);
             this.New_Add_lastPrice.Name = "New_Add_lastPrice";
             this.New_Add_lastPrice.Size = new System.Drawing.Size(98, 31);
             this.New_Add_lastPrice.TabIndex = 16;
@@ -545,7 +539,7 @@
             // 
             this.New_Add_lastArt.AutoSize = true;
             this.New_Add_lastArt.Font = new System.Drawing.Font("Montserrat Alternates Light", 8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.New_Add_lastArt.Location = new System.Drawing.Point(688, 28);
+            this.New_Add_lastArt.Location = new System.Drawing.Point(253, 56);
             this.New_Add_lastArt.Name = "New_Add_lastArt";
             this.New_Add_lastArt.Size = new System.Drawing.Size(80, 25);
             this.New_Add_lastArt.TabIndex = 15;
@@ -555,9 +549,9 @@
             // 
             this.New_Add_last.BorderRadius = 5;
             this.New_Add_last.ImageRotate = 0F;
-            this.New_Add_last.Location = new System.Drawing.Point(542, 17);
+            this.New_Add_last.Location = new System.Drawing.Point(56, 30);
             this.New_Add_last.Name = "New_Add_last";
-            this.New_Add_last.Size = new System.Drawing.Size(131, 156);
+            this.New_Add_last.Size = new System.Drawing.Size(167, 197);
             this.New_Add_last.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.New_Add_last.TabIndex = 13;
             this.New_Add_last.TabStop = false;
@@ -567,7 +561,7 @@
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("Montserrat Alternates Light", 8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label17.ForeColor = System.Drawing.Color.White;
-            this.label17.Location = new System.Drawing.Point(686, 53);
+            this.label17.Location = new System.Drawing.Point(251, 81);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(50, 25);
             this.label17.TabIndex = 14;
@@ -583,7 +577,7 @@
             this.New_Add_halfBuy.FillColor = System.Drawing.Color.DarkGreen;
             this.New_Add_halfBuy.Font = new System.Drawing.Font("Montserrat Alternates SemiBold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.New_Add_halfBuy.ForeColor = System.Drawing.Color.White;
-            this.New_Add_halfBuy.Location = new System.Drawing.Point(428, 122);
+            this.New_Add_halfBuy.Location = new System.Drawing.Point(242, 369);
             this.New_Add_halfBuy.Name = "New_Add_halfBuy";
             this.New_Add_halfBuy.Size = new System.Drawing.Size(97, 36);
             this.New_Add_halfBuy.TabIndex = 12;
@@ -594,7 +588,7 @@
             this.New_Add_halfPrice.AutoSize = true;
             this.New_Add_halfPrice.Font = new System.Drawing.Font("Montserrat Alternates", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.New_Add_halfPrice.ForeColor = System.Drawing.Color.White;
-            this.New_Add_halfPrice.Location = new System.Drawing.Point(427, 80);
+            this.New_Add_halfPrice.Location = new System.Drawing.Point(241, 327);
             this.New_Add_halfPrice.Name = "New_Add_halfPrice";
             this.New_Add_halfPrice.Size = new System.Drawing.Size(98, 31);
             this.New_Add_halfPrice.TabIndex = 11;
@@ -604,7 +598,7 @@
             // 
             this.New_Add_halfArt.AutoSize = true;
             this.New_Add_halfArt.Font = new System.Drawing.Font("Montserrat Alternates Light", 8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.New_Add_halfArt.Location = new System.Drawing.Point(428, 28);
+            this.New_Add_halfArt.Location = new System.Drawing.Point(242, 275);
             this.New_Add_halfArt.Name = "New_Add_halfArt";
             this.New_Add_halfArt.Size = new System.Drawing.Size(80, 25);
             this.New_Add_halfArt.TabIndex = 10;
@@ -614,9 +608,9 @@
             // 
             this.New_Add_half.BorderRadius = 5;
             this.New_Add_half.ImageRotate = 0F;
-            this.New_Add_half.Location = new System.Drawing.Point(282, 17);
+            this.New_Add_half.Location = new System.Drawing.Point(67, 249);
             this.New_Add_half.Name = "New_Add_half";
-            this.New_Add_half.Size = new System.Drawing.Size(131, 156);
+            this.New_Add_half.Size = new System.Drawing.Size(167, 197);
             this.New_Add_half.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.New_Add_half.TabIndex = 8;
             this.New_Add_half.TabStop = false;
@@ -626,7 +620,7 @@
             this.label20.AutoSize = true;
             this.label20.Font = new System.Drawing.Font("Montserrat Alternates Light", 8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label20.ForeColor = System.Drawing.Color.White;
-            this.label20.Location = new System.Drawing.Point(426, 53);
+            this.label20.Location = new System.Drawing.Point(240, 300);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(50, 25);
             this.label20.TabIndex = 9;
@@ -642,7 +636,7 @@
             this.New_Add_newBuy.FillColor = System.Drawing.Color.DarkGreen;
             this.New_Add_newBuy.Font = new System.Drawing.Font("Montserrat Alternates SemiBold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.New_Add_newBuy.ForeColor = System.Drawing.Color.White;
-            this.New_Add_newBuy.Location = new System.Drawing.Point(165, 121);
+            this.New_Add_newBuy.Location = new System.Drawing.Point(222, 154);
             this.New_Add_newBuy.Name = "New_Add_newBuy";
             this.New_Add_newBuy.Size = new System.Drawing.Size(97, 36);
             this.New_Add_newBuy.TabIndex = 7;
@@ -653,7 +647,7 @@
             this.New_Add_newPrice.AutoSize = true;
             this.New_Add_newPrice.Font = new System.Drawing.Font("Montserrat Alternates", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.New_Add_newPrice.ForeColor = System.Drawing.Color.White;
-            this.New_Add_newPrice.Location = new System.Drawing.Point(164, 79);
+            this.New_Add_newPrice.Location = new System.Drawing.Point(216, 120);
             this.New_Add_newPrice.Name = "New_Add_newPrice";
             this.New_Add_newPrice.Size = new System.Drawing.Size(98, 31);
             this.New_Add_newPrice.TabIndex = 6;
@@ -663,7 +657,7 @@
             // 
             this.New_Add_newArt.AutoSize = true;
             this.New_Add_newArt.Font = new System.Drawing.Font("Montserrat Alternates Light", 8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.New_Add_newArt.Location = new System.Drawing.Point(165, 28);
+            this.New_Add_newArt.Location = new System.Drawing.Point(213, 68);
             this.New_Add_newArt.Name = "New_Add_newArt";
             this.New_Add_newArt.Size = new System.Drawing.Size(80, 25);
             this.New_Add_newArt.TabIndex = 5;
@@ -673,9 +667,9 @@
             // 
             this.New_Add_new.BorderRadius = 5;
             this.New_Add_new.ImageRotate = 0F;
-            this.New_Add_new.Location = new System.Drawing.Point(19, 16);
+            this.New_Add_new.Location = new System.Drawing.Point(16, 20);
             this.New_Add_new.Name = "New_Add_new";
-            this.New_Add_new.Size = new System.Drawing.Size(131, 156);
+            this.New_Add_new.Size = new System.Drawing.Size(186, 226);
             this.New_Add_new.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.New_Add_new.TabIndex = 0;
             this.New_Add_new.TabStop = false;
@@ -685,7 +679,7 @@
             this.label23.AutoSize = true;
             this.label23.Font = new System.Drawing.Font("Montserrat Alternates Light", 8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label23.ForeColor = System.Drawing.Color.White;
-            this.label23.Location = new System.Drawing.Point(163, 52);
+            this.label23.Location = new System.Drawing.Point(217, 93);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(50, 25);
             this.label23.TabIndex = 4;
@@ -695,7 +689,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Montserrat Alternates SemiBold", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(6, 315);
+            this.label5.Location = new System.Drawing.Point(328, 368);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(213, 43);
             this.label5.TabIndex = 9;
@@ -711,7 +705,7 @@
             this.guna2Panel3.Controls.Add(this.Most_Popular_1);
             this.guna2Panel3.Controls.Add(this.label7);
             this.guna2Panel3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(28)))), ((int)(((byte)(40)))));
-            this.guna2Panel3.Location = new System.Drawing.Point(14, 96);
+            this.guna2Panel3.Location = new System.Drawing.Point(11, 67);
             this.guna2Panel3.Name = "guna2Panel3";
             this.guna2Panel3.Size = new System.Drawing.Size(285, 191);
             this.guna2Panel3.TabIndex = 3;
@@ -779,7 +773,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Montserrat Alternates SemiBold", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(6, 50);
+            this.label4.Location = new System.Drawing.Point(3, 21);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(217, 43);
             this.label4.TabIndex = 7;
@@ -793,19 +787,19 @@
             this.guna2Panel2.Controls.Add(this.label2);
             this.guna2Panel2.Controls.Add(this.label3);
             this.guna2Panel2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(28)))), ((int)(((byte)(40)))));
-            this.guna2Panel2.Location = new System.Drawing.Point(1274, 53);
+            this.guna2Panel2.Location = new System.Drawing.Point(15, 637);
             this.guna2Panel2.Name = "guna2Panel2";
-            this.guna2Panel2.Size = new System.Drawing.Size(201, 67);
+            this.guna2Panel2.Size = new System.Drawing.Size(278, 78);
             this.guna2Panel2.TabIndex = 2;
             // 
             // guna2CirclePictureBox1
             // 
             this.guna2CirclePictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2CirclePictureBox1.Image")));
             this.guna2CirclePictureBox1.ImageRotate = 0F;
-            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(142, 7);
+            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(9, 10);
             this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
             this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(48, 47);
+            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(56, 54);
             this.guna2CirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2CirclePictureBox1.TabIndex = 0;
             this.guna2CirclePictureBox1.TabStop = false;
@@ -814,7 +808,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Montserrat Alternates Light", 8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(55, 13);
+            this.label2.Location = new System.Drawing.Point(70, 15);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(78, 25);
             this.label2.TabIndex = 1;
@@ -825,11 +819,43 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Montserrat Alternates Light", 8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Gold;
-            this.label3.Location = new System.Drawing.Point(12, 29);
+            this.label3.Location = new System.Drawing.Point(71, 35);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(125, 25);
             this.label3.TabIndex = 2;
             this.label3.Text = "User Premium";
+            // 
+            // guna2ShadowPanel1
+            // 
+            this.guna2ShadowPanel1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2ShadowPanel1.Controls.Add(this.New_Add_halfBuy);
+            this.guna2ShadowPanel1.Controls.Add(this.New_Add_lastBuy);
+            this.guna2ShadowPanel1.Controls.Add(this.New_Add_halfPrice);
+            this.guna2ShadowPanel1.Controls.Add(this.New_Add_last);
+            this.guna2ShadowPanel1.Controls.Add(this.New_Add_halfArt);
+            this.guna2ShadowPanel1.Controls.Add(this.New_Add_lastPrice);
+            this.guna2ShadowPanel1.Controls.Add(this.New_Add_half);
+            this.guna2ShadowPanel1.Controls.Add(this.label20);
+            this.guna2ShadowPanel1.Controls.Add(this.label17);
+            this.guna2ShadowPanel1.Controls.Add(this.New_Add_lastArt);
+            this.guna2ShadowPanel1.FillColor = System.Drawing.Color.White;
+            this.guna2ShadowPanel1.Location = new System.Drawing.Point(1444, 113);
+            this.guna2ShadowPanel1.Name = "guna2ShadowPanel1";
+            this.guna2ShadowPanel1.ShadowColor = System.Drawing.Color.Black;
+            this.guna2ShadowPanel1.Size = new System.Drawing.Size(490, 475);
+            this.guna2ShadowPanel1.TabIndex = 3;
+            // 
+            // guna2ShadowPanel2
+            // 
+            this.guna2ShadowPanel2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2ShadowPanel2.Controls.Add(this.guna2Panel4);
+            this.guna2ShadowPanel2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(53)))), ((int)(((byte)(70)))));
+            this.guna2ShadowPanel2.Location = new System.Drawing.Point(325, 414);
+            this.guna2ShadowPanel2.Name = "guna2ShadowPanel2";
+            this.guna2ShadowPanel2.Radius = 8;
+            this.guna2ShadowPanel2.ShadowColor = System.Drawing.Color.Black;
+            this.guna2ShadowPanel2.Size = new System.Drawing.Size(1022, 301);
+            this.guna2ShadowPanel2.TabIndex = 4;
             // 
             // Principal_Screen
             // 
@@ -837,11 +863,13 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(28)))), ((int)(((byte)(40)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.ClientSize = new System.Drawing.Size(1476, 639);
+            this.ClientSize = new System.Drawing.Size(1946, 739);
+            this.Controls.Add(this.guna2ShadowPanel2);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.guna2ShadowPanel1);
             this.Controls.Add(this.guna2Panel1);
             this.Controls.Add(this.guna2Button1);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.guna2Panel2);
             this.ForeColor = System.Drawing.Color.Transparent;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Principal_Screen";
@@ -870,7 +898,11 @@
             this.guna2Panel2.ResumeLayout(false);
             this.guna2Panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
+            this.guna2ShadowPanel1.ResumeLayout(false);
+            this.guna2ShadowPanel1.PerformLayout();
+            this.guna2ShadowPanel2.ResumeLayout(false);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -934,5 +966,7 @@
         private Guna.UI2.WinForms.Guna2Panel pag2;
         private Guna.UI2.WinForms.Guna2Panel pag3;
         private Guna.UI2.WinForms.Guna2Panel pag1;
+        private Guna.UI2.WinForms.Guna2ShadowPanel guna2ShadowPanel1;
+        private Guna.UI2.WinForms.Guna2ShadowPanel guna2ShadowPanel2;
     }
 }
