@@ -32,6 +32,11 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Principal_Screen));
             this.guna2BorderlessForm1 = new Guna.UI2.WinForms.Guna2BorderlessForm(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
+            this.pag5 = new Guna.UI2.WinForms.Guna2Panel();
+            this.pag4 = new Guna.UI2.WinForms.Guna2Panel();
+            this.pag2 = new Guna.UI2.WinForms.Guna2Panel();
+            this.pag3 = new Guna.UI2.WinForms.Guna2Panel();
+            this.pag1 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Button6 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
@@ -43,6 +48,18 @@
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2AnimateWindow1 = new Guna.UI2.WinForms.Guna2AnimateWindow(this.components);
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2Panel6 = new Guna.UI2.WinForms.Guna2Panel();
+            this.Most_Popular_2 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.Most_Popular_Art2 = new System.Windows.Forms.Label();
+            this.Most_Popular_buy2 = new Guna.UI2.WinForms.Guna2Button();
+            this.label12 = new System.Windows.Forms.Label();
+            this.Most_Popular_Price2 = new System.Windows.Forms.Label();
+            this.guna2Panel5 = new Guna.UI2.WinForms.Guna2Panel();
+            this.Most_Popular_buy3 = new Guna.UI2.WinForms.Guna2Button();
+            this.Most_Popular_3 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.Most_Popular_Price3 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.Most_Popular_Art3 = new System.Windows.Forms.Label();
             this.guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
             this.New_Add_lastBuy = new Guna.UI2.WinForms.Guna2Button();
             this.New_Add_lastPrice = new System.Windows.Forms.Label();
@@ -71,27 +88,14 @@
             this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.Most_Popular_buy3 = new Guna.UI2.WinForms.Guna2Button();
-            this.Most_Popular_Price3 = new System.Windows.Forms.Label();
-            this.Most_Popular_Art3 = new System.Windows.Forms.Label();
-            this.Most_Popular_2 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.Most_Popular_3 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.Most_Popular_Art2 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.Most_Popular_Price2 = new System.Windows.Forms.Label();
-            this.Most_Popular_buy2 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Panel5 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Panel6 = new Guna.UI2.WinForms.Guna2Panel();
-            this.pag1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.pag2 = new Guna.UI2.WinForms.Guna2Panel();
-            this.pag4 = new Guna.UI2.WinForms.Guna2Panel();
-            this.pag3 = new Guna.UI2.WinForms.Guna2Panel();
-            this.pag5 = new Guna.UI2.WinForms.Guna2Panel();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.guna2Panel1.SuspendLayout();
+            this.guna2Panel6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Most_Popular_2)).BeginInit();
+            this.guna2Panel5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Most_Popular_3)).BeginInit();
             this.guna2Panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.New_Add_last)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.New_Add_half)).BeginInit();
@@ -100,10 +104,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.Most_Popular_1)).BeginInit();
             this.guna2Panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Most_Popular_2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Most_Popular_3)).BeginInit();
-            this.guna2Panel5.SuspendLayout();
-            this.guna2Panel6.SuspendLayout();
             this.SuspendLayout();
             // 
             // guna2BorderlessForm1
@@ -134,6 +134,55 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(310, 639);
             this.panel1.TabIndex = 0;
+            // 
+            // pag5
+            // 
+            this.pag5.BorderRadius = 8;
+            this.pag5.FillColor = System.Drawing.Color.Chartreuse;
+            this.pag5.Location = new System.Drawing.Point(-24, 414);
+            this.pag5.Name = "pag5";
+            this.pag5.Size = new System.Drawing.Size(34, 42);
+            this.pag5.TabIndex = 11;
+            this.pag5.Visible = false;
+            // 
+            // pag4
+            // 
+            this.pag4.BorderRadius = 8;
+            this.pag4.FillColor = System.Drawing.Color.Chartreuse;
+            this.pag4.Location = new System.Drawing.Point(-23, 355);
+            this.pag4.Name = "pag4";
+            this.pag4.Size = new System.Drawing.Size(34, 42);
+            this.pag4.TabIndex = 10;
+            this.pag4.Visible = false;
+            // 
+            // pag2
+            // 
+            this.pag2.BorderRadius = 8;
+            this.pag2.FillColor = System.Drawing.Color.Chartreuse;
+            this.pag2.Location = new System.Drawing.Point(-24, 235);
+            this.pag2.Name = "pag2";
+            this.pag2.Size = new System.Drawing.Size(34, 42);
+            this.pag2.TabIndex = 8;
+            this.pag2.Visible = false;
+            // 
+            // pag3
+            // 
+            this.pag3.BorderRadius = 8;
+            this.pag3.FillColor = System.Drawing.Color.Chartreuse;
+            this.pag3.Location = new System.Drawing.Point(-25, 295);
+            this.pag3.Name = "pag3";
+            this.pag3.Size = new System.Drawing.Size(34, 42);
+            this.pag3.TabIndex = 9;
+            this.pag3.Visible = false;
+            // 
+            // pag1
+            // 
+            this.pag1.BorderRadius = 8;
+            this.pag1.FillColor = System.Drawing.Color.Chartreuse;
+            this.pag1.Location = new System.Drawing.Point(-23, 175);
+            this.pag1.Name = "pag1";
+            this.pag1.Size = new System.Drawing.Size(34, 42);
+            this.pag1.TabIndex = 7;
             // 
             // guna2Button6
             // 
@@ -225,6 +274,10 @@
             this.guna2Button2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(28)))), ((int)(((byte)(40)))));
             this.guna2Button2.Font = new System.Drawing.Font("Montserrat Alternates SemiBold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button2.ForeColor = System.Drawing.Color.White;
+            this.guna2Button2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.guna2Button2.HoverState.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.guna2Button2.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.guna2Button2.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.guna2Button2.Location = new System.Drawing.Point(13, 175);
             this.guna2Button2.Name = "guna2Button2";
             this.guna2Button2.Size = new System.Drawing.Size(280, 45);
@@ -287,6 +340,154 @@
             this.guna2Panel1.Size = new System.Drawing.Size(929, 574);
             this.guna2Panel1.TabIndex = 2;
             this.guna2Panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel1_Paint);
+            // 
+            // guna2Panel6
+            // 
+            this.guna2Panel6.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Panel6.BorderRadius = 9;
+            this.guna2Panel6.Controls.Add(this.Most_Popular_2);
+            this.guna2Panel6.Controls.Add(this.Most_Popular_Art2);
+            this.guna2Panel6.Controls.Add(this.Most_Popular_buy2);
+            this.guna2Panel6.Controls.Add(this.label12);
+            this.guna2Panel6.Controls.Add(this.Most_Popular_Price2);
+            this.guna2Panel6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(28)))), ((int)(((byte)(40)))));
+            this.guna2Panel6.Location = new System.Drawing.Point(627, 96);
+            this.guna2Panel6.Name = "guna2Panel6";
+            this.guna2Panel6.Size = new System.Drawing.Size(285, 191);
+            this.guna2Panel6.TabIndex = 28;
+            // 
+            // Most_Popular_2
+            // 
+            this.Most_Popular_2.BorderRadius = 5;
+            this.Most_Popular_2.ImageRotate = 0F;
+            this.Most_Popular_2.Location = new System.Drawing.Point(24, 16);
+            this.Most_Popular_2.Name = "Most_Popular_2";
+            this.Most_Popular_2.Size = new System.Drawing.Size(131, 156);
+            this.Most_Popular_2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.Most_Popular_2.TabIndex = 18;
+            this.Most_Popular_2.TabStop = false;
+            // 
+            // Most_Popular_Art2
+            // 
+            this.Most_Popular_Art2.AutoSize = true;
+            this.Most_Popular_Art2.Font = new System.Drawing.Font("Montserrat Alternates Light", 8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Most_Popular_Art2.Location = new System.Drawing.Point(170, 27);
+            this.Most_Popular_Art2.Name = "Most_Popular_Art2";
+            this.Most_Popular_Art2.Size = new System.Drawing.Size(80, 25);
+            this.Most_Popular_Art2.TabIndex = 20;
+            this.Most_Popular_Art2.Text = "@Artista";
+            // 
+            // Most_Popular_buy2
+            // 
+            this.Most_Popular_buy2.BorderRadius = 8;
+            this.Most_Popular_buy2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.Most_Popular_buy2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.Most_Popular_buy2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.Most_Popular_buy2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.Most_Popular_buy2.FillColor = System.Drawing.Color.DarkGreen;
+            this.Most_Popular_buy2.Font = new System.Drawing.Font("Montserrat Alternates SemiBold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Most_Popular_buy2.ForeColor = System.Drawing.Color.White;
+            this.Most_Popular_buy2.Location = new System.Drawing.Point(170, 121);
+            this.Most_Popular_buy2.Name = "Most_Popular_buy2";
+            this.Most_Popular_buy2.Size = new System.Drawing.Size(97, 36);
+            this.Most_Popular_buy2.TabIndex = 22;
+            this.Most_Popular_buy2.Text = "Buy";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Montserrat Alternates Light", 8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.ForeColor = System.Drawing.Color.White;
+            this.label12.Location = new System.Drawing.Point(168, 52);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(50, 25);
+            this.label12.TabIndex = 19;
+            this.label12.Text = "Sale:";
+            // 
+            // Most_Popular_Price2
+            // 
+            this.Most_Popular_Price2.AutoSize = true;
+            this.Most_Popular_Price2.Font = new System.Drawing.Font("Montserrat Alternates", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Most_Popular_Price2.ForeColor = System.Drawing.Color.White;
+            this.Most_Popular_Price2.Location = new System.Drawing.Point(169, 79);
+            this.Most_Popular_Price2.Name = "Most_Popular_Price2";
+            this.Most_Popular_Price2.Size = new System.Drawing.Size(98, 31);
+            this.Most_Popular_Price2.TabIndex = 21;
+            this.Most_Popular_Price2.Text = "$ 90,000";
+            // 
+            // guna2Panel5
+            // 
+            this.guna2Panel5.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Panel5.BorderRadius = 9;
+            this.guna2Panel5.Controls.Add(this.Most_Popular_buy3);
+            this.guna2Panel5.Controls.Add(this.Most_Popular_3);
+            this.guna2Panel5.Controls.Add(this.Most_Popular_Price3);
+            this.guna2Panel5.Controls.Add(this.label15);
+            this.guna2Panel5.Controls.Add(this.Most_Popular_Art3);
+            this.guna2Panel5.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(28)))), ((int)(((byte)(40)))));
+            this.guna2Panel5.Location = new System.Drawing.Point(318, 96);
+            this.guna2Panel5.Name = "guna2Panel5";
+            this.guna2Panel5.Size = new System.Drawing.Size(285, 191);
+            this.guna2Panel5.TabIndex = 8;
+            // 
+            // Most_Popular_buy3
+            // 
+            this.Most_Popular_buy3.BorderRadius = 8;
+            this.Most_Popular_buy3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.Most_Popular_buy3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.Most_Popular_buy3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.Most_Popular_buy3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.Most_Popular_buy3.FillColor = System.Drawing.Color.DarkGreen;
+            this.Most_Popular_buy3.Font = new System.Drawing.Font("Montserrat Alternates SemiBold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Most_Popular_buy3.ForeColor = System.Drawing.Color.White;
+            this.Most_Popular_buy3.Location = new System.Drawing.Point(166, 121);
+            this.Most_Popular_buy3.Name = "Most_Popular_buy3";
+            this.Most_Popular_buy3.Size = new System.Drawing.Size(97, 36);
+            this.Most_Popular_buy3.TabIndex = 27;
+            this.Most_Popular_buy3.Text = "Buy";
+            // 
+            // Most_Popular_3
+            // 
+            this.Most_Popular_3.BorderRadius = 5;
+            this.Most_Popular_3.ImageRotate = 0F;
+            this.Most_Popular_3.Location = new System.Drawing.Point(20, 16);
+            this.Most_Popular_3.Name = "Most_Popular_3";
+            this.Most_Popular_3.Size = new System.Drawing.Size(131, 156);
+            this.Most_Popular_3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.Most_Popular_3.TabIndex = 23;
+            this.Most_Popular_3.TabStop = false;
+            // 
+            // Most_Popular_Price3
+            // 
+            this.Most_Popular_Price3.AutoSize = true;
+            this.Most_Popular_Price3.Font = new System.Drawing.Font("Montserrat Alternates", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Most_Popular_Price3.ForeColor = System.Drawing.Color.White;
+            this.Most_Popular_Price3.Location = new System.Drawing.Point(165, 79);
+            this.Most_Popular_Price3.Name = "Most_Popular_Price3";
+            this.Most_Popular_Price3.Size = new System.Drawing.Size(98, 31);
+            this.Most_Popular_Price3.TabIndex = 26;
+            this.Most_Popular_Price3.Text = "$ 90,000";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Montserrat Alternates Light", 8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.ForeColor = System.Drawing.Color.White;
+            this.label15.Location = new System.Drawing.Point(164, 52);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(50, 25);
+            this.label15.TabIndex = 24;
+            this.label15.Text = "Sale:";
+            // 
+            // Most_Popular_Art3
+            // 
+            this.Most_Popular_Art3.AutoSize = true;
+            this.Most_Popular_Art3.Font = new System.Drawing.Font("Montserrat Alternates Light", 8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Most_Popular_Art3.Location = new System.Drawing.Point(166, 27);
+            this.Most_Popular_Art3.Name = "Most_Popular_Art3";
+            this.Most_Popular_Art3.Size = new System.Drawing.Size(80, 25);
+            this.Most_Popular_Art3.TabIndex = 25;
+            this.Most_Popular_Art3.Text = "@Artista";
             // 
             // guna2Panel4
             // 
@@ -630,203 +831,6 @@
             this.label3.TabIndex = 2;
             this.label3.Text = "User Premium";
             // 
-            // Most_Popular_buy3
-            // 
-            this.Most_Popular_buy3.BorderRadius = 8;
-            this.Most_Popular_buy3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.Most_Popular_buy3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.Most_Popular_buy3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.Most_Popular_buy3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.Most_Popular_buy3.FillColor = System.Drawing.Color.DarkGreen;
-            this.Most_Popular_buy3.Font = new System.Drawing.Font("Montserrat Alternates SemiBold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Most_Popular_buy3.ForeColor = System.Drawing.Color.White;
-            this.Most_Popular_buy3.Location = new System.Drawing.Point(166, 121);
-            this.Most_Popular_buy3.Name = "Most_Popular_buy3";
-            this.Most_Popular_buy3.Size = new System.Drawing.Size(97, 36);
-            this.Most_Popular_buy3.TabIndex = 27;
-            this.Most_Popular_buy3.Text = "Buy";
-            // 
-            // Most_Popular_Price3
-            // 
-            this.Most_Popular_Price3.AutoSize = true;
-            this.Most_Popular_Price3.Font = new System.Drawing.Font("Montserrat Alternates", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Most_Popular_Price3.ForeColor = System.Drawing.Color.White;
-            this.Most_Popular_Price3.Location = new System.Drawing.Point(165, 79);
-            this.Most_Popular_Price3.Name = "Most_Popular_Price3";
-            this.Most_Popular_Price3.Size = new System.Drawing.Size(98, 31);
-            this.Most_Popular_Price3.TabIndex = 26;
-            this.Most_Popular_Price3.Text = "$ 90,000";
-            // 
-            // Most_Popular_Art3
-            // 
-            this.Most_Popular_Art3.AutoSize = true;
-            this.Most_Popular_Art3.Font = new System.Drawing.Font("Montserrat Alternates Light", 8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Most_Popular_Art3.Location = new System.Drawing.Point(166, 27);
-            this.Most_Popular_Art3.Name = "Most_Popular_Art3";
-            this.Most_Popular_Art3.Size = new System.Drawing.Size(80, 25);
-            this.Most_Popular_Art3.TabIndex = 25;
-            this.Most_Popular_Art3.Text = "@Artista";
-            // 
-            // Most_Popular_2
-            // 
-            this.Most_Popular_2.BorderRadius = 5;
-            this.Most_Popular_2.ImageRotate = 0F;
-            this.Most_Popular_2.Location = new System.Drawing.Point(24, 16);
-            this.Most_Popular_2.Name = "Most_Popular_2";
-            this.Most_Popular_2.Size = new System.Drawing.Size(131, 156);
-            this.Most_Popular_2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.Most_Popular_2.TabIndex = 18;
-            this.Most_Popular_2.TabStop = false;
-            // 
-            // Most_Popular_3
-            // 
-            this.Most_Popular_3.BorderRadius = 5;
-            this.Most_Popular_3.ImageRotate = 0F;
-            this.Most_Popular_3.Location = new System.Drawing.Point(20, 16);
-            this.Most_Popular_3.Name = "Most_Popular_3";
-            this.Most_Popular_3.Size = new System.Drawing.Size(131, 156);
-            this.Most_Popular_3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.Most_Popular_3.TabIndex = 23;
-            this.Most_Popular_3.TabStop = false;
-            // 
-            // Most_Popular_Art2
-            // 
-            this.Most_Popular_Art2.AutoSize = true;
-            this.Most_Popular_Art2.Font = new System.Drawing.Font("Montserrat Alternates Light", 8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Most_Popular_Art2.Location = new System.Drawing.Point(170, 27);
-            this.Most_Popular_Art2.Name = "Most_Popular_Art2";
-            this.Most_Popular_Art2.Size = new System.Drawing.Size(80, 25);
-            this.Most_Popular_Art2.TabIndex = 20;
-            this.Most_Popular_Art2.Text = "@Artista";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Montserrat Alternates Light", 8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.ForeColor = System.Drawing.Color.White;
-            this.label12.Location = new System.Drawing.Point(168, 52);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(50, 25);
-            this.label12.TabIndex = 19;
-            this.label12.Text = "Sale:";
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Montserrat Alternates Light", 8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.ForeColor = System.Drawing.Color.White;
-            this.label15.Location = new System.Drawing.Point(164, 52);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(50, 25);
-            this.label15.TabIndex = 24;
-            this.label15.Text = "Sale:";
-            // 
-            // Most_Popular_Price2
-            // 
-            this.Most_Popular_Price2.AutoSize = true;
-            this.Most_Popular_Price2.Font = new System.Drawing.Font("Montserrat Alternates", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Most_Popular_Price2.ForeColor = System.Drawing.Color.White;
-            this.Most_Popular_Price2.Location = new System.Drawing.Point(169, 79);
-            this.Most_Popular_Price2.Name = "Most_Popular_Price2";
-            this.Most_Popular_Price2.Size = new System.Drawing.Size(98, 31);
-            this.Most_Popular_Price2.TabIndex = 21;
-            this.Most_Popular_Price2.Text = "$ 90,000";
-            // 
-            // Most_Popular_buy2
-            // 
-            this.Most_Popular_buy2.BorderRadius = 8;
-            this.Most_Popular_buy2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.Most_Popular_buy2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.Most_Popular_buy2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.Most_Popular_buy2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.Most_Popular_buy2.FillColor = System.Drawing.Color.DarkGreen;
-            this.Most_Popular_buy2.Font = new System.Drawing.Font("Montserrat Alternates SemiBold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Most_Popular_buy2.ForeColor = System.Drawing.Color.White;
-            this.Most_Popular_buy2.Location = new System.Drawing.Point(170, 121);
-            this.Most_Popular_buy2.Name = "Most_Popular_buy2";
-            this.Most_Popular_buy2.Size = new System.Drawing.Size(97, 36);
-            this.Most_Popular_buy2.TabIndex = 22;
-            this.Most_Popular_buy2.Text = "Buy";
-            // 
-            // guna2Panel5
-            // 
-            this.guna2Panel5.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Panel5.BorderRadius = 9;
-            this.guna2Panel5.Controls.Add(this.Most_Popular_buy3);
-            this.guna2Panel5.Controls.Add(this.Most_Popular_3);
-            this.guna2Panel5.Controls.Add(this.Most_Popular_Price3);
-            this.guna2Panel5.Controls.Add(this.label15);
-            this.guna2Panel5.Controls.Add(this.Most_Popular_Art3);
-            this.guna2Panel5.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(28)))), ((int)(((byte)(40)))));
-            this.guna2Panel5.Location = new System.Drawing.Point(318, 96);
-            this.guna2Panel5.Name = "guna2Panel5";
-            this.guna2Panel5.Size = new System.Drawing.Size(285, 191);
-            this.guna2Panel5.TabIndex = 8;
-            // 
-            // guna2Panel6
-            // 
-            this.guna2Panel6.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Panel6.BorderRadius = 9;
-            this.guna2Panel6.Controls.Add(this.Most_Popular_2);
-            this.guna2Panel6.Controls.Add(this.Most_Popular_Art2);
-            this.guna2Panel6.Controls.Add(this.Most_Popular_buy2);
-            this.guna2Panel6.Controls.Add(this.label12);
-            this.guna2Panel6.Controls.Add(this.Most_Popular_Price2);
-            this.guna2Panel6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(28)))), ((int)(((byte)(40)))));
-            this.guna2Panel6.Location = new System.Drawing.Point(627, 96);
-            this.guna2Panel6.Name = "guna2Panel6";
-            this.guna2Panel6.Size = new System.Drawing.Size(285, 191);
-            this.guna2Panel6.TabIndex = 28;
-            // 
-            // pag1
-            // 
-            this.pag1.BorderRadius = 8;
-            this.pag1.FillColor = System.Drawing.Color.Chartreuse;
-            this.pag1.Location = new System.Drawing.Point(-23, 175);
-            this.pag1.Name = "pag1";
-            this.pag1.Size = new System.Drawing.Size(34, 42);
-            this.pag1.TabIndex = 7;
-            // 
-            // pag2
-            // 
-            this.pag2.BorderRadius = 8;
-            this.pag2.FillColor = System.Drawing.Color.Chartreuse;
-            this.pag2.Location = new System.Drawing.Point(-24, 235);
-            this.pag2.Name = "pag2";
-            this.pag2.Size = new System.Drawing.Size(34, 42);
-            this.pag2.TabIndex = 8;
-            this.pag2.Visible = false;
-            // 
-            // pag4
-            // 
-            this.pag4.BorderRadius = 8;
-            this.pag4.FillColor = System.Drawing.Color.Chartreuse;
-            this.pag4.Location = new System.Drawing.Point(-23, 355);
-            this.pag4.Name = "pag4";
-            this.pag4.Size = new System.Drawing.Size(34, 42);
-            this.pag4.TabIndex = 10;
-            this.pag4.Visible = false;
-            // 
-            // pag3
-            // 
-            this.pag3.BorderRadius = 8;
-            this.pag3.FillColor = System.Drawing.Color.Chartreuse;
-            this.pag3.Location = new System.Drawing.Point(-25, 295);
-            this.pag3.Name = "pag3";
-            this.pag3.Size = new System.Drawing.Size(34, 42);
-            this.pag3.TabIndex = 9;
-            this.pag3.Visible = false;
-            // 
-            // pag5
-            // 
-            this.pag5.BorderRadius = 8;
-            this.pag5.FillColor = System.Drawing.Color.Chartreuse;
-            this.pag5.Location = new System.Drawing.Point(-24, 414);
-            this.pag5.Name = "pag5";
-            this.pag5.Size = new System.Drawing.Size(34, 42);
-            this.pag5.TabIndex = 11;
-            this.pag5.Visible = false;
-            // 
             // Principal_Screen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -849,6 +853,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();
+            this.guna2Panel6.ResumeLayout(false);
+            this.guna2Panel6.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Most_Popular_2)).EndInit();
+            this.guna2Panel5.ResumeLayout(false);
+            this.guna2Panel5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Most_Popular_3)).EndInit();
             this.guna2Panel4.ResumeLayout(false);
             this.guna2Panel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.New_Add_last)).EndInit();
@@ -860,12 +870,6 @@
             this.guna2Panel2.ResumeLayout(false);
             this.guna2Panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Most_Popular_2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Most_Popular_3)).EndInit();
-            this.guna2Panel5.ResumeLayout(false);
-            this.guna2Panel5.PerformLayout();
-            this.guna2Panel6.ResumeLayout(false);
-            this.guna2Panel6.PerformLayout();
             this.ResumeLayout(false);
 
         }
