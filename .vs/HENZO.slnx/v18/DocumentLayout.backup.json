@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Corte_2\\EjerciciosPractica\\EjerciciosClase\\PWV_Ejercicio_1\\Form2.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Corte_2\\EjerciciosPractica\\EjerciciosClase\\PWV_Ejercicio_1\\Form2.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\GeoIntegral\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:GeoIntegral\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\GeoIntegral\\GeoIntegral.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:GeoIntegral\\GeoIntegral.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Corte_2\\EjerciciosPractica\\EjerciciosClase\\PWV_Ejercicio_1\\Form2.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Corte_2\\EjerciciosPractica\\EjerciciosClase\\PWV_Ejercicio_1\\Form2.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Corte_2\\EjerciciosPractica\\EjerciciosClase\\PWV_Ejercicio_1\\Form1.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,7 +50,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "GeoIntegral.csproj",
               "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\GeoIntegral\\GeoIntegral.csproj",
               "RelativeDocumentMoniker": "GeoIntegral\\GeoIntegral.csproj",
@@ -58,11 +58,12 @@
               "RelativeToolTip": "GeoIntegral\\GeoIntegral.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-04-20T16:39:12.656Z"
+              "WhenOpened": "2026-04-20T16:39:12.656Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "packages.config",
               "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\GeoIntegral\\packages.config",
               "RelativeDocumentMoniker": "GeoIntegral\\packages.config",
@@ -75,7 +76,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Form2.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Corte_2\\EjerciciosPractica\\EjerciciosClase\\PWV_Ejercicio_1\\Form2.Designer.cs",
               "RelativeDocumentMoniker": "Corte_2\\EjerciciosPractica\\EjerciciosClase\\PWV_Ejercicio_1\\Form2.Designer.cs",
@@ -83,7 +84,8 @@
               "RelativeToolTip": "Corte_2\\EjerciciosPractica\\EjerciciosClase\\PWV_Ejercicio_1\\Form2.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-15T02:54:21.667Z"
+              "WhenOpened": "2026-04-15T02:54:21.667Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

@@ -86,6 +86,7 @@
     <Folder Include="DataBase\" />
     <Folder Include="Media\Music\" />
     <Folder Include="Models\" />
+    <Folder Include="Views\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Media\Imagenes\App_Icon_Music.png" />
