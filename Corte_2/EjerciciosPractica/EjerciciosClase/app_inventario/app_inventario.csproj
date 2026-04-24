@@ -55,10 +55,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Principal_Screen.cs">
+    <Compile Include="Views\Principal_Screen.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Principal_Screen.Designer.cs">
+    <Compile Include="Views\Principal_Screen.Designer.cs">
       <DependentUpon>Principal_Screen.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
@@ -74,7 +74,7 @@
     <None Include="app1.manifest" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Principal_Screen.resx">
+    <EmbeddedResource Include="Views\Principal_Screen.resx">
       <DependentUpon>Principal_Screen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -86,7 +86,6 @@
     <Folder Include="DataBase\" />
     <Folder Include="Media\Music\" />
     <Folder Include="Models\" />
-    <Folder Include="Views\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Media\Imagenes\App_Icon_Music.png" />
