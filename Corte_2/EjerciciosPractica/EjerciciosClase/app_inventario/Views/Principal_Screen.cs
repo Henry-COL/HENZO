@@ -1,4 +1,5 @@
-﻿using System;
+﻿using app_inventario.Views;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -40,6 +41,9 @@ namespace app_inventario
             pag2.Visible = true;
             pag1.Visible = false; pag3.Visible = false;
             pag4.Visible = false; pag5.Visible = false;
+
+            Music_Store music_Store = new Music_Store();
+            music_Store.Show();
         }
 
         private void guna2Button4_Click(object sender, EventArgs e)
