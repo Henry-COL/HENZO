@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Corte_2\\EjerciciosPractica\\EjerciciosClase\\app_inventario\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D7BBA623-BAD4-405B-8738-075012616704}|app_inventario.csproj|C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Corte_2\\EjerciciosPractica\\EjerciciosClase\\app_inventario\\app1.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{D7BBA623-BAD4-405B-8738-075012616704}|app_inventario.csproj|solutionrelative:app1.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D7BBA623-BAD4-405B-8738-075012616704}|app_inventario.csproj|c:\\users\\henry quintero\\documents\\github\\henzo\\corte_2\\ejerciciospractica\\ejerciciosclase\\app_inventario\\views\\principal_screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D7BBA623-BAD4-405B-8738-075012616704}|app_inventario.csproj|solutionrelative:views\\principal_screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7BBA623-BAD4-405B-8738-075012616704}|app_inventario.csproj|c:\\users\\henry quintero\\documents\\github\\henzo\\corte_2\\ejerciciospractica\\ejerciciosclase\\app_inventario\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D7BBA623-BAD4-405B-8738-075012616704}|app_inventario.csproj|c:\\users\\henry quintero\\documents\\github\\henzo\\corte_2\\ejerciciospractica\\ejerciciosclase\\app_inventario\\views\\principal_screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7BBA623-BAD4-405B-8738-075012616704}|app_inventario.csproj|solutionrelative:views\\principal_screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7BBA623-BAD4-405B-8738-075012616704}|app_inventario.csproj|C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Corte_2\\EjerciciosPractica\\EjerciciosClase\\app_inventario\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D7BBA623-BAD4-405B-8738-075012616704}|app_inventario.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7BBA623-BAD4-405B-8738-075012616704}|app_inventario.csproj|C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Corte_2\\EjerciciosPractica\\EjerciciosClase\\app_inventario\\app1.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{D7BBA623-BAD4-405B-8738-075012616704}|app_inventario.csproj|solutionrelative:app1.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -35,11 +39,24 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Principal_Screen.cs",
+              "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Corte_2\\EjerciciosPractica\\EjerciciosClase\\app_inventario\\Views\\Principal_Screen.cs",
+              "RelativeDocumentMoniker": "Views\\Principal_Screen.cs",
+              "ToolTip": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Corte_2\\EjerciciosPractica\\EjerciciosClase\\app_inventario\\Views\\Principal_Screen.cs*",
+              "RelativeToolTip": "Views\\Principal_Screen.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T23:05:56.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Principal_Screen.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Corte_2\\EjerciciosPractica\\EjerciciosClase\\app_inventario\\Views\\Principal_Screen.cs",
               "RelativeDocumentMoniker": "Views\\Principal_Screen.cs",
-              "ToolTip": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Corte_2\\EjerciciosPractica\\EjerciciosClase\\app_inventario\\Views\\Principal_Screen.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Views\\Principal_Screen.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Corte_2\\EjerciciosPractica\\EjerciciosClase\\app_inventario\\Views\\Principal_Screen.cs [Dise\u00F1o]*",
+              "RelativeToolTip": "Views\\Principal_Screen.cs [Dise\u00F1o]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-24T18:30:55.962Z",
               "EditorCaption": " [Dise\u00F1o]"
@@ -52,20 +69,20 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Corte_2\\EjerciciosPractica\\EjerciciosClase\\app_inventario\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-20T13:43:36.979Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "app1.manifest",
               "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Corte_2\\EjerciciosPractica\\EjerciciosClase\\app_inventario\\app1.manifest",
               "RelativeDocumentMoniker": "app1.manifest",
               "ToolTip": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Corte_2\\EjerciciosPractica\\EjerciciosClase\\app_inventario\\app1.manifest",
               "RelativeToolTip": "app1.manifest",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAiwBUAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001203|",
               "WhenOpened": "2026-04-20T23:26:28.968Z",
               "EditorCaption": ""

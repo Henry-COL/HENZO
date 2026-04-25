@@ -84,9 +84,9 @@
             this.label20 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.guna2ShadowPanel2 = new Guna.UI2.WinForms.Guna2ShadowPanel();
-            this.guna2ShadowForm1 = new Guna.UI2.WinForms.Guna2ShadowForm(this.components);
-            this.guna2Panel7 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel8 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2Panel7 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2ShadowForm1 = new Guna.UI2.WinForms.Guna2ShadowForm(this.components);
             this.guna2ShadowPanel1 = new Guna.UI2.WinForms.Guna2ShadowPanel();
             this.guna2Panel9 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel10 = new Guna.UI2.WinForms.Guna2Panel();
@@ -105,8 +105,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.New_Add_last)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.New_Add_half)).BeginInit();
             this.guna2ShadowPanel2.SuspendLayout();
-            this.guna2Panel7.SuspendLayout();
             this.guna2Panel8.SuspendLayout();
+            this.guna2Panel7.SuspendLayout();
             this.guna2ShadowPanel1.SuspendLayout();
             this.guna2Panel9.SuspendLayout();
             this.guna2Panel10.SuspendLayout();
@@ -586,6 +586,7 @@
             this.New_Add_newBuy.Size = new System.Drawing.Size(97, 36);
             this.New_Add_newBuy.TabIndex = 7;
             this.New_Add_newBuy.Text = "Buy";
+            this.New_Add_newBuy.Click += new System.EventHandler(this.New_Add_newBuy_Click);
             // 
             // New_Add_newPrice
             // 
@@ -772,21 +773,6 @@
             this.guna2ShadowPanel2.Size = new System.Drawing.Size(1169, 301);
             this.guna2ShadowPanel2.TabIndex = 4;
             // 
-            // guna2Panel7
-            // 
-            this.guna2Panel7.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Panel7.BorderRadius = 20;
-            this.guna2Panel7.Controls.Add(this.New_Add_lastBuy);
-            this.guna2Panel7.Controls.Add(this.New_Add_lastArt);
-            this.guna2Panel7.Controls.Add(this.label17);
-            this.guna2Panel7.Controls.Add(this.New_Add_lastPrice);
-            this.guna2Panel7.Controls.Add(this.New_Add_last);
-            this.guna2Panel7.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(28)))), ((int)(((byte)(40)))));
-            this.guna2Panel7.Location = new System.Drawing.Point(397, 17);
-            this.guna2Panel7.Name = "guna2Panel7";
-            this.guna2Panel7.Size = new System.Drawing.Size(365, 270);
-            this.guna2Panel7.TabIndex = 19;
-            // 
             // guna2Panel8
             // 
             this.guna2Panel8.BackColor = System.Drawing.Color.Transparent;
@@ -801,6 +787,21 @@
             this.guna2Panel8.Name = "guna2Panel8";
             this.guna2Panel8.Size = new System.Drawing.Size(365, 270);
             this.guna2Panel8.TabIndex = 20;
+            // 
+            // guna2Panel7
+            // 
+            this.guna2Panel7.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Panel7.BorderRadius = 20;
+            this.guna2Panel7.Controls.Add(this.New_Add_lastBuy);
+            this.guna2Panel7.Controls.Add(this.New_Add_lastArt);
+            this.guna2Panel7.Controls.Add(this.label17);
+            this.guna2Panel7.Controls.Add(this.New_Add_lastPrice);
+            this.guna2Panel7.Controls.Add(this.New_Add_last);
+            this.guna2Panel7.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(28)))), ((int)(((byte)(40)))));
+            this.guna2Panel7.Location = new System.Drawing.Point(397, 17);
+            this.guna2Panel7.Name = "guna2Panel7";
+            this.guna2Panel7.Size = new System.Drawing.Size(365, 270);
+            this.guna2Panel7.TabIndex = 19;
             // 
             // guna2ShadowPanel1
             // 
@@ -905,10 +906,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.New_Add_last)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.New_Add_half)).EndInit();
             this.guna2ShadowPanel2.ResumeLayout(false);
-            this.guna2Panel7.ResumeLayout(false);
-            this.guna2Panel7.PerformLayout();
             this.guna2Panel8.ResumeLayout(false);
             this.guna2Panel8.PerformLayout();
+            this.guna2Panel7.ResumeLayout(false);
+            this.guna2Panel7.PerformLayout();
             this.guna2ShadowPanel1.ResumeLayout(false);
             this.guna2Panel9.ResumeLayout(false);
             this.guna2Panel9.PerformLayout();

@@ -62,5 +62,10 @@ namespace app_inventario
             pag1.Visible = false; pag2.Visible = false;
             pag3.Visible = false; pag4.Visible = false;
         }
+
+        private void New_Add_newBuy_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
