@@ -55,6 +55,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Views\Music_Store.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Music_Store.Designer.cs">
+      <DependentUpon>Music_Store.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\Principal_Screen.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -74,6 +80,9 @@
     <None Include="app1.manifest" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Views\Music_Store.resx">
+      <DependentUpon>Music_Store.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\Principal_Screen.resx">
       <DependentUpon>Principal_Screen.cs</DependentUpon>
     </EmbeddedResource>

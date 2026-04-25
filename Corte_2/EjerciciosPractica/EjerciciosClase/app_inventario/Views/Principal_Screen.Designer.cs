@@ -92,6 +92,7 @@
             this.guna2Panel10 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel11 = new Guna.UI2.WinForms.Guna2Panel();
             this.label4 = new System.Windows.Forms.Label();
+            this.Cargar_Panel = new Guna.UI2.WinForms.Guna2Panel();
             this.panel1.SuspendLayout();
             this.guna2Panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
@@ -111,6 +112,7 @@
             this.guna2Panel9.SuspendLayout();
             this.guna2Panel10.SuspendLayout();
             this.guna2Panel11.SuspendLayout();
+            this.Cargar_Panel.SuspendLayout();
             this.SuspendLayout();
             // 
             // guna2BorderlessForm1
@@ -140,7 +142,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(310, 768);
+            this.panel1.Size = new System.Drawing.Size(310, 789);
             this.panel1.TabIndex = 0;
             // 
             // pag5
@@ -372,7 +374,7 @@
             this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
             this.guna2Button1.HoverState.FillColor = System.Drawing.Color.Green;
-            this.guna2Button1.Location = new System.Drawing.Point(1421, 12);
+            this.guna2Button1.Location = new System.Drawing.Point(1452, 12);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.Size = new System.Drawing.Size(72, 44);
             this.guna2Button1.TabIndex = 1;
@@ -753,7 +755,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Montserrat Alternates SemiBold", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(327, 388);
+            this.label5.Location = new System.Drawing.Point(14, 360);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(213, 43);
             this.label5.TabIndex = 9;
@@ -766,7 +768,7 @@
             this.guna2ShadowPanel2.Controls.Add(this.guna2Panel7);
             this.guna2ShadowPanel2.Controls.Add(this.guna2Panel4);
             this.guna2ShadowPanel2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(53)))), ((int)(((byte)(70)))));
-            this.guna2ShadowPanel2.Location = new System.Drawing.Point(324, 434);
+            this.guna2ShadowPanel2.Location = new System.Drawing.Point(11, 406);
             this.guna2ShadowPanel2.Name = "guna2ShadowPanel2";
             this.guna2ShadowPanel2.Radius = 8;
             this.guna2ShadowPanel2.ShadowColor = System.Drawing.Color.Black;
@@ -810,7 +812,7 @@
             this.guna2ShadowPanel1.Controls.Add(this.guna2Panel10);
             this.guna2ShadowPanel1.Controls.Add(this.guna2Panel11);
             this.guna2ShadowPanel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(53)))), ((int)(((byte)(70)))));
-            this.guna2ShadowPanel1.Location = new System.Drawing.Point(324, 66);
+            this.guna2ShadowPanel1.Location = new System.Drawing.Point(11, 38);
             this.guna2ShadowPanel1.Name = "guna2ShadowPanel1";
             this.guna2ShadowPanel1.Radius = 8;
             this.guna2ShadowPanel1.ShadowColor = System.Drawing.Color.Black;
@@ -865,12 +867,24 @@
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Montserrat Alternates SemiBold", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(330, 25);
+            this.label4.Location = new System.Drawing.Point(17, -8);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(217, 43);
             this.label4.TabIndex = 22;
             this.label4.Text = "Most popular";
+            // 
+            // Cargar_Panel
+            // 
+            this.Cargar_Panel.Controls.Add(this.label4);
+            this.Cargar_Panel.Controls.Add(this.guna2ShadowPanel1);
+            this.Cargar_Panel.Controls.Add(this.label5);
+            this.Cargar_Panel.Controls.Add(this.guna2ShadowPanel2);
+            this.Cargar_Panel.Location = new System.Drawing.Point(316, 67);
+            this.Cargar_Panel.Name = "Cargar_Panel";
+            this.Cargar_Panel.Size = new System.Drawing.Size(1192, 710);
+            this.Cargar_Panel.TabIndex = 23;
             // 
             // Principal_Screen
             // 
@@ -878,13 +892,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(28)))), ((int)(((byte)(40)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.ClientSize = new System.Drawing.Size(1515, 768);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.guna2ShadowPanel1);
-            this.Controls.Add(this.guna2ShadowPanel2);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.guna2Button1);
+            this.ClientSize = new System.Drawing.Size(1536, 789);
             this.Controls.Add(this.panel1);
+            this.Controls.Add(this.Cargar_Panel);
+            this.Controls.Add(this.guna2Button1);
             this.ForeColor = System.Drawing.Color.Transparent;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Principal_Screen";
@@ -917,8 +928,9 @@
             this.guna2Panel10.PerformLayout();
             this.guna2Panel11.ResumeLayout(false);
             this.guna2Panel11.PerformLayout();
+            this.Cargar_Panel.ResumeLayout(false);
+            this.Cargar_Panel.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -986,5 +998,6 @@
         private Guna.UI2.WinForms.Guna2Panel guna2Panel10;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel11;
         private System.Windows.Forms.Label label4;
+        private Guna.UI2.WinForms.Guna2Panel Cargar_Panel;
     }
 }
