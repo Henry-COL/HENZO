@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Corte_2\\EjerciciosPractica\\EjerciciosClase\\app_inventario\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D7BBA623-BAD4-405B-8738-075012616704}|app_inventario.csproj|C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Corte_2\\EjerciciosPractica\\EjerciciosClase\\app_inventario\\views\\upload_music.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D7BBA623-BAD4-405B-8738-075012616704}|app_inventario.csproj|solutionrelative:views\\upload_music.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7BBA623-BAD4-405B-8738-075012616704}|app_inventario.csproj|c:\\users\\henry quintero\\documents\\github\\henzo\\corte_2\\ejerciciospractica\\ejerciciosclase\\app_inventario\\views\\principal_screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D7BBA623-BAD4-405B-8738-075012616704}|app_inventario.csproj|solutionrelative:views\\principal_screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D7BBA623-BAD4-405B-8738-075012616704}|app_inventario.csproj|C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Corte_2\\EjerciciosPractica\\EjerciciosClase\\app_inventario\\views\\music_store.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D7BBA623-BAD4-405B-8738-075012616704}|app_inventario.csproj|solutionrelative:views\\music_store.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D7BBA623-BAD4-405B-8738-075012616704}|app_inventario.csproj|C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Corte_2\\EjerciciosPractica\\EjerciciosClase\\app_inventario\\views\\music_store.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D7BBA623-BAD4-405B-8738-075012616704}|app_inventario.csproj|solutionrelative:views\\music_store.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7BBA623-BAD4-405B-8738-075012616704}|app_inventario.csproj|c:\\users\\henry quintero\\documents\\github\\henzo\\corte_2\\ejerciciospractica\\ejerciciosclase\\app_inventario\\controller\\articulocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7BBA623-BAD4-405B-8738-075012616704}|app_inventario.csproj|solutionrelative:controller\\articulocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7BBA623-BAD4-405B-8738-075012616704}|app_inventario.csproj|c:\\users\\henry quintero\\documents\\github\\henzo\\corte_2\\ejerciciospractica\\ejerciciosclase\\app_inventario\\views\\upload_music.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D7BBA623-BAD4-405B-8738-075012616704}|app_inventario.csproj|solutionrelative:views\\upload_music.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7BBA623-BAD4-405B-8738-075012616704}|app_inventario.csproj|c:\\users\\henry quintero\\documents\\github\\henzo\\corte_2\\ejerciciospractica\\ejerciciosclase\\app_inventario\\models\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7BBA623-BAD4-405B-8738-075012616704}|app_inventario.csproj|solutionrelative:models\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7BBA623-BAD4-405B-8738-075012616704}|app_inventario.csproj|C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Corte_2\\EjerciciosPractica\\EjerciciosClase\\app_inventario\\views\\principal_screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D7BBA623-BAD4-405B-8738-075012616704}|app_inventario.csproj|solutionrelative:views\\principal_screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D7BBA623-BAD4-405B-8738-075012616704}|app_inventario.csproj|C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Corte_2\\EjerciciosPractica\\EjerciciosClase\\app_inventario\\views\\principal_screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,7 +58,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "ArticuloController.cs",
+              "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Corte_2\\EjerciciosPractica\\EjerciciosClase\\app_inventario\\Controller\\ArticuloController.cs",
+              "RelativeDocumentMoniker": "Controller\\ArticuloController.cs",
+              "ToolTip": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Corte_2\\EjerciciosPractica\\EjerciciosClase\\app_inventario\\Controller\\ArticuloController.cs",
+              "RelativeToolTip": "Controller\\ArticuloController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T18:24:08.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Articulo.cs",
+              "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Corte_2\\EjerciciosPractica\\EjerciciosClase\\app_inventario\\Models\\Articulo.cs",
+              "RelativeDocumentMoniker": "Models\\Articulo.cs",
+              "ToolTip": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Corte_2\\EjerciciosPractica\\EjerciciosClase\\app_inventario\\Models\\Articulo.cs",
+              "RelativeToolTip": "Models\\Articulo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T18:22:45.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Upload_Music.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Corte_2\\EjerciciosPractica\\EjerciciosClase\\app_inventario\\Views\\Upload_Music.cs",
               "RelativeDocumentMoniker": "Views\\Upload_Music.cs",
@@ -62,20 +96,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Music_Store.cs",
               "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Corte_2\\EjerciciosPractica\\EjerciciosClase\\app_inventario\\Views\\Music_Store.cs",
               "RelativeDocumentMoniker": "Views\\Music_Store.cs",
               "ToolTip": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Corte_2\\EjerciciosPractica\\EjerciciosClase\\app_inventario\\Views\\Music_Store.cs",
               "RelativeToolTip": "Views\\Music_Store.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAA0wCcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAYwHcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-25T06:20:26.868Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Music_Store.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Corte_2\\EjerciciosPractica\\EjerciciosClase\\app_inventario\\Views\\Music_Store.cs",
               "RelativeDocumentMoniker": "Views\\Music_Store.cs",
@@ -87,7 +121,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Principal_Screen.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Corte_2\\EjerciciosPractica\\EjerciciosClase\\app_inventario\\Views\\Principal_Screen.cs",
               "RelativeDocumentMoniker": "Views\\Principal_Screen.cs",
@@ -99,7 +133,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Principal_Screen.cs",
               "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Corte_2\\EjerciciosPractica\\EjerciciosClase\\app_inventario\\Views\\Principal_Screen.cs",
               "RelativeDocumentMoniker": "Views\\Principal_Screen.cs",
@@ -107,11 +141,12 @@
               "RelativeToolTip": "Views\\Principal_Screen.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAUwDIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T23:05:56.048Z"
+              "WhenOpened": "2026-04-24T23:05:56.048Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Corte_2\\EjerciciosPractica\\EjerciciosClase\\app_inventario\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -123,7 +158,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "app1.manifest",
               "DocumentMoniker": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Corte_2\\EjerciciosPractica\\EjerciciosClase\\app_inventario\\app1.manifest",
               "RelativeDocumentMoniker": "app1.manifest",

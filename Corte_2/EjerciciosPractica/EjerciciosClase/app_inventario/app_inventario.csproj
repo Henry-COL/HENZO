@@ -55,6 +55,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controller\ArticuloController.cs" />
+    <Compile Include="Models\Articulo.cs" />
     <Compile Include="Views\Music_Store.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -103,7 +105,6 @@
   <ItemGroup>
     <Folder Include="DataBase\" />
     <Folder Include="Media\Music\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Media\Imagenes\App_Icon_Music.png" />

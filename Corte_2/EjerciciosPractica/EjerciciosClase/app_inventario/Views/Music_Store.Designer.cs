@@ -33,6 +33,9 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.picPrevisualizacion = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.numPrecioArticulo = new Guna.UI2.WinForms.Guna2NumericUpDown();
@@ -47,21 +50,19 @@
             this.label2 = new System.Windows.Forms.Label();
             this.txtTitulo = new Guna.UI2.WinForms.Guna2TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
             this.guna2ShadowPanel1 = new Guna.UI2.WinForms.Guna2ShadowPanel();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2ShadowPanel2 = new Guna.UI2.WinForms.Guna2ShadowPanel();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2DataGridView1 = new Guna.UI2.WinForms.Guna2DataGridView();
+            this.MostrarDatos1 = new Guna.UI2.WinForms.Guna2DataGridView();
             this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2BorderlessForm1 = new Guna.UI2.WinForms.Guna2BorderlessForm(this.components);
             this.guna2BorderlessForm2 = new Guna.UI2.WinForms.Guna2BorderlessForm(this.components);
-            this.guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
-            this.picPrevisualizacion = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picPrevisualizacion)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numPrecioArticulo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numCantidadInicial)).BeginInit();
             this.guna2ShadowPanel1.SuspendLayout();
@@ -69,8 +70,7 @@
             this.guna2ShadowPanel2.SuspendLayout();
             this.guna2Panel2.SuspendLayout();
             this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPrevisualizacion)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MostrarDatos1)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -101,6 +101,43 @@
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Registrar Articulo";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(428, 168);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(89, 28);
+            this.label7.TabIndex = 16;
+            this.label7.Text = "Portada:";
+            // 
+            // picPrevisualizacion
+            // 
+            this.picPrevisualizacion.BorderRadius = 8;
+            this.picPrevisualizacion.ImageRotate = 0F;
+            this.picPrevisualizacion.Location = new System.Drawing.Point(428, 199);
+            this.picPrevisualizacion.Name = "picPrevisualizacion";
+            this.picPrevisualizacion.Size = new System.Drawing.Size(130, 153);
+            this.picPrevisualizacion.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picPrevisualizacion.TabIndex = 15;
+            this.picPrevisualizacion.TabStop = false;
+            // 
+            // guna2Button5
+            // 
+            this.guna2Button5.BorderRadius = 8;
+            this.guna2Button5.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button5.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button5.FillColor = System.Drawing.Color.SteelBlue;
+            this.guna2Button5.Font = new System.Drawing.Font("Montserrat Alternates SemiBold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2Button5.ForeColor = System.Drawing.Color.White;
+            this.guna2Button5.Location = new System.Drawing.Point(25, 345);
+            this.guna2Button5.Name = "guna2Button5";
+            this.guna2Button5.Size = new System.Drawing.Size(388, 46);
+            this.guna2Button5.TabIndex = 14;
+            this.guna2Button5.Text = "Subir Portada";
+            this.guna2Button5.Click += new System.EventHandler(this.guna2Button5_Click);
             // 
             // guna2Button2
             // 
@@ -134,6 +171,7 @@
             this.guna2Button1.Size = new System.Drawing.Size(203, 45);
             this.guna2Button1.TabIndex = 12;
             this.guna2Button1.Text = "Registrar Articulo";
+            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // numPrecioArticulo
             // 
@@ -338,6 +376,15 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Titulo:";
             // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(443, 351);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(99, 28);
+            this.label8.TabIndex = 17;
+            this.label8.Text = "500 x 500";
+            // 
             // guna2ShadowPanel1
             // 
             this.guna2ShadowPanel1.BackColor = System.Drawing.Color.Transparent;
@@ -369,7 +416,7 @@
             this.guna2ShadowPanel2.Name = "guna2ShadowPanel2";
             this.guna2ShadowPanel2.Radius = 4;
             this.guna2ShadowPanel2.ShadowColor = System.Drawing.Color.Black;
-            this.guna2ShadowPanel2.Size = new System.Drawing.Size(734, 608);
+            this.guna2ShadowPanel2.Size = new System.Drawing.Size(924, 624);
             this.guna2ShadowPanel2.TabIndex = 2;
             // 
             // guna2Panel2
@@ -379,18 +426,18 @@
             this.guna2Panel2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(28)))), ((int)(((byte)(40)))));
             this.guna2Panel2.Location = new System.Drawing.Point(17, 16);
             this.guna2Panel2.Name = "guna2Panel2";
-            this.guna2Panel2.Size = new System.Drawing.Size(696, 571);
+            this.guna2Panel2.Size = new System.Drawing.Size(886, 592);
             this.guna2Panel2.TabIndex = 1;
             // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.guna2Button3);
-            this.groupBox2.Controls.Add(this.guna2DataGridView1);
+            this.groupBox2.Controls.Add(this.MostrarDatos1);
             this.groupBox2.Font = new System.Drawing.Font("Montserrat Alternates SemiBold", 9F, System.Drawing.FontStyle.Bold);
             this.groupBox2.ForeColor = System.Drawing.SystemColors.Control;
             this.groupBox2.Location = new System.Drawing.Point(23, 16);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(649, 521);
+            this.groupBox2.Size = new System.Drawing.Size(839, 556);
             this.groupBox2.TabIndex = 0;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Cátalogo de Articulos";
@@ -405,16 +452,16 @@
             this.guna2Button3.FillColor = System.Drawing.Color.DarkGreen;
             this.guna2Button3.Font = new System.Drawing.Font("Montserrat Alternates SemiBold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button3.ForeColor = System.Drawing.Color.White;
-            this.guna2Button3.Location = new System.Drawing.Point(517, 458);
+            this.guna2Button3.Location = new System.Drawing.Point(707, 497);
             this.guna2Button3.Name = "guna2Button3";
             this.guna2Button3.Size = new System.Drawing.Size(116, 45);
             this.guna2Button3.TabIndex = 14;
             this.guna2Button3.Text = "Eliminar";
             // 
-            // guna2DataGridView1
+            // MostrarDatos1
             // 
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            this.MostrarDatos1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             dataGridViewCellStyle2.Font = new System.Drawing.Font("Montserrat Alternates SemiBold", 9F, System.Drawing.FontStyle.Bold);
@@ -422,9 +469,9 @@
             dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.guna2DataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            this.guna2DataGridView1.ColumnHeadersHeight = 4;
-            this.guna2DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            this.MostrarDatos1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            this.MostrarDatos1.ColumnHeadersHeight = 4;
+            this.MostrarDatos1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
             dataGridViewCellStyle3.Font = new System.Drawing.Font("Montserrat Alternates SemiBold", 9F, System.Drawing.FontStyle.Bold);
@@ -432,36 +479,36 @@
             dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.guna2DataGridView1.DefaultCellStyle = dataGridViewCellStyle3;
-            this.guna2DataGridView1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.Location = new System.Drawing.Point(15, 31);
-            this.guna2DataGridView1.Name = "guna2DataGridView1";
-            this.guna2DataGridView1.RowHeadersVisible = false;
-            this.guna2DataGridView1.RowHeadersWidth = 62;
-            this.guna2DataGridView1.RowTemplate.Height = 28;
-            this.guna2DataGridView1.Size = new System.Drawing.Size(618, 421);
-            this.guna2DataGridView1.TabIndex = 7;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.Font = null;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
-            this.guna2DataGridView1.ThemeStyle.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Montserrat Alternates SemiBold", 9F, System.Drawing.FontStyle.Bold);
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.Height = 4;
-            this.guna2DataGridView1.ThemeStyle.ReadOnly = false;
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Montserrat Alternates SemiBold", 9F, System.Drawing.FontStyle.Bold);
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.ForeColor = System.Drawing.SystemColors.Control;
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.Height = 28;
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.MostrarDatos1.DefaultCellStyle = dataGridViewCellStyle3;
+            this.MostrarDatos1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.MostrarDatos1.Location = new System.Drawing.Point(15, 31);
+            this.MostrarDatos1.Name = "MostrarDatos1";
+            this.MostrarDatos1.RowHeadersVisible = false;
+            this.MostrarDatos1.RowHeadersWidth = 62;
+            this.MostrarDatos1.RowTemplate.Height = 28;
+            this.MostrarDatos1.Size = new System.Drawing.Size(808, 460);
+            this.MostrarDatos1.TabIndex = 7;
+            this.MostrarDatos1.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
+            this.MostrarDatos1.ThemeStyle.AlternatingRowsStyle.Font = null;
+            this.MostrarDatos1.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
+            this.MostrarDatos1.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
+            this.MostrarDatos1.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
+            this.MostrarDatos1.ThemeStyle.BackColor = System.Drawing.Color.White;
+            this.MostrarDatos1.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.MostrarDatos1.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.MostrarDatos1.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.MostrarDatos1.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Montserrat Alternates SemiBold", 9F, System.Drawing.FontStyle.Bold);
+            this.MostrarDatos1.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
+            this.MostrarDatos1.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            this.MostrarDatos1.ThemeStyle.HeaderStyle.Height = 4;
+            this.MostrarDatos1.ThemeStyle.ReadOnly = false;
+            this.MostrarDatos1.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
+            this.MostrarDatos1.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.MostrarDatos1.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Montserrat Alternates SemiBold", 9F, System.Drawing.FontStyle.Bold);
+            this.MostrarDatos1.ThemeStyle.RowsStyle.ForeColor = System.Drawing.SystemColors.Control;
+            this.MostrarDatos1.ThemeStyle.RowsStyle.Height = 28;
+            this.MostrarDatos1.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.MostrarDatos1.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
             // 
             // guna2Button4
             // 
@@ -473,7 +520,7 @@
             this.guna2Button4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(53)))), ((int)(((byte)(70)))));
             this.guna2Button4.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button4.ForeColor = System.Drawing.Color.White;
-            this.guna2Button4.Location = new System.Drawing.Point(1360, 14);
+            this.guna2Button4.Location = new System.Drawing.Point(1553, 14);
             this.guna2Button4.Name = "guna2Button4";
             this.guna2Button4.Size = new System.Drawing.Size(63, 33);
             this.guna2Button4.TabIndex = 14;
@@ -493,66 +540,22 @@
             this.guna2BorderlessForm2.DockIndicatorTransparencyValue = 0.6D;
             this.guna2BorderlessForm2.TransparentWhileDrag = true;
             // 
-            // guna2Button5
-            // 
-            this.guna2Button5.BorderRadius = 8;
-            this.guna2Button5.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button5.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button5.FillColor = System.Drawing.Color.SteelBlue;
-            this.guna2Button5.Font = new System.Drawing.Font("Montserrat Alternates SemiBold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button5.ForeColor = System.Drawing.Color.White;
-            this.guna2Button5.Location = new System.Drawing.Point(25, 345);
-            this.guna2Button5.Name = "guna2Button5";
-            this.guna2Button5.Size = new System.Drawing.Size(388, 46);
-            this.guna2Button5.TabIndex = 14;
-            this.guna2Button5.Text = "Subir Portada";
-            this.guna2Button5.Click += new System.EventHandler(this.guna2Button5_Click);
-            // 
-            // picPrevisualizacion
-            // 
-            this.picPrevisualizacion.BorderRadius = 8;
-            this.picPrevisualizacion.ImageRotate = 0F;
-            this.picPrevisualizacion.Location = new System.Drawing.Point(428, 199);
-            this.picPrevisualizacion.Name = "picPrevisualizacion";
-            this.picPrevisualizacion.Size = new System.Drawing.Size(130, 153);
-            this.picPrevisualizacion.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picPrevisualizacion.TabIndex = 15;
-            this.picPrevisualizacion.TabStop = false;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(428, 168);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(89, 28);
-            this.label7.TabIndex = 16;
-            this.label7.Text = "Portada:";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(443, 351);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(99, 28);
-            this.label8.TabIndex = 17;
-            this.label8.Text = "500 x 500";
-            // 
             // Music_Store
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(28)))), ((int)(((byte)(40)))));
-            this.ClientSize = new System.Drawing.Size(1438, 737);
+            this.ClientSize = new System.Drawing.Size(1640, 737);
             this.Controls.Add(this.guna2Button4);
             this.Controls.Add(this.guna2ShadowPanel2);
             this.Controls.Add(this.guna2ShadowPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Music_Store";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Music_Store";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picPrevisualizacion)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numPrecioArticulo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numCantidadInicial)).EndInit();
             this.guna2ShadowPanel1.ResumeLayout(false);
@@ -560,8 +563,7 @@
             this.guna2ShadowPanel2.ResumeLayout(false);
             this.guna2Panel2.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPrevisualizacion)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MostrarDatos1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -588,7 +590,7 @@
         private Guna.UI2.WinForms.Guna2ShadowPanel guna2ShadowPanel2;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
         private System.Windows.Forms.GroupBox groupBox2;
-        private Guna.UI2.WinForms.Guna2DataGridView guna2DataGridView1;
+        private Guna.UI2.WinForms.Guna2DataGridView MostrarDatos1;
         private Guna.UI2.WinForms.Guna2Button guna2Button3;
         private Guna.UI2.WinForms.Guna2Button guna2Button4;
         private Guna.UI2.WinForms.Guna2BorderlessForm guna2BorderlessForm1;
