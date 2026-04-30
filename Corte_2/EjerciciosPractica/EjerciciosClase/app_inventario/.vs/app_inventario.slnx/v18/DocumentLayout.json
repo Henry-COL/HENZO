@@ -11,7 +11,7 @@
       "RelativeMoniker": "D:0:0:{D7BBA623-BAD4-405B-8738-075012616704}|app_inventario.csproj|solutionrelative:views\\principal_screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7BBA623-BAD4-405B-8738-075012616704}|app_inventario.csproj|c:\\users\\henry quintero\\documents\\github\\henzo\\corte_2\\ejerciciospractica\\ejerciciosclase\\app_inventario\\views\\principal_screen.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D7BBA623-BAD4-405B-8738-075012616704}|app_inventario.csproj|C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Corte_2\\EjerciciosPractica\\EjerciciosClase\\app_inventario\\views\\principal_screen.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D7BBA623-BAD4-405B-8738-075012616704}|app_inventario.csproj|solutionrelative:views\\principal_screen.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -19,7 +19,7 @@
       "RelativeMoniker": "D:0:0:{D7BBA623-BAD4-405B-8738-075012616704}|app_inventario.csproj|solutionrelative:views\\principal_screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7BBA623-BAD4-405B-8738-075012616704}|app_inventario.csproj|c:\\users\\henry quintero\\documents\\github\\henzo\\corte_2\\ejerciciospractica\\ejerciciosclase\\app_inventario\\views\\buy_screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D7BBA623-BAD4-405B-8738-075012616704}|app_inventario.csproj|C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Corte_2\\EjerciciosPractica\\EjerciciosClase\\app_inventario\\views\\buy_screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D7BBA623-BAD4-405B-8738-075012616704}|app_inventario.csproj|solutionrelative:views\\buy_screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -35,7 +35,7 @@
       "RelativeMoniker": "D:0:0:{D7BBA623-BAD4-405B-8738-075012616704}|app_inventario.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7BBA623-BAD4-405B-8738-075012616704}|app_inventario.csproj|c:\\users\\henry quintero\\documents\\github\\henzo\\corte_2\\ejerciciospractica\\ejerciciosclase\\app_inventario\\views\\upload_music.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D7BBA623-BAD4-405B-8738-075012616704}|app_inventario.csproj|C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Corte_2\\EjerciciosPractica\\EjerciciosClase\\app_inventario\\views\\upload_music.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D7BBA623-BAD4-405B-8738-075012616704}|app_inventario.csproj|solutionrelative:views\\upload_music.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -47,7 +47,7 @@
       "RelativeMoniker": "D:0:0:{D7BBA623-BAD4-405B-8738-075012616704}|app_inventario.csproj|solutionrelative:views\\upload_music.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7BBA623-BAD4-405B-8738-075012616704}|app_inventario.csproj|c:\\users\\henry quintero\\documents\\github\\henzo\\corte_2\\ejerciciospractica\\ejerciciosclase\\app_inventario\\views\\music_store.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{D7BBA623-BAD4-405B-8738-075012616704}|app_inventario.csproj|C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Corte_2\\EjerciciosPractica\\EjerciciosClase\\app_inventario\\views\\music_store.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D7BBA623-BAD4-405B-8738-075012616704}|app_inventario.csproj|solutionrelative:views\\music_store.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -81,8 +81,7 @@
               "ToolTip": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Corte_2\\EjerciciosPractica\\EjerciciosClase\\app_inventario\\Views\\Principal_Screen.cs [Dise\u00F1o]",
               "RelativeToolTip": "Views\\Principal_Screen.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T18:30:55.962Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2026-04-24T18:30:55.962Z"
             },
             {
               "$type": "Document",
@@ -94,8 +93,7 @@
               "RelativeToolTip": "Views\\Principal_Screen.Designer.cs",
               "ViewState": "AgIAADgBAAAAAAAAAAAYwEoBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-30T03:49:18.933Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-30T03:49:18.933Z"
             },
             {
               "$type": "Document",
@@ -107,8 +105,7 @@
               "RelativeToolTip": "Views\\Principal_Screen.cs",
               "ViewState": "AgIAACUAAAAAAAAAAAAowDUAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T23:05:56.048Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-24T23:05:56.048Z"
             },
             {
               "$type": "Document",
@@ -132,8 +129,7 @@
               "RelativeToolTip": "Views\\Buy_Screen.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-30T04:27:44.895Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-30T04:27:44.895Z"
             },
             {
               "$type": "Document",
@@ -145,8 +141,7 @@
               "RelativeToolTip": "Controller\\ArticuloController.cs",
               "ViewState": "AgIAACsAAAAAAAAAAAAQwCcAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-27T18:24:08.906Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-27T18:24:08.906Z"
             },
             {
               "$type": "Document",
@@ -158,8 +153,7 @@
               "RelativeToolTip": "Views\\Music_Store.cs",
               "ViewState": "AgIAAGAAAAAAAAAAAAAowHAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T06:20:26.868Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-25T06:20:26.868Z"
             },
             {
               "$type": "Document",
@@ -171,8 +165,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-20T13:43:36.979Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-20T13:43:36.979Z"
             },
             {
               "$type": "Document",
@@ -184,8 +177,7 @@
               "RelativeToolTip": "Models\\Articulo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-27T18:22:45.882Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-27T18:22:45.882Z"
             },
             {
               "$type": "Document",
@@ -197,8 +189,7 @@
               "RelativeToolTip": "Views\\Upload_Music.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-30T02:55:06.793Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-30T02:55:06.793Z"
             },
             {
               "$type": "Document",
@@ -209,8 +200,7 @@
               "ToolTip": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Corte_2\\EjerciciosPractica\\EjerciciosClase\\app_inventario\\Views\\Music_Store.cs [Dise\u00F1o]",
               "RelativeToolTip": "Views\\Music_Store.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T05:36:17.867Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2026-04-25T05:36:17.867Z"
             },
             {
               "$type": "Document",
@@ -221,8 +211,7 @@
               "ToolTip": "C:\\Users\\Henry Quintero\\Documents\\GitHub\\HENZO\\Corte_2\\EjerciciosPractica\\EjerciciosClase\\app_inventario\\Views\\Upload_Music.cs [Dise\u00F1o]",
               "RelativeToolTip": "Views\\Upload_Music.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-27T05:02:39.464Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2026-04-27T05:02:39.464Z"
             },
             {
               "$type": "Document",
