@@ -95,9 +95,11 @@
             this.groupBox1.Controls.Add(this.label8);
             this.groupBox1.Font = new System.Drawing.Font("Montserrat Alternates SemiBold", 9F, System.Drawing.FontStyle.Bold);
             this.groupBox1.ForeColor = System.Drawing.SystemColors.Control;
-            this.groupBox1.Location = new System.Drawing.Point(23, 17);
+            this.groupBox1.Location = new System.Drawing.Point(15, 11);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(576, 555);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Size = new System.Drawing.Size(384, 361);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Registrar Articulo";
@@ -105,9 +107,10 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(428, 168);
+            this.label7.Location = new System.Drawing.Point(285, 109);
+            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(89, 28);
+            this.label7.Size = new System.Drawing.Size(62, 19);
             this.label7.TabIndex = 16;
             this.label7.Text = "Portada:";
             // 
@@ -115,9 +118,10 @@
             // 
             this.picPrevisualizacion.BorderRadius = 8;
             this.picPrevisualizacion.ImageRotate = 0F;
-            this.picPrevisualizacion.Location = new System.Drawing.Point(428, 199);
+            this.picPrevisualizacion.Location = new System.Drawing.Point(285, 129);
+            this.picPrevisualizacion.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPrevisualizacion.Name = "picPrevisualizacion";
-            this.picPrevisualizacion.Size = new System.Drawing.Size(130, 153);
+            this.picPrevisualizacion.Size = new System.Drawing.Size(87, 99);
             this.picPrevisualizacion.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picPrevisualizacion.TabIndex = 15;
             this.picPrevisualizacion.TabStop = false;
@@ -132,9 +136,10 @@
             this.guna2Button5.FillColor = System.Drawing.Color.SteelBlue;
             this.guna2Button5.Font = new System.Drawing.Font("Montserrat Alternates SemiBold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button5.ForeColor = System.Drawing.Color.White;
-            this.guna2Button5.Location = new System.Drawing.Point(25, 345);
+            this.guna2Button5.Location = new System.Drawing.Point(17, 224);
+            this.guna2Button5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2Button5.Name = "guna2Button5";
-            this.guna2Button5.Size = new System.Drawing.Size(388, 46);
+            this.guna2Button5.Size = new System.Drawing.Size(259, 30);
             this.guna2Button5.TabIndex = 14;
             this.guna2Button5.Text = "Subir Portada";
             this.guna2Button5.Click += new System.EventHandler(this.guna2Button5_Click);
@@ -149,9 +154,10 @@
             this.guna2Button2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(53)))), ((int)(((byte)(70)))));
             this.guna2Button2.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button2.ForeColor = System.Drawing.Color.White;
-            this.guna2Button2.Location = new System.Drawing.Point(312, 490);
+            this.guna2Button2.Location = new System.Drawing.Point(208, 318);
+            this.guna2Button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.Size = new System.Drawing.Size(64, 45);
+            this.guna2Button2.Size = new System.Drawing.Size(43, 29);
             this.guna2Button2.TabIndex = 13;
             this.guna2Button2.Text = "X";
             this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
@@ -166,9 +172,10 @@
             this.guna2Button1.FillColor = System.Drawing.Color.DarkGreen;
             this.guna2Button1.Font = new System.Drawing.Font("Montserrat Alternates SemiBold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.Location = new System.Drawing.Point(103, 490);
+            this.guna2Button1.Location = new System.Drawing.Point(69, 318);
+            this.guna2Button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(203, 45);
+            this.guna2Button1.Size = new System.Drawing.Size(135, 29);
             this.guna2Button1.TabIndex = 12;
             this.guna2Button1.Text = "Registrar Articulo";
             this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
@@ -184,8 +191,7 @@
             0,
             0,
             0});
-            this.numPrecioArticulo.Location = new System.Drawing.Point(239, 427);
-            this.numPrecioArticulo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.numPrecioArticulo.Location = new System.Drawing.Point(159, 278);
             this.numPrecioArticulo.Maximum = new decimal(new int[] {
             1000000,
             0,
@@ -197,7 +203,7 @@
             0,
             0});
             this.numPrecioArticulo.Name = "numPrecioArticulo";
-            this.numPrecioArticulo.Size = new System.Drawing.Size(174, 36);
+            this.numPrecioArticulo.Size = new System.Drawing.Size(116, 23);
             this.numPrecioArticulo.TabIndex = 11;
             this.numPrecioArticulo.ThousandsSeparator = true;
             this.numPrecioArticulo.UpDownButtonFillColor = System.Drawing.Color.DarkGreen;
@@ -211,9 +217,10 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(234, 394);
+            this.label6.Location = new System.Drawing.Point(156, 256);
+            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(72, 28);
+            this.label6.Size = new System.Drawing.Size(51, 19);
             this.label6.TabIndex = 10;
             this.label6.Text = "Precio:";
             // 
@@ -223,8 +230,7 @@
             this.numCantidadInicial.BorderRadius = 4;
             this.numCantidadInicial.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.numCantidadInicial.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.numCantidadInicial.Location = new System.Drawing.Point(25, 427);
-            this.numCantidadInicial.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.numCantidadInicial.Location = new System.Drawing.Point(17, 278);
             this.numCantidadInicial.Maximum = new decimal(new int[] {
             1000,
             0,
@@ -236,7 +242,7 @@
             0,
             0});
             this.numCantidadInicial.Name = "numCantidadInicial";
-            this.numCantidadInicial.Size = new System.Drawing.Size(174, 36);
+            this.numCantidadInicial.Size = new System.Drawing.Size(116, 23);
             this.numCantidadInicial.TabIndex = 9;
             this.numCantidadInicial.ThousandsSeparator = true;
             this.numCantidadInicial.UpDownButtonFillColor = System.Drawing.Color.DarkGreen;
@@ -250,9 +256,10 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(20, 394);
+            this.label5.Location = new System.Drawing.Point(13, 256);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(100, 28);
+            this.label5.Size = new System.Drawing.Size(69, 19);
             this.label5.TabIndex = 8;
             this.label5.Text = "Cantidad:";
             // 
@@ -272,17 +279,19 @@
             "Álbum Disco (CD)",
             "Casete",
             "Vinilo"});
-            this.CmbTipo.Location = new System.Drawing.Point(25, 300);
+            this.CmbTipo.Location = new System.Drawing.Point(17, 195);
+            this.CmbTipo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.CmbTipo.Name = "CmbTipo";
-            this.CmbTipo.Size = new System.Drawing.Size(388, 36);
+            this.CmbTipo.Size = new System.Drawing.Size(260, 36);
             this.CmbTipo.TabIndex = 7;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(20, 269);
+            this.label4.Location = new System.Drawing.Point(13, 175);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(159, 28);
+            this.label4.Size = new System.Drawing.Size(112, 19);
             this.label4.TabIndex = 6;
             this.label4.Text = "Tipo de articulo:";
             // 
@@ -298,21 +307,21 @@
             this.txtCodigoArticulo.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtCodigoArticulo.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtCodigoArticulo.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtCodigoArticulo.Location = new System.Drawing.Point(25, 224);
-            this.txtCodigoArticulo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtCodigoArticulo.Location = new System.Drawing.Point(17, 146);
             this.txtCodigoArticulo.Name = "txtCodigoArticulo";
             this.txtCodigoArticulo.PlaceholderForeColor = System.Drawing.Color.Silver;
             this.txtCodigoArticulo.PlaceholderText = "Ej: 0001";
             this.txtCodigoArticulo.SelectedText = "";
-            this.txtCodigoArticulo.Size = new System.Drawing.Size(388, 31);
+            this.txtCodigoArticulo.Size = new System.Drawing.Size(259, 20);
             this.txtCodigoArticulo.TabIndex = 5;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(20, 192);
+            this.label3.Location = new System.Drawing.Point(13, 125);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(156, 28);
+            this.label3.Size = new System.Drawing.Size(110, 19);
             this.label3.TabIndex = 4;
             this.label3.Text = "Código Articulo:";
             // 
@@ -328,21 +337,21 @@
             this.txtArtista.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtArtista.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtArtista.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtArtista.Location = new System.Drawing.Point(25, 150);
-            this.txtArtista.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtArtista.Location = new System.Drawing.Point(17, 98);
             this.txtArtista.Name = "txtArtista";
             this.txtArtista.PlaceholderForeColor = System.Drawing.Color.Silver;
             this.txtArtista.PlaceholderText = "Ej: Feid y Yandel";
             this.txtArtista.SelectedText = "";
-            this.txtArtista.Size = new System.Drawing.Size(388, 31);
+            this.txtArtista.Size = new System.Drawing.Size(259, 20);
             this.txtArtista.TabIndex = 3;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(20, 118);
+            this.label2.Location = new System.Drawing.Point(13, 77);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(92, 28);
+            this.label2.Size = new System.Drawing.Size(64, 19);
             this.label2.TabIndex = 2;
             this.label2.Text = "Artista/s:";
             // 
@@ -358,30 +367,31 @@
             this.txtTitulo.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtTitulo.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtTitulo.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtTitulo.Location = new System.Drawing.Point(25, 82);
-            this.txtTitulo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtTitulo.Location = new System.Drawing.Point(17, 53);
             this.txtTitulo.Name = "txtTitulo";
             this.txtTitulo.PlaceholderForeColor = System.Drawing.Color.Silver;
             this.txtTitulo.PlaceholderText = "Ej: Un millon de primaveras";
             this.txtTitulo.SelectedText = "";
-            this.txtTitulo.Size = new System.Drawing.Size(388, 31);
+            this.txtTitulo.Size = new System.Drawing.Size(259, 20);
             this.txtTitulo.TabIndex = 1;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(20, 50);
+            this.label1.Location = new System.Drawing.Point(13, 32);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(69, 28);
+            this.label1.Size = new System.Drawing.Size(49, 19);
             this.label1.TabIndex = 0;
             this.label1.Text = "Titulo:";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(443, 351);
+            this.label8.Location = new System.Drawing.Point(295, 228);
+            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(99, 28);
+            this.label8.Size = new System.Drawing.Size(66, 19);
             this.label8.TabIndex = 17;
             this.label8.Text = "500 x 500";
             // 
@@ -390,11 +400,12 @@
             this.guna2ShadowPanel1.BackColor = System.Drawing.Color.Transparent;
             this.guna2ShadowPanel1.Controls.Add(this.guna2Panel1);
             this.guna2ShadowPanel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(53)))), ((int)(((byte)(70)))));
-            this.guna2ShadowPanel1.Location = new System.Drawing.Point(12, 53);
+            this.guna2ShadowPanel1.Location = new System.Drawing.Point(8, 34);
+            this.guna2ShadowPanel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2ShadowPanel1.Name = "guna2ShadowPanel1";
             this.guna2ShadowPanel1.Radius = 4;
             this.guna2ShadowPanel1.ShadowColor = System.Drawing.Color.Black;
-            this.guna2ShadowPanel1.Size = new System.Drawing.Size(652, 624);
+            this.guna2ShadowPanel1.Size = new System.Drawing.Size(435, 406);
             this.guna2ShadowPanel1.TabIndex = 1;
             // 
             // guna2Panel1
@@ -402,9 +413,10 @@
             this.guna2Panel1.BorderRadius = 9;
             this.guna2Panel1.Controls.Add(this.groupBox1);
             this.guna2Panel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(28)))), ((int)(((byte)(40)))));
-            this.guna2Panel1.Location = new System.Drawing.Point(17, 16);
+            this.guna2Panel1.Location = new System.Drawing.Point(11, 10);
+            this.guna2Panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(618, 592);
+            this.guna2Panel1.Size = new System.Drawing.Size(412, 385);
             this.guna2Panel1.TabIndex = 1;
             // 
             // guna2ShadowPanel2
@@ -412,11 +424,12 @@
             this.guna2ShadowPanel2.BackColor = System.Drawing.Color.Transparent;
             this.guna2ShadowPanel2.Controls.Add(this.guna2Panel2);
             this.guna2ShadowPanel2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(53)))), ((int)(((byte)(70)))));
-            this.guna2ShadowPanel2.Location = new System.Drawing.Point(692, 53);
+            this.guna2ShadowPanel2.Location = new System.Drawing.Point(461, 34);
+            this.guna2ShadowPanel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2ShadowPanel2.Name = "guna2ShadowPanel2";
             this.guna2ShadowPanel2.Radius = 4;
             this.guna2ShadowPanel2.ShadowColor = System.Drawing.Color.Black;
-            this.guna2ShadowPanel2.Size = new System.Drawing.Size(924, 624);
+            this.guna2ShadowPanel2.Size = new System.Drawing.Size(616, 406);
             this.guna2ShadowPanel2.TabIndex = 2;
             // 
             // guna2Panel2
@@ -424,9 +437,10 @@
             this.guna2Panel2.BorderRadius = 9;
             this.guna2Panel2.Controls.Add(this.groupBox2);
             this.guna2Panel2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(28)))), ((int)(((byte)(40)))));
-            this.guna2Panel2.Location = new System.Drawing.Point(17, 16);
+            this.guna2Panel2.Location = new System.Drawing.Point(11, 10);
+            this.guna2Panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2Panel2.Name = "guna2Panel2";
-            this.guna2Panel2.Size = new System.Drawing.Size(886, 592);
+            this.guna2Panel2.Size = new System.Drawing.Size(591, 385);
             this.guna2Panel2.TabIndex = 1;
             // 
             // groupBox2
@@ -435,9 +449,11 @@
             this.groupBox2.Controls.Add(this.MostrarDatos1);
             this.groupBox2.Font = new System.Drawing.Font("Montserrat Alternates SemiBold", 9F, System.Drawing.FontStyle.Bold);
             this.groupBox2.ForeColor = System.Drawing.SystemColors.Control;
-            this.groupBox2.Location = new System.Drawing.Point(23, 16);
+            this.groupBox2.Location = new System.Drawing.Point(15, 10);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(839, 556);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox2.Size = new System.Drawing.Size(559, 361);
             this.groupBox2.TabIndex = 0;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Cátalogo de Articulos";
@@ -452,9 +468,10 @@
             this.guna2Button3.FillColor = System.Drawing.Color.DarkGreen;
             this.guna2Button3.Font = new System.Drawing.Font("Montserrat Alternates SemiBold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button3.ForeColor = System.Drawing.Color.White;
-            this.guna2Button3.Location = new System.Drawing.Point(707, 497);
+            this.guna2Button3.Location = new System.Drawing.Point(471, 323);
+            this.guna2Button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2Button3.Name = "guna2Button3";
-            this.guna2Button3.Size = new System.Drawing.Size(116, 45);
+            this.guna2Button3.Size = new System.Drawing.Size(77, 29);
             this.guna2Button3.TabIndex = 14;
             this.guna2Button3.Text = "Eliminar";
             // 
@@ -481,12 +498,13 @@
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.MostrarDatos1.DefaultCellStyle = dataGridViewCellStyle3;
             this.MostrarDatos1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.MostrarDatos1.Location = new System.Drawing.Point(15, 31);
+            this.MostrarDatos1.Location = new System.Drawing.Point(10, 20);
+            this.MostrarDatos1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.MostrarDatos1.Name = "MostrarDatos1";
             this.MostrarDatos1.RowHeadersVisible = false;
             this.MostrarDatos1.RowHeadersWidth = 62;
             this.MostrarDatos1.RowTemplate.Height = 28;
-            this.MostrarDatos1.Size = new System.Drawing.Size(808, 460);
+            this.MostrarDatos1.Size = new System.Drawing.Size(539, 299);
             this.MostrarDatos1.TabIndex = 7;
             this.MostrarDatos1.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.MostrarDatos1.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -520,9 +538,10 @@
             this.guna2Button4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(53)))), ((int)(((byte)(70)))));
             this.guna2Button4.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button4.ForeColor = System.Drawing.Color.White;
-            this.guna2Button4.Location = new System.Drawing.Point(1553, 14);
+            this.guna2Button4.Location = new System.Drawing.Point(1035, 9);
+            this.guna2Button4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2Button4.Name = "guna2Button4";
-            this.guna2Button4.Size = new System.Drawing.Size(63, 33);
+            this.guna2Button4.Size = new System.Drawing.Size(42, 21);
             this.guna2Button4.TabIndex = 14;
             this.guna2Button4.Text = "X";
             this.guna2Button4.Click += new System.EventHandler(this.guna2Button4_Click);
@@ -542,14 +561,15 @@
             // 
             // Music_Store
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(28)))), ((int)(((byte)(40)))));
-            this.ClientSize = new System.Drawing.Size(1640, 737);
+            this.ClientSize = new System.Drawing.Size(1094, 479);
             this.Controls.Add(this.guna2Button4);
             this.Controls.Add(this.guna2ShadowPanel2);
             this.Controls.Add(this.guna2ShadowPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Music_Store";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Music_Store";
