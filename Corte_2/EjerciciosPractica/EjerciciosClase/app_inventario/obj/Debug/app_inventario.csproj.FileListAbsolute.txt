@@ -12,3 +12,4 @@ C:\Users\Henry Quintero\Documents\GitHub\HENZO\Corte_2\EjerciciosPractica\Ejerci
 C:\Users\Henry Quintero\Documents\GitHub\HENZO\Corte_2\EjerciciosPractica\EjerciciosClase\app_inventario\obj\Debug\app_inventario.pdb
 C:\Users\Henry Quintero\Documents\GitHub\HENZO\Corte_2\EjerciciosPractica\EjerciciosClase\app_inventario\obj\Debug\app_inventario.Views.Music_Store.resources
 C:\Users\Henry Quintero\Documents\GitHub\HENZO\Corte_2\EjerciciosPractica\EjerciciosClase\app_inventario\obj\Debug\app_inventario.Views.Upload_Music.resources
+C:\Users\Henry Quintero\Documents\GitHub\HENZO\Corte_2\EjerciciosPractica\EjerciciosClase\app_inventario\obj\Debug\app_inventario.Views.Buy_Screen.resources

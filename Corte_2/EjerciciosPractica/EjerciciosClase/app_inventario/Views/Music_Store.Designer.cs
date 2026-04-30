@@ -553,6 +553,7 @@
             this.Name = "Music_Store";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Music_Store";
+            this.Load += new System.EventHandler(this.Music_Store_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picPrevisualizacion)).EndInit();

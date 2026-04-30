@@ -32,19 +32,19 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Principal_Screen));
             this.guna2BorderlessForm1 = new Guna.UI2.WinForms.Guna2BorderlessForm(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
-            this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
+            this.pnlUser = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2Button6 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
+            this.btnHistory = new Guna.UI2.WinForms.Guna2Button();
+            this.btnBuy_Music = new Guna.UI2.WinForms.Guna2Button();
+            this.btnUpload_Music = new Guna.UI2.WinForms.Guna2Button();
+            this.btnMusic_Store = new Guna.UI2.WinForms.Guna2Button();
+            this.btnHome = new Guna.UI2.WinForms.Guna2Button();
             this.label1 = new System.Windows.Forms.Label();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            this.btnCerrar = new Guna.UI2.WinForms.Guna2Button();
             this.guna2AnimateWindow1 = new Guna.UI2.WinForms.Guna2AnimateWindow(this.components);
             this.Most_Popular_2 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.Most_Popular_Art2 = new System.Windows.Forms.Label();
@@ -86,12 +86,15 @@
             this.guna2Panel9 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel10 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel11 = new Guna.UI2.WinForms.Guna2Panel();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.Cargar_Panel = new Guna.UI2.WinForms.Guna2Panel();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
+            this.pnlSaldo = new Guna.UI2.WinForms.Guna2Panel();
+            this.lblSaldo_User = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
-            this.guna2Panel2.SuspendLayout();
+            this.pnlUser.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
@@ -110,6 +113,7 @@
             this.guna2Panel10.SuspendLayout();
             this.guna2Panel11.SuspendLayout();
             this.Cargar_Panel.SuspendLayout();
+            this.pnlSaldo.SuspendLayout();
             this.SuspendLayout();
             // 
             // guna2BorderlessForm1
@@ -122,13 +126,14 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(23)))), ((int)(((byte)(33)))));
-            this.panel1.Controls.Add(this.guna2Panel2);
+            this.panel1.Controls.Add(this.pnlSaldo);
+            this.panel1.Controls.Add(this.pnlUser);
             this.panel1.Controls.Add(this.guna2PictureBox2);
-            this.panel1.Controls.Add(this.guna2Button6);
-            this.panel1.Controls.Add(this.guna2Button5);
-            this.panel1.Controls.Add(this.guna2Button4);
-            this.panel1.Controls.Add(this.guna2Button3);
-            this.panel1.Controls.Add(this.guna2Button2);
+            this.panel1.Controls.Add(this.btnHistory);
+            this.panel1.Controls.Add(this.btnBuy_Music);
+            this.panel1.Controls.Add(this.btnUpload_Music);
+            this.panel1.Controls.Add(this.btnMusic_Store);
+            this.panel1.Controls.Add(this.btnHome);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.guna2PictureBox1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
@@ -137,18 +142,18 @@
             this.panel1.Size = new System.Drawing.Size(310, 789);
             this.panel1.TabIndex = 0;
             // 
-            // guna2Panel2
+            // pnlUser
             // 
-            this.guna2Panel2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Panel2.BorderRadius = 9;
-            this.guna2Panel2.Controls.Add(this.guna2CirclePictureBox1);
-            this.guna2Panel2.Controls.Add(this.label2);
-            this.guna2Panel2.Controls.Add(this.label3);
-            this.guna2Panel2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(28)))), ((int)(((byte)(40)))));
-            this.guna2Panel2.Location = new System.Drawing.Point(15, 657);
-            this.guna2Panel2.Name = "guna2Panel2";
-            this.guna2Panel2.Size = new System.Drawing.Size(278, 78);
-            this.guna2Panel2.TabIndex = 2;
+            this.pnlUser.BackColor = System.Drawing.Color.Transparent;
+            this.pnlUser.BorderRadius = 9;
+            this.pnlUser.Controls.Add(this.guna2CirclePictureBox1);
+            this.pnlUser.Controls.Add(this.label2);
+            this.pnlUser.Controls.Add(this.label3);
+            this.pnlUser.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(28)))), ((int)(((byte)(40)))));
+            this.pnlUser.Location = new System.Drawing.Point(15, 618);
+            this.pnlUser.Name = "pnlUser";
+            this.pnlUser.Size = new System.Drawing.Size(278, 78);
+            this.pnlUser.TabIndex = 2;
             // 
             // guna2CirclePictureBox1
             // 
@@ -188,102 +193,102 @@
             this.guna2PictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox2.Image")));
             this.guna2PictureBox2.ImageRotate = 0F;
-            this.guna2PictureBox2.Location = new System.Drawing.Point(77, 495);
+            this.guna2PictureBox2.Location = new System.Drawing.Point(73, 485);
             this.guna2PictureBox2.Name = "guna2PictureBox2";
             this.guna2PictureBox2.Size = new System.Drawing.Size(158, 112);
             this.guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2PictureBox2.TabIndex = 0;
             this.guna2PictureBox2.TabStop = false;
             // 
-            // guna2Button6
+            // btnHistory
             // 
-            this.guna2Button6.BorderRadius = 8;
-            this.guna2Button6.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button6.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button6.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button6.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(28)))), ((int)(((byte)(40)))));
-            this.guna2Button6.Font = new System.Drawing.Font("Montserrat Alternates SemiBold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button6.ForeColor = System.Drawing.Color.White;
-            this.guna2Button6.HoverState.FillColor = System.Drawing.Color.DarkGreen;
-            this.guna2Button6.Location = new System.Drawing.Point(15, 414);
-            this.guna2Button6.Name = "guna2Button6";
-            this.guna2Button6.Size = new System.Drawing.Size(280, 45);
-            this.guna2Button6.TabIndex = 6;
-            this.guna2Button6.Text = "History";
-            this.guna2Button6.Click += new System.EventHandler(this.guna2Button6_Click);
+            this.btnHistory.BorderRadius = 8;
+            this.btnHistory.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnHistory.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnHistory.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnHistory.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnHistory.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(28)))), ((int)(((byte)(40)))));
+            this.btnHistory.Font = new System.Drawing.Font("Montserrat Alternates SemiBold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHistory.ForeColor = System.Drawing.Color.White;
+            this.btnHistory.HoverState.FillColor = System.Drawing.Color.DarkGreen;
+            this.btnHistory.Location = new System.Drawing.Point(15, 414);
+            this.btnHistory.Name = "btnHistory";
+            this.btnHistory.Size = new System.Drawing.Size(280, 45);
+            this.btnHistory.TabIndex = 6;
+            this.btnHistory.Text = "History";
+            this.btnHistory.Click += new System.EventHandler(this.btnHistory_Click);
             // 
-            // guna2Button5
+            // btnBuy_Music
             // 
-            this.guna2Button5.BorderRadius = 8;
-            this.guna2Button5.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button5.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button5.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(28)))), ((int)(((byte)(40)))));
-            this.guna2Button5.Font = new System.Drawing.Font("Montserrat Alternates SemiBold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button5.ForeColor = System.Drawing.Color.White;
-            this.guna2Button5.HoverState.FillColor = System.Drawing.Color.DarkGreen;
-            this.guna2Button5.Location = new System.Drawing.Point(13, 356);
-            this.guna2Button5.Name = "guna2Button5";
-            this.guna2Button5.Size = new System.Drawing.Size(280, 45);
-            this.guna2Button5.TabIndex = 5;
-            this.guna2Button5.Text = "Buy Music";
-            this.guna2Button5.Click += new System.EventHandler(this.guna2Button5_Click);
+            this.btnBuy_Music.BorderRadius = 8;
+            this.btnBuy_Music.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnBuy_Music.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnBuy_Music.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnBuy_Music.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnBuy_Music.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(28)))), ((int)(((byte)(40)))));
+            this.btnBuy_Music.Font = new System.Drawing.Font("Montserrat Alternates SemiBold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBuy_Music.ForeColor = System.Drawing.Color.White;
+            this.btnBuy_Music.HoverState.FillColor = System.Drawing.Color.DarkGreen;
+            this.btnBuy_Music.Location = new System.Drawing.Point(13, 356);
+            this.btnBuy_Music.Name = "btnBuy_Music";
+            this.btnBuy_Music.Size = new System.Drawing.Size(280, 45);
+            this.btnBuy_Music.TabIndex = 5;
+            this.btnBuy_Music.Text = "Buy Music";
+            this.btnBuy_Music.Click += new System.EventHandler(this.btnBuy_Music_Click);
             // 
-            // guna2Button4
+            // btnUpload_Music
             // 
-            this.guna2Button4.BorderRadius = 8;
-            this.guna2Button4.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(28)))), ((int)(((byte)(40)))));
-            this.guna2Button4.Font = new System.Drawing.Font("Montserrat Alternates SemiBold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button4.ForeColor = System.Drawing.Color.White;
-            this.guna2Button4.HoverState.FillColor = System.Drawing.Color.DarkGreen;
-            this.guna2Button4.Location = new System.Drawing.Point(13, 295);
-            this.guna2Button4.Name = "guna2Button4";
-            this.guna2Button4.Size = new System.Drawing.Size(280, 45);
-            this.guna2Button4.TabIndex = 4;
-            this.guna2Button4.Text = "Upload Music";
-            this.guna2Button4.Click += new System.EventHandler(this.guna2Button4_Click);
+            this.btnUpload_Music.BorderRadius = 8;
+            this.btnUpload_Music.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnUpload_Music.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnUpload_Music.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnUpload_Music.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnUpload_Music.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(28)))), ((int)(((byte)(40)))));
+            this.btnUpload_Music.Font = new System.Drawing.Font("Montserrat Alternates SemiBold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUpload_Music.ForeColor = System.Drawing.Color.White;
+            this.btnUpload_Music.HoverState.FillColor = System.Drawing.Color.DarkGreen;
+            this.btnUpload_Music.Location = new System.Drawing.Point(13, 295);
+            this.btnUpload_Music.Name = "btnUpload_Music";
+            this.btnUpload_Music.Size = new System.Drawing.Size(280, 45);
+            this.btnUpload_Music.TabIndex = 4;
+            this.btnUpload_Music.Text = "Upload Music";
+            this.btnUpload_Music.Click += new System.EventHandler(this.btnUpload_Music_Click);
             // 
-            // guna2Button3
+            // btnMusic_Store
             // 
-            this.guna2Button3.BorderRadius = 8;
-            this.guna2Button3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(28)))), ((int)(((byte)(40)))));
-            this.guna2Button3.Font = new System.Drawing.Font("Montserrat Alternates SemiBold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button3.ForeColor = System.Drawing.Color.White;
-            this.guna2Button3.HoverState.FillColor = System.Drawing.Color.DarkGreen;
-            this.guna2Button3.Location = new System.Drawing.Point(13, 235);
-            this.guna2Button3.Name = "guna2Button3";
-            this.guna2Button3.Size = new System.Drawing.Size(280, 45);
-            this.guna2Button3.TabIndex = 3;
-            this.guna2Button3.Text = "Music Store";
-            this.guna2Button3.Click += new System.EventHandler(this.guna2Button3_Click);
+            this.btnMusic_Store.BorderRadius = 8;
+            this.btnMusic_Store.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnMusic_Store.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnMusic_Store.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnMusic_Store.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnMusic_Store.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(28)))), ((int)(((byte)(40)))));
+            this.btnMusic_Store.Font = new System.Drawing.Font("Montserrat Alternates SemiBold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMusic_Store.ForeColor = System.Drawing.Color.White;
+            this.btnMusic_Store.HoverState.FillColor = System.Drawing.Color.DarkGreen;
+            this.btnMusic_Store.Location = new System.Drawing.Point(13, 235);
+            this.btnMusic_Store.Name = "btnMusic_Store";
+            this.btnMusic_Store.Size = new System.Drawing.Size(280, 45);
+            this.btnMusic_Store.TabIndex = 3;
+            this.btnMusic_Store.Text = "Music Store";
+            this.btnMusic_Store.Click += new System.EventHandler(this.btnMusicStore_Click);
             // 
-            // guna2Button2
+            // btnHome
             // 
-            this.guna2Button2.BorderRadius = 8;
-            this.guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(28)))), ((int)(((byte)(40)))));
-            this.guna2Button2.Font = new System.Drawing.Font("Montserrat Alternates SemiBold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button2.ForeColor = System.Drawing.Color.White;
-            this.guna2Button2.HoverState.FillColor = System.Drawing.Color.DarkGreen;
-            this.guna2Button2.Location = new System.Drawing.Point(13, 175);
-            this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.Size = new System.Drawing.Size(280, 45);
-            this.guna2Button2.TabIndex = 2;
-            this.guna2Button2.Text = "Home";
-            this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
+            this.btnHome.BorderRadius = 8;
+            this.btnHome.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnHome.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnHome.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnHome.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnHome.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(28)))), ((int)(((byte)(40)))));
+            this.btnHome.Font = new System.Drawing.Font("Montserrat Alternates SemiBold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHome.ForeColor = System.Drawing.Color.White;
+            this.btnHome.HoverState.FillColor = System.Drawing.Color.DarkGreen;
+            this.btnHome.Location = new System.Drawing.Point(13, 175);
+            this.btnHome.Name = "btnHome";
+            this.btnHome.Size = new System.Drawing.Size(280, 45);
+            this.btnHome.TabIndex = 2;
+            this.btnHome.Text = "Home";
+            this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
             // 
             // label1
             // 
@@ -306,23 +311,23 @@
             this.guna2PictureBox1.TabIndex = 0;
             this.guna2PictureBox1.TabStop = false;
             // 
-            // guna2Button1
+            // btnCerrar
             // 
-            this.guna2Button1.BorderRadius = 8;
-            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(23)))), ((int)(((byte)(33)))));
-            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.HoverState.FillColor = System.Drawing.Color.Green;
-            this.guna2Button1.Location = new System.Drawing.Point(1452, 12);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(72, 44);
-            this.guna2Button1.TabIndex = 1;
-            this.guna2Button1.Text = "X";
-            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
+            this.btnCerrar.BorderRadius = 8;
+            this.btnCerrar.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnCerrar.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnCerrar.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnCerrar.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnCerrar.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(23)))), ((int)(((byte)(33)))));
+            this.btnCerrar.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnCerrar.ForeColor = System.Drawing.Color.White;
+            this.btnCerrar.HoverState.FillColor = System.Drawing.Color.Green;
+            this.btnCerrar.Location = new System.Drawing.Point(1452, 12);
+            this.btnCerrar.Name = "btnCerrar";
+            this.btnCerrar.Size = new System.Drawing.Size(72, 44);
+            this.btnCerrar.TabIndex = 1;
+            this.btnCerrar.Text = "X";
+            this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
             // 
             // Most_Popular_2
             // 
@@ -457,6 +462,7 @@
             this.Most_Popular_buy1.Size = new System.Drawing.Size(121, 36);
             this.Most_Popular_buy1.TabIndex = 7;
             this.Most_Popular_buy1.Text = "Buy";
+            this.Most_Popular_buy1.Click += new System.EventHandler(this.Most_Popular_buy1_Click);
             // 
             // Most_Popular_Price1
             // 
@@ -809,6 +815,28 @@
             this.guna2Panel11.Size = new System.Drawing.Size(365, 270);
             this.guna2Panel11.TabIndex = 18;
             // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Montserrat Alternates Light", 8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.White;
+            this.label8.Location = new System.Drawing.Point(286, 153);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(21, 22);
+            this.label8.TabIndex = 9;
+            this.label8.Text = "0";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Montserrat Alternates Light", 8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.White;
+            this.label6.Location = new System.Drawing.Point(225, 153);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(58, 22);
+            this.label6.TabIndex = 8;
+            this.label6.Text = "items:";
+            // 
             // label4
             // 
             this.label4.AutoSize = true;
@@ -831,27 +859,40 @@
             this.Cargar_Panel.Size = new System.Drawing.Size(1192, 710);
             this.Cargar_Panel.TabIndex = 23;
             // 
-            // label6
+            // pnlSaldo
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Montserrat Alternates Light", 8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(225, 153);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(58, 22);
-            this.label6.TabIndex = 8;
-            this.label6.Text = "items:";
+            this.pnlSaldo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(28)))), ((int)(((byte)(40)))));
+            this.pnlSaldo.BorderRadius = 9;
+            this.pnlSaldo.Controls.Add(this.label9);
+            this.pnlSaldo.Controls.Add(this.lblSaldo_User);
+            this.pnlSaldo.Location = new System.Drawing.Point(15, 711);
+            this.pnlSaldo.Name = "pnlSaldo";
+            this.pnlSaldo.Size = new System.Drawing.Size(278, 58);
+            this.pnlSaldo.TabIndex = 7;
             // 
-            // label8
+            // lblSaldo_User
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Montserrat Alternates Light", 8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(286, 153);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(21, 22);
-            this.label8.TabIndex = 9;
-            this.label8.Text = "0";
+            this.lblSaldo_User.AutoSize = true;
+            this.lblSaldo_User.Font = new System.Drawing.Font("Montserrat Alternates", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSaldo_User.ForeColor = System.Drawing.Color.White;
+            this.lblSaldo_User.Location = new System.Drawing.Point(81, 10);
+            this.lblSaldo_User.Name = "lblSaldo_User";
+            this.lblSaldo_User.Size = new System.Drawing.Size(185, 37);
+            this.lblSaldo_User.TabIndex = 10;
+            this.lblSaldo_User.Text = "1,000,000,000";
+            this.lblSaldo_User.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Montserrat Alternates", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.Color.LawnGreen;
+            this.label9.Location = new System.Drawing.Point(9, 10);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(33, 37);
+            this.label9.TabIndex = 11;
+            this.label9.Text = "$";
+            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Principal_Screen
             // 
@@ -862,7 +903,7 @@
             this.ClientSize = new System.Drawing.Size(1536, 789);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.Cargar_Panel);
-            this.Controls.Add(this.guna2Button1);
+            this.Controls.Add(this.btnCerrar);
             this.ForeColor = System.Drawing.Color.Transparent;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Principal_Screen";
@@ -870,8 +911,8 @@
             this.Text = "Principal_Screen";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.guna2Panel2.ResumeLayout(false);
-            this.guna2Panel2.PerformLayout();
+            this.pnlUser.ResumeLayout(false);
+            this.pnlUser.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
@@ -897,6 +938,8 @@
             this.guna2Panel11.PerformLayout();
             this.Cargar_Panel.ResumeLayout(false);
             this.Cargar_Panel.PerformLayout();
+            this.pnlSaldo.ResumeLayout(false);
+            this.pnlSaldo.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -905,19 +948,19 @@
 
         private Guna.UI2.WinForms.Guna2BorderlessForm guna2BorderlessForm1;
         private System.Windows.Forms.Panel panel1;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private Guna.UI2.WinForms.Guna2Button btnCerrar;
         private Guna.UI2.WinForms.Guna2AnimateWindow guna2AnimateWindow1;
         private System.Windows.Forms.Label label1;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
-        private Guna.UI2.WinForms.Guna2Button guna2Button2;
-        private Guna.UI2.WinForms.Guna2Button guna2Button5;
-        private Guna.UI2.WinForms.Guna2Button guna2Button4;
-        private Guna.UI2.WinForms.Guna2Button guna2Button3;
+        private Guna.UI2.WinForms.Guna2Button btnHome;
+        private Guna.UI2.WinForms.Guna2Button btnBuy_Music;
+        private Guna.UI2.WinForms.Guna2Button btnUpload_Music;
+        private Guna.UI2.WinForms.Guna2Button btnMusic_Store;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox2;
-        private Guna.UI2.WinForms.Guna2Button guna2Button6;
+        private Guna.UI2.WinForms.Guna2Button btnHistory;
         private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox1;
         private System.Windows.Forms.Label label2;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
+        private Guna.UI2.WinForms.Guna2Panel pnlUser;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label Most_Popular_Price1;
@@ -963,5 +1006,8 @@
         private Guna.UI2.WinForms.Guna2Panel Cargar_Panel;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label6;
+        private Guna.UI2.WinForms.Guna2Panel pnlSaldo;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label lblSaldo_User;
     }
 }

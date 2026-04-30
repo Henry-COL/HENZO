@@ -1,4 +1,5 @@
-﻿using app_inventario.Views;
+﻿using app_inventario.Controllers;
+using app_inventario.Views;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -16,44 +17,46 @@ namespace app_inventario
         public Principal_Screen()
         {
             InitializeComponent();
+            ArticuloController controlador = new ArticuloController();
+            controlador.InicializarArchivos();
         }
 
-        private void guna2Button1_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
-        private void guna2Button2_Click(object sender, EventArgs e)
+        private void btnHome_Click(object sender, EventArgs e)
         {
         }
 
-        private void guna2Panel1_Paint(object sender, PaintEventArgs e)
+        private void btnMusicStore_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void guna2Button3_Click(object sender, EventArgs e)
-        {
-
             Music_Store music_Store = new Music_Store();
             music_Store.Show();
         }
 
-        private void guna2Button4_Click(object sender, EventArgs e)
+        private void btnUpload_Music_Click(object sender, EventArgs e)
         {
         }
 
-        private void guna2Button5_Click(object sender, EventArgs e)
+        private void btnBuy_Music_Click(object sender, EventArgs e)
         {
         }
 
-        private void guna2Button6_Click(object sender, EventArgs e)
+        private void btnHistory_Click(object sender, EventArgs e)
         {
+        }
+
+        private void btnCerrar_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
 
         private void New_Add_newBuy_Click(object sender, EventArgs e)
         {
+            Buy_Screen buy_Screen = new Buy_Screen();
+            buy_Screen.Show();
+        }
 
+        private void Most_Popular_buy1_Click(object sender, EventArgs e)
+        {
+            lblSaldo_User.Text = "5000";
         }
     }
 }

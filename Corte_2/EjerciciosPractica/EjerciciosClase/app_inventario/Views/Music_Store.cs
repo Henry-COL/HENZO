@@ -8,19 +8,24 @@ namespace app_inventario.Views
 {
     public partial class Music_Store : Form
     {
+        // ── Variables de la clase ─────────────────────────────────────
         private string rutaImagenTemporal = "";
         private ArticuloController miControlador = new ArticuloController();
 
+        // ── Constructor ───────────────────────────────────────────────
         public Music_Store()
         {
             InitializeComponent();
-            CargarDatosTabla();
+            CargarDatosTabla(); // Cargamos la tabla al abrir el formulario
         }
 
-        // Botón Salir
-        private void guna2Button4_Click(object sender, EventArgs e) => this.Close();
+        // ── Botón SALIR ───────────────────────────────────────────────
+        private void guna2Button4_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
 
-        // Botón Limpiar (X)
+        // ── Botón LIMPIAR campos ──────────────────────────────────────
         private void guna2Button2_Click(object sender, EventArgs e)
         {
             txtTitulo.Clear();
@@ -33,11 +38,12 @@ namespace app_inventario.Views
             rutaImagenTemporal = "";
         }
 
-        // Botón Subir Portada
+        // ── Botón SUBIR PORTADA ───────────────────────────────────────
         private void guna2Button5_Click(object sender, EventArgs e)
         {
             OpenFileDialog buscador = new OpenFileDialog();
             buscador.Filter = "PNG Files (*.png)|*.png";
+
             if (buscador.ShowDialog() == DialogResult.OK)
             {
                 rutaImagenTemporal = buscador.FileName;
@@ -45,78 +51,93 @@ namespace app_inventario.Views
             }
         }
 
-        // Botón Registrar Artículo (Verde)
+        // ── Botón REGISTRAR artículo ──────────────────────────────────
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-            try
+            // 1. Validaciones básicas
+            if (string.IsNullOrWhiteSpace(txtCodigoArticulo.Text))
             {
-                if (string.IsNullOrWhiteSpace(txtCodigoArticulo.Text))
-                {
-                    MessageBox.Show("El código es obligatorio.");
-                    return;
-                }
-
-                Articulo nuevo = new Articulo
-                {
-                    Codigo = txtCodigoArticulo.Text,
-                    Titulo = txtTitulo.Text,
-                    Artistas = txtArtista.Text,
-                    TipoArticulo = CmbTipo.Text,
-                    Cantidad = (int)numCantidadInicial.Value,
-                    Precio = numPrecioArticulo.Value,
-                    RutaPortada = rutaImagenTemporal
-                };
-
-                miControlador.RegistrarEnCsv(nuevo);
-                MessageBox.Show("Registrado con éxito.");
-
-                CargarDatosTabla(); // Refrescar DataGrid
-                guna2Button2_Click(null, null); // Limpiar campos
+                MessageBox.Show("El código es obligatorio.", "Aviso");
+                return;
             }
-            catch (Exception ex) { MessageBox.Show(ex.Message); }
+
+            if (string.IsNullOrWhiteSpace(txtTitulo.Text))
+            {
+                MessageBox.Show("El título es obligatorio.", "Aviso");
+                return;
+            }
+
+            if (CmbTipo.SelectedIndex == -1)
+            {
+                MessageBox.Show("Debes seleccionar un tipo.", "Aviso");
+                return;
+            }
+
+            // 2. Verificar que el código no esté repetido
+            if (miControlador.CodigoExiste(txtCodigoArticulo.Text))
+            {
+                MessageBox.Show("Ya existe un artículo con ese código.", "Aviso");
+                return;
+            }
+
+            // 3. Crear el objeto Articulo con los datos del formulario
+            Articulo nuevo = new Articulo
+            {
+                Codigo = txtCodigoArticulo.Text,
+                Titulo = txtTitulo.Text,
+                Artistas = txtArtista.Text,
+                TipoArticulo = CmbTipo.Text,
+                Cantidad = (int)numCantidadInicial.Value,
+                Precio = numPrecioArticulo.Value,
+                RutaPortada = rutaImagenTemporal
+            };
+
+            // 4. Guardar en el CSV usando el controlador
+            miControlador.RegistrarEnCsv(nuevo);
+            MessageBox.Show("¡Artículo registrado con éxito!", "Éxito");
+
+            // 5. Refrescar tabla y limpiar campos
+            CargarDatosTabla();
+            guna2Button2_Click(null, null);
         }
 
+        // ── Cargar y mostrar datos en el DataGrid ─────────────────────
         private void CargarDatosTabla()
         {
-            try
-            {
-                // 1. Limpiar fuente de datos
-                MostrarDatos1.DataSource = null;
+            MostrarDatos1.DataSource = null;
 
-                // 2. Obtener lista desde el controlador
-                List<Articulo> lista = miControlador.CargarDesdeCsv();
+            List<Articulo> lista = miControlador.CargarDesdeCsv();
 
-                // 3. Si hay datos, configuramos todo
-                if (lista != null && lista.Count > 0)
-                {
-                    MostrarDatos1.DataSource = lista;
+            // ── LÍNEA TEMPORAL DE DIAGNÓSTICO ──
+            MessageBox.Show($"Artículos encontrados: {lista.Count}");
 
-                    // --- CONFIGURACIÓN DE COLUMNAS ---
-                    MostrarDatos1.Columns["Codigo"].HeaderText = "Código";
-                    MostrarDatos1.Columns["Titulo"].HeaderText = "Título";
-                    MostrarDatos1.Columns["Artistas"].HeaderText = "Artistas";
-                    MostrarDatos1.Columns["TipoArticulo"].HeaderText = "Tipo";
-                    MostrarDatos1.Columns["Cantidad"].HeaderText = "Stock";
-                    MostrarDatos1.Columns["Precio"].HeaderText = "Precio";
 
-                    // --- FORMATOS ---
-                    // N0 pone los puntos de miles: 21000 -> 21.000
-                    MostrarDatos1.Columns["Precio"].DefaultCellStyle.Format = "N0";
+            // Si no hay datos, no hacemos nada más
+            if (lista == null || lista.Count == 0) return;
 
-                    // Ocultar la ruta de la portada (importante para que no se vea feo)
-                    if (MostrarDatos1.Columns["RutaPortada"] != null)
-                        MostrarDatos1.Columns["RutaPortada"].Visible = false;
+            // Asignamos la lista como fuente de datos
+            MostrarDatos1.DataSource = lista;
 
-                    // --- ESTILO VISUAL (Para que no se vea solo una línea) ---
-                    MostrarDatos1.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.Dark; // O el que prefieras
-                    MostrarDatos1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-                    MostrarDatos1.ColumnHeadersHeight = 35; // Darle altura al encabezado azul
-                }
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine("Error visual: " + ex.Message);
-            }
+            // ── Nombres de columnas en español ────────────────────────
+            MostrarDatos1.Columns["Codigo"].HeaderText = "Código";
+            MostrarDatos1.Columns["Titulo"].HeaderText = "Título";
+            MostrarDatos1.Columns["Artistas"].HeaderText = "Artistas";
+            MostrarDatos1.Columns["TipoArticulo"].HeaderText = "Tipo";
+            MostrarDatos1.Columns["Cantidad"].HeaderText = "Stock";
+            MostrarDatos1.Columns["Precio"].HeaderText = "Precio";
+
+            // ── Formato de precio con puntos de miles ─────────────────
+            MostrarDatos1.Columns["Precio"].DefaultCellStyle.Format = "N0";
+
+            // ── Ocultar columna de ruta de imagen ─────────────────────
+            if (MostrarDatos1.Columns["RutaPortada"] != null)
+                MostrarDatos1.Columns["RutaPortada"].Visible = false;
+
+            // ── Estilo visual ─────────────────────────────────────────
+            MostrarDatos1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            MostrarDatos1.ColumnHeadersHeight = 35;
         }
+
+        private void Music_Store_Load(object sender, EventArgs e) { }
     }
 }
