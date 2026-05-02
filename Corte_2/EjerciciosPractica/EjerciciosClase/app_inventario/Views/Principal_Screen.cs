@@ -85,7 +85,7 @@ namespace app_inventario
                     fotos[i].Image = null;
                     artistas[i].Text = "@Artista";
                     precios[i].Text = "0";
-                    stocks[i].Text = "Stock: 0";
+                    stocks[i].Text = "0";
                     stocks[i].ForeColor = Color.Red;
                     botones[i].Tag = null;
                     continue;
@@ -95,7 +95,7 @@ namespace app_inventario
                 fotos[i].Image = File.Exists(a.RutaPortada) ? Image.FromFile(a.RutaPortada) : null;
                 artistas[i].Text = $"@{a.Artistas}";
                 precios[i].Text = $"{a.Precio:N0}".Replace(",", ".");
-                stocks[i].Text = $"Stock: {a.Cantidad}";
+                stocks[i].Text = $"{a.Cantidad}";
                 stocks[i].ForeColor = ObtenerColorStock(a.Cantidad);
                 botones[i].Tag = a;
             }
@@ -116,7 +116,7 @@ namespace app_inventario
                     fotos[i].Image = null;
                     artistas[i].Text = "@Artista";
                     precios[i].Text = "0";
-                    stocks[i].Text = "Stock: 0";
+                    stocks[i].Text = "0";
                     stocks[i].ForeColor = Color.Red;
                     botones[i].Tag = null;
                     continue;
@@ -126,7 +126,7 @@ namespace app_inventario
                 fotos[i].Image = File.Exists(a.RutaPortada) ? Image.FromFile(a.RutaPortada) : null;
                 artistas[i].Text = $"@{a.Artistas}";
                 precios[i].Text = $"{a.Precio:N0}".Replace(",", ".");
-                stocks[i].Text = $"Stock: {a.Cantidad}";
+                stocks[i].Text = $"{a.Cantidad}";
                 stocks[i].ForeColor = ObtenerColorStock(a.Cantidad);
                 botones[i].Tag = a;
             }
