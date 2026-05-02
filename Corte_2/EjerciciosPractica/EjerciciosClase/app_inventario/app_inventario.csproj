@@ -56,12 +56,20 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controller\ArticuloController.cs" />
+    <Compile Include="Controller\UsuarioController.cs" />
     <Compile Include="Models\Articulo.cs" />
+    <Compile Include="Models\UsuarioModel.cs" />
     <Compile Include="Views\Buy_Screen.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Views\Buy_Screen.Designer.cs">
       <DependentUpon>Buy_Screen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Buy_Screen_Music.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Buy_Screen_Music.Designer.cs">
+      <DependentUpon>Buy_Screen_Music.cs</DependentUpon>
     </Compile>
     <Compile Include="Views\Music_Store.cs">
       <SubType>Form</SubType>
@@ -97,6 +105,9 @@
     <EmbeddedResource Include="Views\Buy_Screen.resx">
       <DependentUpon>Buy_Screen.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Views\Buy_Screen_Music.resx">
+      <DependentUpon>Buy_Screen_Music.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\Music_Store.resx">
       <DependentUpon>Music_Store.cs</DependentUpon>
     </EmbeddedResource>
@@ -113,10 +124,14 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DataBase\" />
+    <Folder Include="Media\Imagenes\Music_Principal\" />
     <Folder Include="Media\Music\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Media\Imagenes\App_Icon_Music.png" />
+    <Content Include="Media\Imagenes\home_icon.png" />
+    <Content Include="Media\Imagenes\home_icon_2.png" />
+    <Content Include="Media\Imagenes\Logo_screen.png" />
     <Content Include="Media\Imagenes\Logo_Wallpaper.png" />
     <Content Include="Media\Imagenes\User_Icon.jpg" />
   </ItemGroup>

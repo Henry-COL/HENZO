@@ -9,22 +9,27 @@ namespace app_inventario.Controllers
 {
     public class ArticuloController
     {
+        private string ObtenerRuta()
+        {
+            string raiz = Path.GetFullPath(Path.Combine(Application.StartupPath, "..", ".."));
+            return Path.Combine(raiz, "DataBase", "Music.csv");
+        }
 
-        // Este método se encarga de crear los archivos si no existen
+        private string ObtenerRutaEntradas()
+        {
+            string raiz = Path.GetFullPath(Path.Combine(Application.StartupPath, "..", ".."));
+            return Path.Combine(raiz, "DataBase", "uploaded_music.csv");
+        }
+
         public void InicializarArchivos()
         {
-            string raiz = Path.GetFullPath(
-                Path.Combine(Application.StartupPath, "..", "..")
-            );
-
+            string raiz = Path.GetFullPath(Path.Combine(Application.StartupPath, "..", ".."));
             string carpeta = Path.Combine(raiz, "DataBase");
-
-            string[] archivos = { "Music.csv", "Purchased_music.csv", "uploaded_music.csv", "Usuarios.csv"};
 
             if (!Directory.Exists(carpeta))
                 Directory.CreateDirectory(carpeta);
 
-            foreach (string nombre in archivos)
+            foreach (string nombre in new[] { "Music.csv", "Purchased_music.csv", "uploaded_music.csv", "Usuarios.csv" })
             {
                 string ruta = Path.Combine(carpeta, nombre);
                 if (!File.Exists(ruta))
@@ -32,15 +37,64 @@ namespace app_inventario.Controllers
             }
         }
 
-        // ── Ruta apuntando a la raíz del proyecto ────────────────────
-        // Desde bin/Debug/ subimos 2 niveles hasta app_inventario/
-        private string ObtenerRuta()
+        public List<Articulo> CargarDesdeCsv()
         {
-            string raiz = Path.GetFullPath(Path.Combine(Application.StartupPath, "..", ".."));
-            return Path.Combine(raiz, "DataBase", "Music.csv");
+            List<Articulo> lista = new List<Articulo>();
+            string ruta = ObtenerRuta();
+
+            if (!File.Exists(ruta)) return lista;
+
+            string[] lineas = File.ReadAllLines(ruta, Encoding.UTF8);
+
+            for (int i = 1; i < lineas.Length; i++)
+            {
+                if (string.IsNullOrWhiteSpace(lineas[i])) continue;
+
+                string[] datos = lineas[i].Split(';');
+                if (datos.Length < 7) continue;
+
+                lista.Add(new Articulo
+                {
+                    Codigo = datos[0],
+                    Titulo = datos[1],
+                    Artistas = datos[2],
+                    TipoArticulo = datos[3],
+                    RutaPortada = datos[4],
+                    Cantidad = int.Parse(datos[5]),
+                    Precio = decimal.Parse(datos[6])
+                });
+            }
+
+            return lista;
         }
 
-        // ── GUARDAR un artículo en el CSV ─────────────────────────────
+        public List<string[]> CargarEntradas()
+        {
+            List<string[]> lista = new List<string[]>();
+            string ruta = ObtenerRutaEntradas();
+
+            if (!File.Exists(ruta)) return lista;
+
+            string[] lineas = File.ReadAllLines(ruta, Encoding.UTF8);
+
+            for (int i = 1; i < lineas.Length; i++)
+            {
+                if (string.IsNullOrWhiteSpace(lineas[i])) continue;
+
+                string[] datos = lineas[i].Split(';');
+                if (datos.Length < 5) continue;
+
+                bool todosVacios = true;
+                foreach (string d in datos)
+                    if (!string.IsNullOrWhiteSpace(d)) { todosVacios = false; break; }
+
+                if (todosVacios) continue;
+                lista.Add(datos);
+            }
+
+            return lista;
+        }
+
         public void RegistrarEnCsv(Articulo articulo)
         {
             string ruta = ObtenerRuta();
@@ -60,48 +114,92 @@ namespace app_inventario.Controllers
             }
         }
 
-        // ── CARGAR todos los artículos desde el CSV ───────────────────
-        public List<Articulo> CargarDesdeCsv()
+        public void RegistrarEntrada(string codigo, string titulo, int cantidad, string observacion)
         {
-            List<Articulo> lista = new List<Articulo>();
+            string ruta = ObtenerRutaEntradas();
+            bool esNuevo = !File.Exists(ruta) || new FileInfo(ruta).Length == 0;
+
+            using (StreamWriter escritor = new StreamWriter(ruta, true, Encoding.UTF8))
+            {
+                if (esNuevo)
+                    escritor.WriteLine("Fecha;Codigo;Titulo;Cantidad;Observacion");
+
+                escritor.WriteLine($"{DateTime.Now:dd/MM/yyyy};{codigo};{titulo};+{cantidad};{observacion}");
+            }
+
+            string[] lineas = File.ReadAllLines(ruta, Encoding.UTF8);
+            File.WriteAllLines(ruta, Array.FindAll(lineas, l => !string.IsNullOrWhiteSpace(l)), Encoding.UTF8);
+        }
+
+        public void ActualizarCantidad(string codigo, int cantidadSumar)
+        {
             string ruta = ObtenerRuta();
-
-            if (!File.Exists(ruta)) return lista;
-
             string[] lineas = File.ReadAllLines(ruta, Encoding.UTF8);
 
             for (int i = 1; i < lineas.Length; i++)
             {
                 if (string.IsNullOrWhiteSpace(lineas[i])) continue;
-
                 string[] datos = lineas[i].Split(';');
 
-                if (datos.Length < 7) continue;
-
-                lista.Add(new Articulo
+                if (datos[0].Trim() == codigo.Trim())
                 {
-                    Codigo = datos[0],
-                    Titulo = datos[1],
-                    Artistas = datos[2],
-                    TipoArticulo = datos[3],
-                    RutaPortada = datos[4],
-                    Cantidad = int.Parse(datos[5]),
-                    Precio = decimal.Parse(datos[6])
-                });
+                    datos[5] = (int.Parse(datos[5]) + cantidadSumar).ToString();
+                    lineas[i] = string.Join(";", datos);
+                    break;
+                }
             }
 
-            return lista;
+            File.WriteAllLines(ruta, lineas, Encoding.UTF8);
         }
 
-        // ── VERIFICAR si un código ya existe ──────────────────────────
         public bool CodigoExiste(string codigo)
         {
-            List<Articulo> lista = CargarDesdeCsv();
-            foreach (Articulo a in lista)
+            return CargarDesdeCsv().Exists(a => a.Codigo == codigo);
+        }
+
+        public List<string> ObtenerMusicaParaComboBox()
+        {
+            List<string> items = new List<string>();
+            string ruta = ObtenerRuta();
+
+            if (!File.Exists(ruta)) return items;
+
+            string[] lineas = File.ReadAllLines(ruta, Encoding.UTF8);
+            if (lineas.Length < 2) return items;
+
+            string[] encabezado = lineas[0].Split(';');
+            int idxCodigo = -1, idxTitulo = -1;
+
+            for (int i = 0; i < encabezado.Length; i++)
             {
-                if (a.Codigo == codigo) return true;
+                string col = encabezado[i].Trim().ToUpper()
+                              .Replace("Ó", "O")
+                              .Replace("Í", "I");
+
+                if (col == "CODIGO") idxCodigo = i;
+                if (col == "TITULO") idxTitulo = i;
             }
-            return false;
+
+            if (idxCodigo == -1 || idxTitulo == -1) return items;
+
+            foreach (Articulo a in CargarDesdeCsv())
+                items.Add($"{a.Codigo} - {a.Titulo}");
+
+            return items;
+        }
+
+        public List<Articulo> ObtenerMasPopulares()
+        {
+            List<Articulo> lista = CargarDesdeCsv();
+            lista.Sort((a, b) => b.Cantidad.CompareTo(a.Cantidad));
+            return lista.Count >= 3 ? lista.GetRange(0, 3) : lista;
+        }
+
+        public List<Articulo> ObtenerRecienAnadidos()
+        {
+            List<Articulo> lista = CargarDesdeCsv();
+            lista.Reverse();
+            return lista.Count >= 3 ? lista.GetRange(0, 3) : lista;
         }
     }
 }

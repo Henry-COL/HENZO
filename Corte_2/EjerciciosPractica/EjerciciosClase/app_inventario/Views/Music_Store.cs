@@ -2,12 +2,14 @@
 using app_inventario.Models;
 using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Windows.Forms;
 
 namespace app_inventario.Views
 {
     public partial class Music_Store : Form
     {
+        private ArticuloController _controller;
         // ── Variables de la clase ─────────────────────────────────────
         private string rutaImagenTemporal = "";
         private ArticuloController miControlador = new ArticuloController();
@@ -15,8 +17,24 @@ namespace app_inventario.Views
         // ── Constructor ───────────────────────────────────────────────
         public Music_Store()
         {
+            _controller = new ArticuloController();
             InitializeComponent();
+            CargarComboBoxMusica();
             CargarDatosTabla(); // Cargamos la tabla al abrir el formulario
+
+            MostrarDatos1.ClearSelection();
+            MostrarDatos1.CurrentCell = null;
+        }
+
+
+        private void CargarComboBoxMusica()
+        {
+            var items = _controller.ObtenerMusicaParaComboBox();
+            cmbMusica_Lista.Items.Clear();                    // ← Tu ComboBox
+            cmbMusica_Lista.Items.AddRange(items.ToArray());
+
+            if (cmbMusica_Lista.Items.Count > 0)
+                cmbMusica_Lista.SelectedIndex = 0;
         }
 
         // ── Botón SALIR ───────────────────────────────────────────────
@@ -107,35 +125,50 @@ namespace app_inventario.Views
             MostrarDatos1.DataSource = null;
 
             List<Articulo> lista = miControlador.CargarDesdeCsv();
-
-            // ── LÍNEA TEMPORAL DE DIAGNÓSTICO ──
-            MessageBox.Show($"Artículos encontrados: {lista.Count}");
-
-
-            // Si no hay datos, no hacemos nada más
             if (lista == null || lista.Count == 0) return;
 
-            // Asignamos la lista como fuente de datos
             MostrarDatos1.DataSource = lista;
 
-            // ── Nombres de columnas en español ────────────────────────
-            MostrarDatos1.Columns["Codigo"].HeaderText = "Código";
-            MostrarDatos1.Columns["Titulo"].HeaderText = "Título";
-            MostrarDatos1.Columns["Artistas"].HeaderText = "Artistas";
-            MostrarDatos1.Columns["TipoArticulo"].HeaderText = "Tipo";
-            MostrarDatos1.Columns["Cantidad"].HeaderText = "Stock";
-            MostrarDatos1.Columns["Precio"].HeaderText = "Precio";
+            var cols = MostrarDatos1.Columns;
+            cols["Codigo"].HeaderText = "Código";
+            cols["Titulo"].HeaderText = "Título";
+            cols["Artistas"].HeaderText = "Artistas";
+            cols["TipoArticulo"].HeaderText = "Tipo";
+            cols["Cantidad"].HeaderText = "Stock";
+            cols["Precio"].HeaderText = "Precio";
+            cols["Precio"].DefaultCellStyle.Format = "N0";
+            if (cols["RutaPortada"] != null) cols["RutaPortada"].Visible = false;
 
-            // ── Formato de precio con puntos de miles ─────────────────
-            MostrarDatos1.Columns["Precio"].DefaultCellStyle.Format = "N0";
+            Color fondo = Color.FromArgb(15, 52, 67);
+            Color fondoAlt = Color.FromArgb(5, 32, 41);
+            Font fuente = new Font("Segoe UI", 9.5f);
 
-            // ── Ocultar columna de ruta de imagen ─────────────────────
-            if (MostrarDatos1.Columns["RutaPortada"] != null)
-                MostrarDatos1.Columns["RutaPortada"].Visible = false;
-
-            // ── Estilo visual ─────────────────────────────────────────
             MostrarDatos1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             MostrarDatos1.ColumnHeadersHeight = 35;
+            MostrarDatos1.EnableHeadersVisualStyles = false;
+
+            MostrarDatos1.ColumnHeadersDefaultCellStyle.BackColor = fondoAlt;
+            MostrarDatos1.ColumnHeadersDefaultCellStyle.ForeColor = Color.White;
+            MostrarDatos1.ColumnHeadersDefaultCellStyle.Font = new Font("Montserrat SemiBold", 10f, FontStyle.Bold);
+
+            MostrarDatos1.DefaultCellStyle.BackColor = fondo;
+            MostrarDatos1.DefaultCellStyle.ForeColor = Color.White;
+            MostrarDatos1.DefaultCellStyle.Font = fuente;
+            MostrarDatos1.DefaultCellStyle.SelectionBackColor = Color.FromArgb(0, 120, 160);
+            MostrarDatos1.DefaultCellStyle.SelectionForeColor = Color.White;
+
+            MostrarDatos1.AlternatingRowsDefaultCellStyle.BackColor = fondoAlt;
+            MostrarDatos1.AlternatingRowsDefaultCellStyle.ForeColor = Color.White;
+            MostrarDatos1.AlternatingRowsDefaultCellStyle.Font = fuente;
+
+            MostrarDatos1.RowsAdded += (s, e) =>
+            {
+                for (int i = e.RowIndex; i < e.RowIndex + e.RowCount; i++)
+                    if (i < MostrarDatos1.Rows.Count)
+                        MostrarDatos1.Rows[i].DefaultCellStyle.BackColor = i % 2 == 0 ? fondo : fondoAlt;
+            };
+
+
         }
 
         private void Music_Store_Load(object sender, EventArgs e) { }
