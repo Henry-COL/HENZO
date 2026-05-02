@@ -21,6 +21,12 @@ namespace app_inventario.Controllers
             return Path.Combine(raiz, "DataBase", "uploaded_music.csv");
         }
 
+        private string ObtenerRutaSalidas()
+        {
+            string raiz = Path.GetFullPath(Path.Combine(Application.StartupPath, "..", ".."));
+            return Path.Combine(raiz, "DataBase", "Purchased_music.csv");
+        }
+
         public void InicializarArchivos()
         {
             string raiz = Path.GetFullPath(Path.Combine(Application.StartupPath, "..", ".."));
@@ -95,6 +101,33 @@ namespace app_inventario.Controllers
             return lista;
         }
 
+        public List<string[]> CargarSalidas()
+        {
+            List<string[]> lista = new List<string[]>();
+            string ruta = ObtenerRutaSalidas();
+
+            if (!File.Exists(ruta)) return lista;
+
+            string[] lineas = File.ReadAllLines(ruta, Encoding.UTF8);
+
+            for (int i = 1; i < lineas.Length; i++)
+            {
+                if (string.IsNullOrWhiteSpace(lineas[i])) continue;
+
+                string[] datos = lineas[i].Split(';');
+                if (datos.Length < 5) continue;
+
+                bool todosVacios = true;
+                foreach (string d in datos)
+                    if (!string.IsNullOrWhiteSpace(d)) { todosVacios = false; break; }
+
+                if (todosVacios) continue;
+                lista.Add(datos);
+            }
+
+            return lista;
+        }
+
         public void RegistrarEnCsv(Articulo articulo)
         {
             string ruta = ObtenerRuta();
@@ -131,6 +164,23 @@ namespace app_inventario.Controllers
             File.WriteAllLines(ruta, Array.FindAll(lineas, l => !string.IsNullOrWhiteSpace(l)), Encoding.UTF8);
         }
 
+        public void RegistrarSalida(string codigo, string titulo, int cantidad, string observacion)
+        {
+            string ruta = ObtenerRutaSalidas();
+            bool esNuevo = !File.Exists(ruta) || new FileInfo(ruta).Length == 0;
+
+            using (StreamWriter escritor = new StreamWriter(ruta, true, Encoding.UTF8))
+            {
+                if (esNuevo)
+                    escritor.WriteLine("Fecha;Codigo;Titulo;Cantidad;Observacion");
+
+                escritor.WriteLine($"{DateTime.Now:dd/MM/yyyy};{codigo};{titulo};-{cantidad};{observacion}");
+            }
+
+            string[] lineas = File.ReadAllLines(ruta, Encoding.UTF8);
+            File.WriteAllLines(ruta, Array.FindAll(lineas, l => !string.IsNullOrWhiteSpace(l)), Encoding.UTF8);
+        }
+
         public void ActualizarCantidad(string codigo, int cantidadSumar)
         {
             string ruta = ObtenerRuta();
@@ -144,6 +194,28 @@ namespace app_inventario.Controllers
                 if (datos[0].Trim() == codigo.Trim())
                 {
                     datos[5] = (int.Parse(datos[5]) + cantidadSumar).ToString();
+                    lineas[i] = string.Join(";", datos);
+                    break;
+                }
+            }
+
+            File.WriteAllLines(ruta, lineas, Encoding.UTF8);
+        }
+
+        public void RestarCantidad(string codigo, int cantidadRestar)
+        {
+            string ruta = ObtenerRuta();
+            string[] lineas = File.ReadAllLines(ruta, Encoding.UTF8);
+
+            for (int i = 1; i < lineas.Length; i++)
+            {
+                if (string.IsNullOrWhiteSpace(lineas[i])) continue;
+                string[] datos = lineas[i].Split(';');
+
+                if (datos[0].Trim() == codigo.Trim())
+                {
+                    int actual = int.Parse(datos[5]);
+                    datos[5] = Math.Max(0, actual - cantidadRestar).ToString();
                     lineas[i] = string.Join(";", datos);
                     break;
                 }

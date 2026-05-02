@@ -232,7 +232,7 @@
             this.groupBox1.Size = new System.Drawing.Size(433, 551);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Registrar entrada de Articulo";
+            this.groupBox1.Text = "Registrar salida de Articulo";
             // 
             // btnRegistrarEntrada
             // 
