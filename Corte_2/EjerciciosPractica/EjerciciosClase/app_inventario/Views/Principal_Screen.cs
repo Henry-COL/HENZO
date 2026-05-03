@@ -151,10 +151,7 @@ namespace app_inventario
 
         private void Most_Popular_buy2_Click(object sender, EventArgs e)
         {
-            Articulo a = (Articulo)Most_Popular_buy2.Tag;
-            if (a == null) return;
-            if (_controller.ProcesarCompra((long)a.Precio)) { ActualizarSaldoLabel(); CargarTarjetas(); }
-            else AnimarSaldoInsuficiente();
+
         }
 
         private void Most_Popular_buy3_Click(object sender, EventArgs e)
@@ -202,5 +199,25 @@ namespace app_inventario
         private void btnHistory_Click(object sender, EventArgs e) { }
         private void Principal_Screen_Load(object sender, EventArgs e) { }
         private void guna2Panel4_Paint(object sender, PaintEventArgs e) { }
+
+        private void Most_Popular_1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Most_Popular_3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Most_Popular_2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void New_Add_half_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

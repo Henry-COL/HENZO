@@ -58,6 +58,12 @@
     <Compile Include="Controller\ArticuloController.cs" />
     <Compile Include="Controller\UsuarioController.cs" />
     <Compile Include="Models\Articulo.cs" />
+    <Compile Include="Models\EntradaMusica.cs" />
+    <Compile Include="Models\InstanciarArchivos.cs" />
+    <Compile Include="Models\MovimientoBase.cs" />
+    <Compile Include="Models\RutaArchivos.cs" />
+    <Compile Include="Models\SalidaMusica.cs" />
+    <Compile Include="Models\TablaEstilo.cs" />
     <Compile Include="Models\UsuarioModel.cs" />
     <Compile Include="Views\Buy_Screen.cs">
       <SubType>Form</SubType>
