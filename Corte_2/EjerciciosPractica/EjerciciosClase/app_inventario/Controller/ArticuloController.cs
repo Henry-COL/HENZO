@@ -9,6 +9,11 @@ namespace app_inventario.Controllers
     public class ArticuloController
     {
         // ── Carga ─────────────────────────────────────────────────────
+        public void InicializarArchivos()
+        {
+            InstanciarArchivos.InicializarArchivos();
+        }
+
         public List<Articulo> CargarDesdeCsv()
         {
             List<Articulo> lista = new List<Articulo>();

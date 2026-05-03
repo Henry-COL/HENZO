@@ -5,12 +5,12 @@
     "\\Corte_2\\EjerciciosPractica",
     "\\Corte_2\\EjerciciosPractica\\EjerciciosClase",
     "\\Corte_2\\EjerciciosPractica\\EjerciciosClase\\app_inventario",
-    "\\Corte_2\\EjerciciosPractica\\EjerciciosClase\\app_inventario\\Views",
+    "\\Corte_2\\EjerciciosPractica\\EjerciciosClase\\app_inventario\\Models",
     "\\Corte_2\\EjerciciosPractica\\EjerciciosClase\\Ejercicio_5_PROG",
     "\\Corte_2\\EjerciciosPractica\\EjerciciosClase\\PWV_Ejercicio_1",
     "\\GeoIntegral",
     "\\GeoIntegral\\Views"
   ],
-  "SelectedNode": "\\Corte_2\\EjerciciosPractica\\EjerciciosClase\\app_inventario\\Views\\Buy_Screen_Music.cs",
+  "SelectedNode": "\\Corte_2\\EjerciciosPractica\\EjerciciosClase\\app_inventario\\Models\\TablaEstilo.cs",
   "PreviewInSolutionExplorer": false
 }

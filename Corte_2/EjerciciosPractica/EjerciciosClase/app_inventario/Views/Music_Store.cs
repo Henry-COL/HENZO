@@ -39,6 +39,8 @@ namespace app_inventario.Views
         private void CargarDatosTabla()
         {
             MostrarDatos1.DataSource = null;
+            MostrarDatos1.Rows.Clear();
+            MostrarDatos1.Columns.Clear();
 
             List<Articulo> lista = _controller.CargarDesdeCsv();
             if (lista == null || lista.Count == 0) return;
@@ -46,18 +48,31 @@ namespace app_inventario.Views
             MostrarDatos1.DataSource = lista;
 
             var cols = MostrarDatos1.Columns;
-            cols["Codigo"].HeaderText       = "Código";
-            cols["Titulo"].HeaderText       = "Título";
-            cols["Artistas"].HeaderText     = "Artistas";
+            cols["Codigo"].HeaderText = "Código";
+            cols["Titulo"].HeaderText = "Título";
+            cols["Artistas"].HeaderText = "Artistas";
             cols["TipoArticulo"].HeaderText = "Tipo";
-            cols["Cantidad"].HeaderText     = "Stock";
-            cols["Precio"].HeaderText       = "Precio";
+            cols["Cantidad"].HeaderText = "Stock";
+            cols["Precio"].HeaderText = "Precio";
             cols["Precio"].DefaultCellStyle.Format = "N0";
             if (cols["RutaPortada"] != null)
                 cols["RutaPortada"].Visible = false;
 
-            // Un solo método reemplaza los ~20 líneas de estilos repetidos
             TablaEstilo.Aplicar(MostrarDatos1);
+
+            // Forzar la limpieza de selección
+            if (MostrarDatos1.Rows.Count > 0)
+            {
+                MostrarDatos1.CurrentCell = null;
+                MostrarDatos1.ClearSelection();
+            }
+        }
+
+        protected override void OnShown(EventArgs e)
+        {
+            base.OnShown(e);
+            MostrarDatos1.ClearSelection();
+            MostrarDatos1.CurrentCell = null;
         }
 
         // ── Registrar artículo ────────────────────────────────────────

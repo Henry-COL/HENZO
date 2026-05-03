@@ -1,8 +1,2 @@
-﻿CÓDIGO;TITULO;ARTISTA;TIPO;URL IMAGEN;STOCK;PRECIO
-1234;El Hexxo;Feid;Casete;;0;200000
-002;De Negro;Feid y Yandel;Instrumento;C:\Users\Henry Quintero\Downloads\App_Icon_Music.png;13;1000
-129939;un millon de primavera;Vicente Fernandez;Álbum Disco (CD);;7;1000
-111;Amapola;Sofia;Vinilo;C:\Users\Henry Quintero\Downloads\Gemini_Generated_Image_xmueytxmueytxmue.png;52;400000
-1112;EXCXCCS;Feid;Instrumento;C:\Users\Henry Quintero\Downloads\Gemini_Generated_Image_4calbt4calbt4cal.png;60;1000
-9999;hjhjjh;kkkjjk;Álbum Disco (CD);C:\Users\Henry Quintero\Downloads\Gemini_Generated_Image_avhxw4avhxw4avhx.png;89;1000
-22121;aa;eee;Álbum Disco (CD);C:\Users\Henry Quintero\Downloads\Logo_App_CL.png;5;30000
+﻿Codigo;Titulo;Artistas;Tipo;Portada;Cantidad;Precio
+222;hola;ww;Instrumento;;2;1000
